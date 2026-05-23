@@ -6,7 +6,7 @@ const services = [
     id: 'gs-service-mowing-img',
     name: 'Lawn Mowing & Edging',
     description: 'Precision cuts and crisp edges that give your property a pristine, golf-course finish every single visit.',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
+    image: '/assets/daleville-lawn-back-mower.webp',
   },
   {
     id: 'gs-service-hedges-img',
