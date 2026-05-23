@@ -1,5 +1,5 @@
 #!/bin/bash
-# Run this ONCE on your Hostinger VPS to prepare it for deployments
+# Run this ONCE on your Hostinger VPS to prepare it for static deployments
 # ssh root@YOUR_VPS_IP then paste this entire script
 
 set -e
@@ -8,56 +8,60 @@ echo "🚀 Setting up Greenscapes VA server..."
 # 1. Update system
 apt update && apt upgrade -y
 
-# 2. Install Node.js 20 (LTS)
-curl -fsSL https://deb.nodesource.com/setup_20.x | bash -
-apt install -y nodejs
-
-# 3. Install PM2 globally
-npm install -g pm2
-
-# 4. Install Nginx
+# 2. Install Nginx
 apt install -y nginx
 
-# 5. Install Git
-apt install -y git
-
-# 6. Create app directory
+# 3. Create web root directory
 mkdir -p /var/www/greenscapes-va
 
-# 7. Configure PM2 to start on boot
-pm2 startup systemd -u root --hp /root
-systemctl enable pm2-root
-
-# 8. Create Nginx config
+# 4. Configure Nginx for static files
 cat > /etc/nginx/sites-available/greenscapes-va << 'EOF'
 server {
     listen 80;
-    server_name YOUR_DOMAIN_OR_VPS_IP;
+    server_name YOUR_DOMAIN_OR_VPS_IP;   # <-- replace this
 
+    root /var/www/greenscapes-va;
+    index index.html;
+
+    # Handle Next.js trailing slash static routes
     location / {
-        proxy_pass http://localhost:3000;
-        proxy_http_version 1.1;
-        proxy_set_header Upgrade $http_upgrade;
-        proxy_set_header Connection 'upgrade';
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
-        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-        proxy_set_header X-Forwarded-Proto $scheme;
-        proxy_cache_bypass $http_upgrade;
+        try_files $uri $uri/ $uri.html /index.html;
     }
+
+    # Cache static assets aggressively
+    location ~* \.(js|css|png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot)$ {
+        expires 1y;
+        add_header Cache-Control "public, immutable";
+    }
+
+    # Gzip compression
+    gzip on;
+    gzip_types text/plain text/css application/json application/javascript text/xml application/xml image/svg+xml;
+    gzip_min_length 256;
 }
 EOF
 
-# 9. Enable Nginx site
+# 5. Enable site and remove default
 ln -sf /etc/nginx/sites-available/greenscapes-va /etc/nginx/sites-enabled/
 rm -f /etc/nginx/sites-enabled/default
+
+# 6. Test and restart Nginx
 nginx -t && systemctl restart nginx
 systemctl enable nginx
 
 echo ""
-echo "✅ Server setup complete!"
-echo "Next: Push to GitHub and the Actions workflow will deploy automatically."
+echo "✅ Server ready! No Node.js or PM2 needed — pure static files."
 echo ""
-echo "To add SSL (HTTPS) after your domain is pointed to this VPS:"
+echo "Add these 3 secrets to GitHub → Settings → Secrets → Actions:"
+echo "  VPS_HOST     → your VPS IP address"
+echo "  VPS_USER     → root (or your SSH username)"
+echo "  VPS_SSH_KEY  → your private SSH key (see below)"
+echo ""
+echo "To generate an SSH key pair for GitHub Actions:"
+echo "  ssh-keygen -t ed25519 -C 'github-actions' -f ~/.ssh/github_actions"
+echo "  cat ~/.ssh/github_actions.pub >> ~/.ssh/authorized_keys"
+echo "  cat ~/.ssh/github_actions   ← paste this as VPS_SSH_KEY in GitHub"
+echo ""
+echo "To add SSL/HTTPS after your domain points here:"
 echo "  apt install -y certbot python3-certbot-nginx"
 echo "  certbot --nginx -d yourdomain.com"
