@@ -24,7 +24,7 @@ const services = [
     id: 'gs-service-irrigation-img',
     name: 'Irrigation Systems',
     description: 'Smart, water-efficient irrigation systems designed to keep your lawn lush while cutting your water bill.',
-    image: 'https://images.unsplash.com/photo-1622547748225-3fc4abd2cca0?w=800&q=80',
+    image: '/assets/irrigation-home.webp',
   },
   {
     id: 'gs-service-cleanup-img',
