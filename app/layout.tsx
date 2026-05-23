@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Poppins } from 'next/font/google'
 import './globals.css'
 import WhatsAppButton from '@/components/WhatsAppButton'
+import ServiceWorkerRegistration from '@/components/ServiceWorkerRegistration'
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -22,6 +23,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="bg-[#050e07] font-poppins">
         {children}
         <WhatsAppButton />
+        <ServiceWorkerRegistration />
       </body>
     </html>
   )
