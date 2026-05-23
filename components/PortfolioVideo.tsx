@@ -47,7 +47,7 @@ export default function PortfolioVideo() {
             {/* Video placeholder — replace YOUR_YOUTUBE_ID with your actual video ID */}
             <div className="rounded-2xl overflow-hidden aspect-video bg-[#050e07] relative group">
               <iframe
-                src="https://www.youtube.com/embed/YOUR_YOUTUBE_ID?rel=0&modestbranding=1"
+                src="https://www.youtube.com/embed/Gaglq0lvs04?rel=0&modestbranding=1"
                 title="Greenscapes VA – Portfolio"
                 className="w-full h-full"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
