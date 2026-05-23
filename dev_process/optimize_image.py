@@ -19,6 +19,11 @@ import sys
 import shutil
 from pathlib import Path
 
+# Forzar UTF-8 en la consola de Windows
+if sys.platform == "win32":
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
 # ── Dependencias ──────────────────────────────────────────────────────────────
 try:
     from PIL import Image
