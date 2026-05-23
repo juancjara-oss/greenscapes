@@ -31,7 +31,7 @@ export default function About() {
       <div className="absolute inset-0">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="https://images.unsplash.com/photo-1592417817098-8fd3d9eb14a5?w=1920&q=80"
+          src="/assets/who-we-are-bg.webp"
           alt=""
           aria-hidden
           className="w-full h-full object-cover"
