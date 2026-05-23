@@ -3,6 +3,11 @@
 > Referencia visual de la estructura del sitio: jerarquía, IDs actuales, clases clave,
 > y los **nuevos IDs propuestos** para comunicación eficiente.
 
+| Leyenda | Significado |
+|---------|-------------|
+| ✅ **Aplicado** | ID ya existe en el código |
+| 🔲 **Propuesto** | ID definido, pendiente de aplicar en código |
+
 ---
 
 ## Árbol general de la página
@@ -167,7 +172,7 @@ id="gs-stat-rating"        ← item 5★
       │
       └── <div>  grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  ← Grid 6 cards
            └── <div>  (×6 cards)  rounded-2xl · h-72 · group
-                ├── <img>         fondo servicio
+                ├── <img id="gs-service-[nombre]-img">   ✅ fondo servicio
                 ├── <div>         overlay gradiente base
                 ├── <div>         overlay glassmorphism (hover)
                 ├── <div>         badge "Learn More →" (hover)
@@ -176,17 +181,40 @@ id="gs-stat-rating"        ← item 5★
                      └── <p>    descripción (visible en hover)
 ```
 
-**IDs propuestos:**
+| Elemento | ID actual | Estado |
+|----------|-----------|--------|
+| `<section>` | `services` (nativo) | ✅ |
+| `<img>` Lawn Mowing | `gs-service-mowing-img` | ✅ |
+| `<img>` Hedge & Shrub | `gs-service-hedges-img` | ✅ |
+| `<img>` Landscape Design | `gs-service-design-img` | ✅ |
+| `<img>` Irrigation | `gs-service-irrigation-img` | ✅ |
+| `<img>` Seasonal Cleanup | `gs-service-cleanup-img` | ✅ |
+| `<img>` Hardscaping | `gs-service-hardscaping-img` | ✅ |
+| `<div>` header sección | — | 🔲 |
+| `<div>` grid | — | 🔲 |
+| cards `<div>` (×6) | — | 🔲 |
+
+**IDs aplicados ✅**
 ```
-id="gs-services"               ← <section> (ya tiene id="services")
+id="gs-service-mowing-img"      ← <img> Lawn Mowing & Edging
+id="gs-service-hedges-img"      ← <img> Hedge & Shrub Trimming
+id="gs-service-design-img"      ← <img> Landscape Design
+id="gs-service-irrigation-img"  ← <img> Irrigation Systems
+id="gs-service-cleanup-img"     ← <img> Seasonal Cleanup
+id="gs-service-hardscaping-img" ← <img> Hardscaping & Patios
+```
+
+**IDs propuestos 🔲**
+```
+id="gs-services"               ← <section>
 id="gs-services-header"        ← <div> encabezado
 id="gs-services-grid"          ← <div> grid
-id="gs-service-mowing"         ← card Lawn Mowing
-id="gs-service-hedges"         ← card Hedge Trimming
-id="gs-service-design"         ← card Landscape Design
-id="gs-service-irrigation"     ← card Irrigation
-id="gs-service-cleanup"        ← card Seasonal Cleanup
-id="gs-service-hardscaping"    ← card Hardscaping
+id="gs-service-mowing"         ← <div> card Lawn Mowing
+id="gs-service-hedges"         ← <div> card Hedge Trimming
+id="gs-service-design"         ← <div> card Landscape Design
+id="gs-service-irrigation"     ← <div> card Irrigation
+id="gs-service-cleanup"        ← <div> card Seasonal Cleanup
+id="gs-service-hardscaping"    ← <div> card Hardscaping
 ```
 
 ---
@@ -420,53 +448,60 @@ id="gs-fab-whatsapp"           ← <a> botón WhatsApp
 
 ---
 
-## Resumen — Todos los IDs propuestos
+## Resumen — Estado de todos los IDs
+
+> ✅ = aplicado en código · 🔲 = propuesto, pendiente de aplicar
 
 ```
-NAVBAR
+NAVBAR                                                              🔲
   gs-nav               gs-nav-logo          gs-nav-links
   gs-nav-cta-phone     gs-nav-hamburger     gs-nav-mobile-menu
 
-HERO
+HERO                                                                🔲
   gs-hero              gs-hero-bg           gs-hero-content
   gs-hero-badge        gs-hero-title        gs-hero-subtitle
   gs-hero-cta-work     gs-hero-cta-quote    gs-hero-scroll
 
-STATS
+STATS                                                               🔲
   gs-stats             gs-stats-grid
   gs-stat-projects     gs-stat-years        gs-stat-retention    gs-stat-rating
 
-SERVICES
+SERVICES — imágenes                                                 ✅
+  gs-service-mowing-img       gs-service-hedges-img
+  gs-service-design-img       gs-service-irrigation-img
+  gs-service-cleanup-img      gs-service-hardscaping-img
+
+SERVICES — contenedores                                             🔲
   gs-services          gs-services-header   gs-services-grid
   gs-service-mowing    gs-service-hedges    gs-service-design
   gs-service-irrigation gs-service-cleanup  gs-service-hardscaping
 
-PORTFOLIO
+PORTFOLIO                                                           🔲
   gs-portfolio         gs-portfolio-header  gs-portfolio-video-col
   gs-portfolio-video   gs-portfolio-content-col
   gs-portfolio-highlights                   gs-portfolio-cta
 
-GALLERY (Before/After)
+GALLERY (Before/After)                                              🔲
   gs-gallery           gs-gallery-header    gs-gallery-grid
   gs-gallery-card-1    gs-gallery-card-2    gs-gallery-card-3
 
-ABOUT
+ABOUT                                                               🔲
   gs-about             gs-about-bg          gs-about-text-col
   gs-about-title       gs-about-values-grid
   gs-about-val-licensed gs-about-val-eco    gs-about-val-speed   gs-about-val-guarantee
 
-TESTIMONIALS
+TESTIMONIALS                                                        🔲
   gs-testimonials      gs-testimonials-header gs-testimonials-track
 
-CONTACT
+CONTACT                                                             🔲
   gs-contact           gs-contact-title
   gs-contact-cta-phone gs-contact-cta-whatsapp gs-contact-email
 
-FOOTER
+FOOTER                                                              🔲
   gs-footer            gs-footer-brand      gs-footer-logo
   gs-footer-social     gs-footer-links      gs-footer-services   gs-footer-bottom
 
-FAB BUTTONS
+FAB BUTTONS                                                         🔲
   gs-fab               gs-fab-sms           gs-fab-whatsapp
 ```
 
@@ -481,5 +516,5 @@ FAB BUTTONS
 | `gs-[seccion]-[elemento]` | Elemento hijo directo |
 | `gs-[seccion]-[tipo]-[nombre]` | Elemento específico (ej: cta-phone, val-eco) |
 
-> Los IDs **no están aplicados aún** en el código. Se aplican sección por sección
-> según se necesiten, para no hacer cambios masivos de una sola vez.
+> Los IDs se aplican **sección por sección** según se necesiten, para no hacer cambios masivos de una sola vez.
+> Consultar el resumen de estado (✅ / 🔲) para saber qué está activo en código y qué está pendiente.
