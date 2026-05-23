@@ -110,10 +110,11 @@ Agregar en: https://github.com/juancjara-oss/greenscapes/settings/secrets/action
 
 ## Estado de configuración
 
-- [ ] VPS creado en Contabo
-- [ ] SSH key agregada al VPS
-- [ ] Nginx instalado y configurado
-- [ ] GitHub Secrets configurados
-- [ ] Primer deploy exitoso via GitHub Actions
+- [x] VPS creado en Contabo (89.116.27.241)
+- [x] SSH key inyectada al VPS (greenscapes_contabo)
+- [x] Nginx instalado y configurado
+- [x] Primer deploy manual exitoso — sitio live en http://89.116.27.241
+- [ ] GitHub Secrets configurados (VPS_HOST, VPS_USER, VPS_SSH_KEY)
+- [ ] Deploy automático via GitHub Actions verificado
 - [ ] Dominio apuntado al VPS
-- [ ] SSL/HTTPS configurado
+- [ ] SSL/HTTPS configurado con Certbot

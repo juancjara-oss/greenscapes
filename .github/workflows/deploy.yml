@@ -1,4 +1,4 @@
-name: Deploy to Hostinger VPS
+name: Deploy to Contabo VPS
 
 on:
   push:
@@ -25,7 +25,6 @@ jobs:
 
       - name: Build static export
         run: npm run build
-        # Outputs a fully static /out folder — no Node.js needed on the server
 
       - name: Setup SSH key
         run: |
@@ -34,16 +33,20 @@ jobs:
           chmod 600 ~/.ssh/deploy_key
           ssh-keyscan -H ${{ secrets.VPS_HOST }} >> ~/.ssh/known_hosts
 
-      - name: Deploy to VPS via rsync
+      - name: Deploy via rsync
         run: |
           rsync -avzr --delete \
             -e "ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=no" \
             out/ \
             ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}:/var/www/greenscapes-va/
 
-      - name: Reload Nginx
+      - name: Fix permissions & reload Nginx
         run: |
           ssh -i ~/.ssh/deploy_key \
             -o StrictHostKeyChecking=no \
             ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }} \
-            "systemctl reload nginx && echo '✅ Deployment complete'"
+            "find /var/www/greenscapes-va -type d -exec chmod 755 {} \; && \
+             find /var/www/greenscapes-va -type f -exec chmod 644 {} \; && \
+             chown -R www-data:www-data /var/www/greenscapes-va && \
+             systemctl reload nginx && \
+             echo '✅ Deploy completo'"
