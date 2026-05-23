@@ -35,6 +35,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# assets_before — originales temporales, nunca se sincronizan
+assets_before/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

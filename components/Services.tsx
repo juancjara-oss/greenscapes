@@ -3,34 +3,40 @@ import { motion } from 'framer-motion'
 
 const services = [
   {
+    id: 'gs-service-mowing-img',
     name: 'Lawn Mowing & Edging',
     description: 'Precision cuts and crisp edges that give your property a pristine, golf-course finish every single visit.',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
+    image: '/assets/daleville-lawn-back-mower.webp',
   },
   {
+    id: 'gs-service-hedges-img',
     name: 'Hedge & Shrub Trimming',
     description: 'Expertly sculpted hedges and shrubs that enhance your curb appeal and keep your property looking sharp year-round.',
-    image: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80',
+    image: '/assets/shrub-trimming-reidsville.webp',
   },
   {
+    id: 'gs-service-design-img',
     name: 'Landscape Design',
     description: 'Custom landscape plans that transform your outdoor space into a living masterpiece tailored to your lifestyle.',
-    image: 'https://images.unsplash.com/photo-1585320806297-9794b3e4aaae?w=800&q=80',
+    image: '/assets/underwood-design.webp',
   },
   {
+    id: 'gs-service-irrigation-img',
     name: 'Irrigation Systems',
     description: 'Smart, water-efficient irrigation systems designed to keep your lawn lush while cutting your water bill.',
-    image: 'https://images.unsplash.com/photo-1622547748225-3fc4abd2cca0?w=800&q=80',
+    image: '/assets/irrigation-home.webp',
   },
   {
+    id: 'gs-service-cleanup-img',
     name: 'Seasonal Cleanup',
     description: 'Thorough spring and fall cleanups that prepare your property for every season — leaves, debris, and all.',
-    image: 'https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=800&q=80',
+    image: '/assets/leaf-cleanup-roanoke.webp',
   },
   {
+    id: 'gs-service-hardscaping-img',
     name: 'Hardscaping & Patios',
     description: 'Beautiful patios, walkways, and retaining walls built from premium materials designed to last a lifetime.',
-    image: 'https://images.unsplash.com/photo-1600607686527-6fb886090705?w=800&q=80',
+    image: '/assets/firepit-patio.webp',
   },
 ]
 
@@ -72,6 +78,7 @@ export default function Services() {
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
+                id={service.id}
                 src={service.image}
                 alt={service.name}
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
