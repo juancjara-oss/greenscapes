@@ -13,7 +13,7 @@ export default function Footer() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src="/logo.png" alt="Greenscapes VA" className="h-16 w-auto mb-5" />
             <p className="text-white/45 font-poppins text-sm leading-relaxed max-w-xs">
-              Northern Virginia&apos;s premier grounds maintenance company. Transforming properties
+              Roanoke Virginia&apos;s premier grounds maintenance company. Transforming properties
               with precision, pride, and passion since 2013.
             </p>
             <div className="flex gap-3 mt-6">
@@ -69,7 +69,7 @@ export default function Footer() {
             © 2025 Greenscapes VA. All Rights Reserved.
           </p>
           <p className="text-white/20 font-poppins text-xs">
-            Licensed &amp; Insured · Northern Virginia
+            Licensed &amp; Insured · Roanoke Virginia
           </p>
         </div>
       </div>

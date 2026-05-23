@@ -11,7 +11,7 @@ const testimonials = [
   },
   {
     quote:
-      "We've been using Greenscapes for our commercial property for 3 years. Consistent, reliable, and they always exceed expectations. Best landscaping company in Northern Virginia.",
+      "We've been using Greenscapes for our commercial property for 3 years. Consistent, reliable, and they always exceed expectations. Best landscaping company in Roanoke Virginia.",
     name: 'Robert K.',
     location: 'Reston, VA',
     rating: 5,

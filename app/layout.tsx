@@ -11,10 +11,10 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: 'Greenscapes VA – Grounds Maintenance | Northern Virginia',
+  title: 'Greenscapes VA – Grounds Maintenance | Roanoke Virginia',
   description:
-    'Premier lawn care and landscaping services in Northern Virginia. Lawn mowing, landscape design, hardscaping, irrigation systems, and seasonal cleanup.',
-  keywords: 'lawn care, landscaping, grounds maintenance, Northern Virginia, lawn mowing, landscape design',
+    'Premier lawn care and landscaping services in Roanoke Virginia. Lawn mowing, landscape design, hardscaping, irrigation systems, and seasonal cleanup.',
+  keywords: 'lawn care, landscaping, grounds maintenance, Roanoke Virginia, lawn mowing, landscape design',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
