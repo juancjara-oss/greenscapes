@@ -30,7 +30,7 @@ const services = [
     id: 'gs-service-cleanup-img',
     name: 'Seasonal Cleanup',
     description: 'Thorough spring and fall cleanups that prepare your property for every season — leaves, debris, and all.',
-    image: 'https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=800&q=80',
+    image: '/assets/leaf-cleanup-roanoke.webp',
   },
   {
     id: 'gs-service-hardscaping-img',
