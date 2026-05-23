@@ -36,7 +36,7 @@ const services = [
     id: 'gs-service-hardscaping-img',
     name: 'Hardscaping & Patios',
     description: 'Beautiful patios, walkways, and retaining walls built from premium materials designed to last a lifetime.',
-    image: 'https://images.unsplash.com/photo-1600607686527-6fb886090705?w=800&q=80',
+    image: '/assets/firepit-patio.webp',
   },
 ]
 
