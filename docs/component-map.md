@@ -374,7 +374,7 @@ id="gs-testimonials-track"     ← <div> marquee animado
       │    ├── <a href="tel:">    teléfono       bg-white/5 · border
       │    └── <a href="wa.me">   WhatsApp       bg-[#25D366]
       │
-      └── <a href="mailto:">  info@greenscapesva.com  (link email)
+      └── <a href="mailto:">  prettylawn@greenscapesva.com  (link email)
 ```
 
 **IDs propuestos:**

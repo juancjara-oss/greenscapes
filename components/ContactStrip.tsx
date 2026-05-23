@@ -67,10 +67,10 @@ export default function ContactStrip() {
           </div>
 
           <a
-            href="mailto:info@greenscapesva.com"
+            href="mailto:prettylawn@greenscapesva.com"
             className="inline-block mt-8 text-white/35 hover:text-[#39ff14] font-poppins text-sm transition-colors duration-200"
           >
-            info@greenscapesva.com
+            prettylawn@greenscapesva.com
           </a>
         </motion.div>
       </div>
