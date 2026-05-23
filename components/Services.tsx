@@ -12,7 +12,7 @@ const services = [
     id: 'gs-service-hedges-img',
     name: 'Hedge & Shrub Trimming',
     description: 'Expertly sculpted hedges and shrubs that enhance your curb appeal and keep your property looking sharp year-round.',
-    image: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80',
+    image: '/assets/shrub-trimming-reidsville.webp',
   },
   {
     id: 'gs-service-design-img',
