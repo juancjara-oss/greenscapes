@@ -27,7 +27,7 @@ export default function ContactStrip() {
             Tomorrow?
           </h2>
           <p className="text-white/55 font-poppins text-base sm:text-lg mb-12 max-w-xl mx-auto">
-            Contact us today for a free, no-obligation estimate. We proudly serve all of Northern Virginia.
+            Contact us today for a free, no-obligation estimate. We proudly serve all of Roanoke Virginia.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-5 justify-center items-center">

@@ -62,7 +62,7 @@ export default function About() {
               <span className="text-[#39ff14]">Roots</span>
             </h2>
             <p className="text-white/65 font-poppins mt-6 text-base sm:text-lg leading-relaxed">
-              Founded in Northern Virginia over a decade ago, Greenscapes VA started with one truck,
+              Founded in Roanoke Virginia over a decade ago, Greenscapes VA started with one truck,
               two brothers, and an uncompromising commitment to quality. Today, we serve hundreds of
               residential and commercial clients — but our values have never changed.
             </p>

@@ -73,7 +73,7 @@ export default function PortfolioVideo() {
             viewport={{ once: true }}
           >
             <h3 className="text-3xl sm:text-4xl font-poppins font-black text-white leading-tight mb-5">
-              Transforming Northern Virginia,{' '}
+              Transforming Roanoke Virginia,{' '}
               <span className="text-[#39ff14]">One Property at a Time</span>
             </h3>
             <p className="text-white/60 font-poppins leading-relaxed mb-7">

@@ -39,7 +39,7 @@ export default function Hero() {
           <span className="inline-flex items-center gap-2 text-[#39ff14] font-poppins font-bold text-xs sm:text-sm uppercase tracking-[0.35em]"
             style={{ textShadow: '0 0 10px #39ff14' }}>
             <span className="w-8 h-px bg-[#39ff14]" />
-            Northern Virginia&apos;s #1 Choice
+            Roanoke Virginia&apos;s #1 Choice
             <span className="w-8 h-px bg-[#39ff14]" />
           </span>
         </motion.div>
@@ -67,7 +67,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.6 }}
         >
-          Northern Virginia&apos;s Premier Grounds Maintenance
+          Roanoke Virginia&apos;s Premier Grounds Maintenance
         </motion.p>
 
         <motion.div
