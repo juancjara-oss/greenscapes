@@ -18,7 +18,7 @@ const services = [
     id: 'gs-service-design-img',
     name: 'Landscape Design',
     description: 'Custom landscape plans that transform your outdoor space into a living masterpiece tailored to your lifestyle.',
-    image: 'https://images.unsplash.com/photo-1585320806297-9794b3e4aaae?w=800&q=80',
+    image: '/assets/underwood-design.webp',
   },
   {
     id: 'gs-service-irrigation-img',
