@@ -4,22 +4,22 @@ import { useState, useRef } from 'react'
 
 const projects = [
   {
-    before: 'https://images.unsplash.com/photo-1558908539-f2d539c8a4ab?w=800&q=80',
-    after: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
-    label: 'Lawn Restoration',
-    location: 'Fairfax, VA',
+    before: '/assets/landscaping-before.webp',
+    after: '/assets/landscaping-after.webp',
+    label: 'Landscaping',
+    location: 'Roanoke, VA',
   },
   {
     before: 'https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=800&q=80',
     after: 'https://images.unsplash.com/photo-1585320806297-9794b3e4aaae?w=800&q=80',
     label: 'Garden Overhaul',
-    location: 'Reston, VA',
+    location: 'Roanoke, VA',
   },
   {
     before: 'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80',
     after: 'https://images.unsplash.com/photo-1600607686527-6fb886090705?w=800&q=80',
     label: 'Patio Installation',
-    location: 'McLean, VA',
+    location: 'Roanoke, VA',
   },
 ]
 
