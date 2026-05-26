@@ -15,6 +15,14 @@ export const metadata: Metadata = {
   description:
     'Premier lawn care and landscaping services in Roanoke Virginia. Lawn mowing, landscape design, hardscaping, irrigation systems, and seasonal cleanup.',
   keywords: 'lawn care, landscaping, grounds maintenance, Roanoke Virginia, lawn mowing, landscape design',
+  icons: {
+    icon: [
+      { url: '/favicon.png', sizes: '32x32', type: 'image/png' },
+      { url: '/icon-192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/icon-512.png', sizes: '512x512', type: 'image/png' },
+    ],
+    apple: { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
