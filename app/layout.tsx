@@ -105,6 +105,7 @@ const jsonLd = {
   },
   sameAs: [
     'https://www.facebook.com/GreenScapesVA',
+    'https://www.youtube.com/@greenscapesvalawncare780',
   ],
 }
 

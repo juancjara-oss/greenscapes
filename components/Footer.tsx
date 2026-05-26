@@ -32,7 +32,9 @@ export default function Footer() {
                 in
               </a>
               <a
-                href="#"
+                href="https://www.youtube.com/@greenscapesvalawncare780"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-white/35 hover:border-[#39ff14] hover:text-[#39ff14] transition-all duration-300 text-xs font-poppins font-black"
               >
                 ▶
