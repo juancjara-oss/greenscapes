@@ -10,11 +10,35 @@ const poppins = Poppins({
   variable: '--font-poppins',
 })
 
+const SITE_URL = 'https://greenscapesva.com'
+const OG_IMAGE = `${SITE_URL}/assets/landscaping-after.webp`
+
 export const metadata: Metadata = {
-  title: 'Greenscapes VA – Grounds Maintenance | Roanoke Virginia',
+  metadataBase: new URL(SITE_URL),
+  title: 'Greenscapes VA – Lawn Care & Landscaping | Roanoke, Virginia',
   description:
-    'Premier lawn care and landscaping services in Roanoke Virginia. Lawn mowing, landscape design, hardscaping, irrigation systems, and seasonal cleanup.',
-  keywords: 'lawn care, landscaping, grounds maintenance, Roanoke Virginia, lawn mowing, landscape design',
+    'Premier lawn care and landscaping services in Roanoke, VA. Lawn mowing, landscape design, hardscaping, irrigation systems, and seasonal cleanup. Call (540) 798-4479 for a free estimate.',
+  keywords:
+    'lawn care Roanoke VA, landscaping Roanoke Virginia, grounds maintenance Roanoke, lawn mowing Roanoke, hardscaping Roanoke, landscape design Virginia, seasonal cleanup Roanoke, irrigation systems Roanoke',
+  alternates: {
+    canonical: SITE_URL,
+  },
+  openGraph: {
+    type: 'website',
+    url: SITE_URL,
+    siteName: 'Greenscapes VA',
+    title: 'Greenscapes VA – Lawn Care & Landscaping | Roanoke, Virginia',
+    description:
+      'Premier lawn care and landscaping in Roanoke, VA. Mowing, design, hardscaping, irrigation & more. Same-week service. Call (540) 798-4479.',
+    images: [{ url: OG_IMAGE, width: 800, height: 600, alt: 'Greenscapes VA – Landscaping in Roanoke Virginia' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Greenscapes VA – Lawn Care & Landscaping | Roanoke, Virginia',
+    description:
+      'Premier lawn care and landscaping in Roanoke, VA. Mowing, design, hardscaping, irrigation & more. Same-week service. Call (540) 798-4479.',
+    images: [OG_IMAGE],
+  },
   icons: {
     icon: [
       { url: '/favicon.png', sizes: '32x32', type: 'image/png' },
@@ -25,9 +49,74 @@ export const metadata: Metadata = {
   },
 }
 
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'LandscapeService',
+  name: 'Greenscapes VA',
+  url: SITE_URL,
+  logo: `${SITE_URL}/logo.png`,
+  image: OG_IMAGE,
+  telephone: '+15407984479',
+  email: 'prettylawn@greenscapesva.com',
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: '428 Liberty Rd NE',
+    addressLocality: 'Roanoke',
+    addressRegion: 'VA',
+    postalCode: '24012',
+    addressCountry: 'US',
+  },
+  geo: {
+    '@type': 'GeoCoordinates',
+    latitude: 37.2796,
+    longitude: -79.9414,
+  },
+  openingHoursSpecification: [
+    {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      opens: '07:00',
+      closes: '18:00',
+    },
+    {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Saturday'],
+      opens: '08:00',
+      closes: '14:00',
+    },
+  ],
+  areaServed: {
+    '@type': 'City',
+    name: 'Roanoke',
+    addressRegion: 'VA',
+  },
+  priceRange: '$$',
+  hasOfferCatalog: {
+    '@type': 'OfferCatalog',
+    name: 'Landscaping Services',
+    itemListElement: [
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Lawn Mowing & Edging' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Hedge & Shrub Trimming' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Landscape Design' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Irrigation Systems' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Seasonal Cleanup' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Hardscaping & Patios' } },
+    ],
+  },
+  sameAs: [
+    'https://www.facebook.com/greenscapesva',
+  ],
+}
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={poppins.variable}>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className="bg-[#050e07] font-poppins">
         {children}
         <WhatsAppButton />
