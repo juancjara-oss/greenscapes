@@ -29,7 +29,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/logo.png" alt="Greenscapes VA" className="h-14 w-auto" />
+            <img src="/logo.png" alt="Greenscapes VA" className="h-16 w-auto" />
           </Link>
 
           {/* Desktop Links */}
