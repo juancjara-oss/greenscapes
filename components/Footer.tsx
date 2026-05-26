@@ -17,15 +17,26 @@ export default function Footer() {
               with precision, pride, and passion since 2013.
             </p>
             <div className="flex gap-3 mt-6">
-              {['f', 'in', '▶'].map((s, i) => (
-                <a
-                  key={i}
-                  href="#"
-                  className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-white/35 hover:border-[#39ff14] hover:text-[#39ff14] transition-all duration-300 text-xs font-poppins font-black"
-                >
-                  {s}
-                </a>
-              ))}
+              <a
+                href="https://www.facebook.com/GreenScapesVA"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-white/35 hover:border-[#39ff14] hover:text-[#39ff14] transition-all duration-300 text-xs font-poppins font-black"
+              >
+                f
+              </a>
+              <a
+                href="#"
+                className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-white/35 hover:border-[#39ff14] hover:text-[#39ff14] transition-all duration-300 text-xs font-poppins font-black"
+              >
+                in
+              </a>
+              <a
+                href="#"
+                className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-white/35 hover:border-[#39ff14] hover:text-[#39ff14] transition-all duration-300 text-xs font-poppins font-black"
+              >
+                ▶
+              </a>
             </div>
           </div>
 
