@@ -16,8 +16,8 @@ const projects = [
     location: 'Roanoke, VA',
   },
   {
-    before: 'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80',
-    after: 'https://images.unsplash.com/photo-1600607686527-6fb886090705?w=800&q=80',
+    before: '/assets/patio-before.webp',
+    after: '/assets/patio-after.webp',
     label: 'Patio Installation',
     location: 'Roanoke, VA',
   },
