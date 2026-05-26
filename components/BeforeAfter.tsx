@@ -10,9 +10,9 @@ const projects = [
     location: 'Roanoke, VA',
   },
   {
-    before: 'https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=800&q=80',
-    after: 'https://images.unsplash.com/photo-1585320806297-9794b3e4aaae?w=800&q=80',
-    label: 'Garden Overhaul',
+    before: '/assets/hardscaping-before.webp',
+    after: '/assets/hardscaping-after.webp',
+    label: 'Hardscaping',
     location: 'Roanoke, VA',
   },
   {
