@@ -18,7 +18,7 @@ const projects = [
   {
     before: '/assets/patio-before.webp',
     after: '/assets/patio-after.webp',
-    label: 'Patio Installation',
+    label: 'Lawn Care',
     location: 'Roanoke, VA',
   },
 ]
