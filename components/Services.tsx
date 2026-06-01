@@ -5,36 +5,42 @@ const services = [
   {
     id: 'gs-service-mowing-img',
     name: 'Lawn Mowing & Edging',
+    alt: 'Lawn mowing and edging service in Roanoke Virginia – Greenscapes VA',
     description: 'Precision cuts and crisp edges that give your property a pristine, golf-course finish every single visit.',
     image: '/assets/daleville-lawn-back-mower.webp',
   },
   {
     id: 'gs-service-hedges-img',
     name: 'Hedge & Shrub Trimming',
+    alt: 'Hedge and shrub trimming service in Roanoke VA – Greenscapes VA',
     description: 'Expertly sculpted hedges and shrubs that enhance your curb appeal and keep your property looking sharp year-round.',
     image: '/assets/shrub-trimming-reidsville.webp',
   },
   {
     id: 'gs-service-design-img',
     name: 'Landscape Design',
+    alt: 'Custom landscape design in Roanoke Virginia – Greenscapes VA',
     description: 'Custom landscape plans that transform your outdoor space into a living masterpiece tailored to your lifestyle.',
     image: '/assets/underwood-design.webp',
   },
   {
     id: 'gs-service-irrigation-img',
     name: 'Irrigation Systems',
+    alt: 'Irrigation system installation Roanoke VA – Greenscapes VA',
     description: 'Smart, water-efficient irrigation systems designed to keep your lawn lush while cutting your water bill.',
     image: '/assets/irrigation-home.webp',
   },
   {
     id: 'gs-service-cleanup-img',
     name: 'Seasonal Cleanup',
+    alt: 'Seasonal lawn cleanup service Roanoke Virginia – Greenscapes VA',
     description: 'Thorough spring and fall cleanups that prepare your property for every season — leaves, debris, and all.',
     image: '/assets/leaf-cleanup-roanoke.webp',
   },
   {
     id: 'gs-service-hardscaping-img',
     name: 'Hardscaping & Patios',
+    alt: 'Hardscaping and patio installation Roanoke VA – Greenscapes VA',
     description: 'Beautiful patios, walkways, and retaining walls built from premium materials designed to last a lifetime.',
     image: '/assets/firepit-patio.webp',
   },
@@ -80,7 +86,7 @@ export default function Services() {
               <img
                 id={service.id}
                 src={service.image}
-                alt={service.name}
+                alt={service.alt}
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               />
 

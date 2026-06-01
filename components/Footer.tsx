@@ -11,7 +11,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="sm:col-span-2">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/logo.png" alt="Greenscapes VA" className="h-16 w-auto mb-5" />
+            <img src="/logo.png" alt="Greenscapes VA – Lawn Care & Landscaping Roanoke Virginia" className="h-16 w-auto mb-5" />
             <p className="text-white/45 font-poppins text-sm leading-relaxed max-w-xs">
               Roanoke Virginia&apos;s premier grounds maintenance company. Transforming properties
               with precision, pride, and passion since 2013.

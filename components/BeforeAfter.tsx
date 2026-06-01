@@ -8,18 +8,24 @@ const projects = [
     after: '/assets/landscaping-after.webp',
     label: 'Landscaping',
     location: 'Roanoke, VA',
+    altBefore: 'Before landscaping transformation – Roanoke VA property',
+    altAfter: 'After landscaping transformation – Greenscapes VA Roanoke',
   },
   {
     before: '/assets/hardscaping-before.webp',
     after: '/assets/hardscaping-after.webp',
     label: 'Hardscaping',
     location: 'Roanoke, VA',
+    altBefore: 'Before hardscaping project – Roanoke Virginia backyard',
+    altAfter: 'After hardscaping installation – Greenscapes VA Roanoke',
   },
   {
     before: '/assets/patio-before.webp',
     after: '/assets/patio-after.webp',
     label: 'Lawn Care',
     location: 'Roanoke, VA',
+    altBefore: 'Before lawn care service – Roanoke VA yard',
+    altAfter: 'After lawn care service – Greenscapes VA Roanoke Virginia',
   },
 ]
 
@@ -43,7 +49,7 @@ function SliderCard({ project }: { project: typeof projects[0] }) {
     >
       {/* Before */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={project.before} alt="Before" className="absolute inset-0 w-full h-full object-cover" />
+      <img src={project.before} alt={project.altBefore} className="absolute inset-0 w-full h-full object-cover" />
 
       {/* After */}
       <div
@@ -51,7 +57,7 @@ function SliderCard({ project }: { project: typeof projects[0] }) {
         style={{ clipPath: `inset(0 ${100 - pos}% 0 0)` }}
       >
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={project.after} alt="After" className="absolute inset-0 w-full h-full object-cover" />
+        <img src={project.after} alt={project.altAfter} className="absolute inset-0 w-full h-full object-cover" />
       </div>
 
       {/* Slider line */}

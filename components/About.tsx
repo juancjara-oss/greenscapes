@@ -32,8 +32,7 @@ export default function About() {
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="/assets/who-we-are-bg.webp"
-          alt=""
-          aria-hidden
+          alt="Greenscapes VA landscaping team serving Roanoke Virginia"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-[#0d3b1e]/92" />
