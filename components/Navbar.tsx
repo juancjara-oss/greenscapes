@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import Link from 'next/link'
 
-const links = ['Services', 'Portfolio', 'About', 'Contact']
+const links = ['Services', 'Portfolio', 'About', 'Contact', 'Blog']
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
@@ -37,7 +37,7 @@ export default function Navbar() {
             {links.map((l) => (
               <Link
                 key={l}
-                href={`#${l.toLowerCase()}`}
+                href={l === 'Blog' ? '/blog' : `#${l.toLowerCase()}`}
                 className="text-white/80 font-poppins font-semibold text-sm uppercase tracking-widest hover:text-[#39ff14] transition-colors duration-200"
               >
                 {l}
@@ -79,7 +79,7 @@ export default function Navbar() {
               {links.map((l) => (
                 <Link
                   key={l}
-                  href={`#${l.toLowerCase()}`}
+                  href={l === 'Blog' ? '/blog' : `#${l.toLowerCase()}`}
                   className="text-white font-poppins font-bold text-lg hover:text-[#39ff14] transition-colors"
                   onClick={() => setMenuOpen(false)}
                 >

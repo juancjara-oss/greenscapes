@@ -13,6 +13,56 @@
   }
 }
 
+/* Blog post content styles */
+.prose-greenscapes p {
+  color: rgba(255,255,255,0.65);
+  font-family: var(--font-poppins), sans-serif;
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 1.25rem;
+}
+.prose-greenscapes h2 {
+  color: #ffffff;
+  font-family: var(--font-poppins), sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+.prose-greenscapes h3 {
+  color: #39ff14;
+  font-family: var(--font-poppins), sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-top: 1.75rem;
+  margin-bottom: 0.75rem;
+}
+.prose-greenscapes ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1.25rem;
+}
+.prose-greenscapes ul li {
+  color: rgba(255,255,255,0.65);
+  font-family: var(--font-poppins), sans-serif;
+  font-size: 1rem;
+  line-height: 1.8;
+  padding-left: 1.5rem;
+  position: relative;
+  margin-bottom: 0.5rem;
+}
+.prose-greenscapes ul li::before {
+  content: '✓';
+  color: #39ff14;
+  position: absolute;
+  left: 0;
+  font-weight: 700;
+}
+.prose-greenscapes strong {
+  color: #ffffff;
+  font-weight: 700;
+}
+
 @layer utilities {
   .neon-glow {
     box-shadow: 0 0 10px #39ff14, 0 0 20px #39ff14, 0 0 40px #39ff14;
