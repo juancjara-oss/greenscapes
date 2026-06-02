@@ -13,21 +13,21 @@ const testimonials = [
     quote:
       "We've been using Greenscapes for our commercial property for 3 years. Consistent, reliable, and they always exceed expectations. Best landscaping company in Roanoke Virginia.",
     name: 'Robert K.',
-    location: 'Roanoke, VA',
+    location: 'Salem, VA',
     rating: 5,
   },
   {
     quote:
       "The hardscaping project they did for our backyard patio is stunning. They designed it, laid every stone, and cleaned up perfectly. Worth every single penny.",
     name: 'Maria L.',
-    location: 'Roanoke, VA',
+    location: 'Vinton, VA',
     rating: 5,
   },
   {
     quote:
       "Same-week service is no joke — called Monday, they were here Wednesday. Lawn looks like a golf course now. Signed up for their annual maintenance plan immediately.",
     name: 'James T.',
-    location: 'Roanoke, VA',
+    location: 'Daleville, VA',
     rating: 5,
   },
   {
