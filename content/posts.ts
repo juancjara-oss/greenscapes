@@ -103,10 +103,19 @@ export const posts: Post[] = [
   },
 ]
 
+export function getPublishedPosts(): Post[] {
+  const now = new Date()
+  return posts
+    .filter((p) => new Date(p.date) <= now)
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+}
+
 export function getPostBySlug(slug: string): Post | undefined {
   return posts.find((p) => p.slug === slug)
 }
 
 export function getAllSlugs(): string[] {
-  return posts.map((p) => p.slug)
+  // Only generate pages for published posts
+  const now = new Date()
+  return posts.filter((p) => new Date(p.date) <= now).map((p) => p.slug)
 }

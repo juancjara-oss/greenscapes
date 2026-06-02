@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { posts } from '@/content/posts'
+import { getPublishedPosts } from '@/content/posts'
 import type { Metadata } from 'next'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 }
 
 export default function BlogPage() {
-  const sorted = [...posts].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+  const sorted = getPublishedPosts()
 
   return (
     <>
