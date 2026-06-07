@@ -1,13 +1,30 @@
 import Link from 'next/link'
 
 const quickLinks = ['Services', 'Portfolio', 'About', 'Contact']
-const services = ['Lawn Mowing', 'Hedge Trimming', 'Landscape Design', 'Irrigation', 'Seasonal Cleanup', 'Hardscaping']
+
+const services = [
+  { name: 'Lawn Mowing & Edging', slug: 'lawn-mowing' },
+  { name: 'Hedge & Shrub Trimming', slug: 'hedge-trimming' },
+  { name: 'Landscape Design', slug: 'landscape-design' },
+  { name: 'Irrigation Systems', slug: 'irrigation-systems' },
+  { name: 'Seasonal Cleanup', slug: 'seasonal-cleanup' },
+  { name: 'Hardscaping & Patios', slug: 'hardscaping-patios' },
+]
+
+const locations = [
+  { name: 'Roanoke, VA', href: '/' },
+  { name: 'Salem, VA', href: '/locations/salem-va' },
+  { name: 'Vinton, VA', href: '/locations/vinton-va' },
+  { name: 'Botetourt County', href: '/locations/botetourt-county-va' },
+  { name: 'Smith Mountain Lake', href: '/locations/smith-mountain-lake-va' },
+]
 
 export default function Footer() {
   return (
     <footer className="bg-[#050e07] border-t border-[#39ff14]/15 pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-14">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10 mb-14">
+
           {/* Brand */}
           <div className="sm:col-span-2">
             {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -53,7 +70,7 @@ export default function Footer() {
               {quickLinks.map((l) => (
                 <li key={l}>
                   <Link
-                    href={`#${l.toLowerCase()}`}
+                    href={`/#${l.toLowerCase()}`}
                     className="text-white/40 hover:text-[#39ff14] font-poppins text-sm transition-colors duration-200"
                   >
                     {l}
@@ -70,12 +87,37 @@ export default function Footer() {
             </h4>
             <ul className="space-y-3">
               {services.map((s) => (
-                <li key={s}>
-                  <span className="text-white/40 font-poppins text-sm">{s}</span>
+                <li key={s.slug}>
+                  <Link
+                    href={`/services/${s.slug}`}
+                    className="text-white/40 hover:text-[#39ff14] font-poppins text-sm transition-colors duration-200"
+                  >
+                    {s.name}
+                  </Link>
                 </li>
               ))}
             </ul>
           </div>
+
+          {/* Service Areas */}
+          <div>
+            <h4 className="text-white font-poppins font-black text-sm uppercase tracking-widest mb-5">
+              Areas We Serve
+            </h4>
+            <ul className="space-y-3">
+              {locations.map((l) => (
+                <li key={l.href}>
+                  <Link
+                    href={l.href}
+                    className="text-white/40 hover:text-[#39ff14] font-poppins text-sm transition-colors duration-200"
+                  >
+                    {l.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
         </div>
 
         {/* Bottom bar */}
