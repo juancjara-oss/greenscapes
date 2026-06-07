@@ -12,7 +12,7 @@ const services = [
 ]
 
 const locations = [
-  { name: 'Roanoke, VA', href: '/' },
+  { name: 'Roanoke, VA', href: '/locations/roanoke-va' },
   { name: 'Salem, VA', href: '/locations/salem-va' },
   { name: 'Vinton, VA', href: '/locations/vinton-va' },
   { name: 'Botetourt County', href: '/locations/botetourt-county-va' },

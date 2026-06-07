@@ -126,6 +126,53 @@ export const locationPages: LocationPage[] = [
     `,
   },
   {
+    slug: 'roanoke-va',
+    city: 'Roanoke',
+    state: 'VA',
+    tagline: 'Roanoke\'s trusted lawn care and landscaping company since 2013.',
+    metaTitle: 'Lawn Care & Landscaping Roanoke VA | Greenscapes VA',
+    metaDescription: 'Top-rated lawn care and landscaping in Roanoke, VA. Mowing, landscape design, hardscaping, irrigation & seasonal cleanup. Locally owned since 2013. Call (540) 798-4479.',
+    image: '/assets/landscaping-after.webp',
+    keywords: 'lawn care Roanoke VA, landscaping Roanoke Virginia, lawn mowing Roanoke, landscape design Roanoke VA, hardscaping Roanoke Virginia, grounds maintenance Roanoke',
+    content: `
+      <p>Greenscapes VA is Roanoke's locally owned lawn care and landscaping company. Based right here in Roanoke at 428 Liberty Rd NE, we've been transforming residential and commercial properties across the city since 2013 — one lawn at a time.</p>
+
+      <h2>Roanoke's Lawn Care Specialists</h2>
+      <p>We know Roanoke's neighborhoods because we live and work here. From the historic streets of Old Southwest to the newer subdivisions in Northwest Roanoke, from Peters Creek Road to the Grandin Village area — our crews are in your neighborhood every week. That local presence means faster response times, consistent scheduling, and a team that treats your property the way a neighbor would.</p>
+      <p>Roanoke's clay-heavy soils, four-season climate, and mix of sun and shade create real lawn care challenges. We've spent over a decade learning exactly how Roanoke lawns behave through the spring green-up, the summer heat, the fall aeration window, and the winter dormancy cycle. That experience shows in the results our customers see.</p>
+
+      <h2>Services We Offer in Roanoke, VA</h2>
+      <ul>
+        <li><strong>Lawn Mowing & Edging</strong> — Weekly and bi-weekly service with commercial-grade equipment. Crisp edges, consistent cuts, no skipped visits.</li>
+        <li><strong>Landscape Design</strong> — Custom planting plans tailored to your home's style and Roanoke's growing conditions. We design for four seasons of interest.</li>
+        <li><strong>Hardscaping & Patios</strong> — Paver patios, fire pit areas, retaining walls, and walkways built from premium materials by an experienced crew.</li>
+        <li><strong>Hedge & Shrub Trimming</strong> — Precision shaping that keeps your established plantings looking intentional and well-maintained year-round.</li>
+        <li><strong>Irrigation Systems</strong> — Smart, water-efficient systems installed and maintained by our team. We handle spring startup and fall winterization.</li>
+        <li><strong>Seasonal Cleanup</strong> — Thorough spring and fall cleanups to clear debris, cut back perennials, and prepare your yard for the next season.</li>
+      </ul>
+
+      <h2>Serving All of Roanoke's Neighborhoods</h2>
+      <p>We provide lawn care and landscaping throughout all of Roanoke city, including:</p>
+      <ul>
+        <li><strong>South Roanoke</strong> — established neighborhoods with mature trees and larger lots</li>
+        <li><strong>Old Southwest</strong> — historic homes with character landscaping that requires a careful touch</li>
+        <li><strong>Grandin Village</strong> — walkable neighborhood properties and commercial storefronts</li>
+        <li><strong>Northwest Roanoke</strong> — newer developments and growing residential areas</li>
+        <li><strong>Northeast Roanoke</strong> — residential and commercial properties along the Peters Creek and Hollins corridors</li>
+        <li><strong>Downtown Roanoke</strong> — commercial properties, office parks, and mixed-use developments</li>
+      </ul>
+
+      <h2>Residential & Commercial Service</h2>
+      <p>We work with Roanoke homeowners, property managers, HOAs, and small businesses. Whether you need a one-time cleanup or a year-round maintenance contract, we build a service plan that fits your property and your budget. Most of our Roanoke customers have been with us for multiple seasons — that consistency is something we're proud of.</p>
+
+      <h2>Why Roanoke Chooses Greenscapes VA</h2>
+      <p>We're not a franchise. There's no call center between you and the crew doing the work. When you call Greenscapes VA, you reach Carlos directly — and he'll be on your property personally overseeing the job. That's the difference between a locally owned company and a national chain, and our Roanoke customers feel it every visit.</p>
+      <p>We're fully licensed and insured in Virginia, and we stand behind every job we do. If something isn't right, we make it right — no runaround.</p>
+
+      <p>Ready to get started? Call <strong>(540) 798-4479</strong> or email <strong>prettylawn@greenscapesva.com</strong> for a free estimate. We typically schedule estimates within the same week and can often start service shortly after.</p>
+    `,
+  },
+  {
     slug: 'smith-mountain-lake-va',
     city: 'Smith Mountain Lake',
     state: 'VA',
