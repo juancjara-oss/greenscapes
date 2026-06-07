@@ -99,7 +99,16 @@ const jsonLd = {
     { '@type': 'City', name: 'Troutville', addressRegion: 'VA' },
     { '@type': 'City', name: 'Boones Mill', addressRegion: 'VA' },
     { '@type': 'City', name: 'Catawba', addressRegion: 'VA' },
+    { '@type': 'City', name: 'Smith Mountain Lake', addressRegion: 'VA' },
+    { '@type': 'AdministrativeArea', name: 'Botetourt County', addressRegion: 'VA' },
   ],
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: '5',
+    reviewCount: '5',
+    bestRating: '5',
+    worstRating: '1',
+  },
   priceRange: '$$',
   hasOfferCatalog: {
     '@type': 'OfferCatalog',
