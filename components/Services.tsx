@@ -1,9 +1,11 @@
 'use client'
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 
 const services = [
   {
     id: 'gs-service-mowing-img',
+    slug: 'lawn-mowing',
     name: 'Lawn Mowing & Edging',
     alt: 'Lawn mowing and edging service in Roanoke Virginia – Greenscapes VA',
     description: 'Precision cuts and crisp edges that give your property a pristine, golf-course finish every single visit.',
@@ -11,6 +13,7 @@ const services = [
   },
   {
     id: 'gs-service-hedges-img',
+    slug: 'hedge-trimming',
     name: 'Hedge & Shrub Trimming',
     alt: 'Hedge and shrub trimming service in Roanoke VA – Greenscapes VA',
     description: 'Expertly sculpted hedges and shrubs that enhance your curb appeal and keep your property looking sharp year-round.',
@@ -18,6 +21,7 @@ const services = [
   },
   {
     id: 'gs-service-design-img',
+    slug: 'landscape-design',
     name: 'Landscape Design',
     alt: 'Custom landscape design in Roanoke Virginia – Greenscapes VA',
     description: 'Custom landscape plans that transform your outdoor space into a living masterpiece tailored to your lifestyle.',
@@ -25,6 +29,7 @@ const services = [
   },
   {
     id: 'gs-service-irrigation-img',
+    slug: 'irrigation-systems',
     name: 'Irrigation Systems',
     alt: 'Irrigation system installation Roanoke VA – Greenscapes VA',
     description: 'Smart, water-efficient irrigation systems designed to keep your lawn lush while cutting your water bill.',
@@ -32,6 +37,7 @@ const services = [
   },
   {
     id: 'gs-service-cleanup-img',
+    slug: 'seasonal-cleanup',
     name: 'Seasonal Cleanup',
     alt: 'Seasonal lawn cleanup service Roanoke Virginia – Greenscapes VA',
     description: 'Thorough spring and fall cleanups that prepare your property for every season — leaves, debris, and all.',
@@ -39,6 +45,7 @@ const services = [
   },
   {
     id: 'gs-service-hardscaping-img',
+    slug: 'hardscaping-patios',
     name: 'Hardscaping & Patios',
     alt: 'Hardscaping and patio installation Roanoke VA – Greenscapes VA',
     description: 'Beautiful patios, walkways, and retaining walls built from premium materials designed to last a lifetime.',
@@ -73,8 +80,8 @@ export default function Services() {
         {/* Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, i) => (
+            <Link key={service.name} href={`/services/${service.slug}`}>
             <motion.div
-              key={service.name}
               className="group relative overflow-hidden rounded-2xl h-72 cursor-pointer"
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -116,6 +123,7 @@ export default function Services() {
                 </p>
               </div>
             </motion.div>
+            </Link>
           ))}
         </div>
       </div>
