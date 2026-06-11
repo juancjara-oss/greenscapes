@@ -133,6 +133,37 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={poppins.variable}>
       <head>
+        {/* Google tag (gtag.js) – Google Ads AW-1065611469 */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-1065611469"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-1065611469');
+            `,
+          }}
+        />
+        {/* Conversion: click on phone or WhatsApp link */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              document.addEventListener('click', function (e) {
+                var a = e.target && e.target.closest ? e.target.closest('a') : null;
+                if (!a) return;
+                var h = a.getAttribute('href') || '';
+                if (h.indexOf('tel:') === 0 || h.indexOf('wa.me') !== -1 || h.indexOf('api.whatsapp.com') !== -1) {
+                  gtag('event', 'conversion', {
+                    send_to: 'AW-1065611469/yT6ZCLTC87wcEM3hj_wD',
+                    value: 1.0,
+                    currency: 'USD',
+                  });
+                }
+              });
+            `,
+          }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

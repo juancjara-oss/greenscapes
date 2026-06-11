@@ -117,4 +117,4 @@ Agregar en: https://github.com/juancjara-oss/greenscapes/settings/secrets/action
 - [ ] GitHub Secrets configurados (VPS_HOST, VPS_USER, VPS_SSH_KEY)
 - [ ] Deploy automático via GitHub Actions verificado
 - [ ] Dominio apuntado al VPS
-- [ ] SSL/HTTPS configurado con Certbot
+- [x] SSL/HTTPS configurado con Certbot (cert expira 2026-08-21, auto-renew activo)
