@@ -51,6 +51,30 @@ const services = [
     description: 'Beautiful patios, walkways, and retaining walls built from premium materials designed to last a lifetime.',
     image: '/assets/firepit-patio.webp',
   },
+  {
+    id: 'gs-service-commercial-img',
+    slug: 'commercial-grounds-maintenance',
+    name: 'Commercial Grounds Maintenance',
+    alt: 'Commercial grounds maintenance service Roanoke Virginia – Greenscapes VA',
+    description: 'Reliable, professional grounds maintenance for businesses, office parks, and commercial properties throughout the Roanoke Valley.',
+    image: '/assets/landscaping-after.webp',
+  },
+  {
+    id: 'gs-service-hoa-img',
+    slug: 'hoa-grounds-maintenance',
+    name: 'HOA Grounds Maintenance',
+    alt: 'HOA grounds maintenance Roanoke VA – Greenscapes VA',
+    description: 'Consistent, high-standard grounds care for homeowner associations and community properties — keeping common areas pristine year-round.',
+    image: '/assets/hardscaping-after.webp',
+  },
+  {
+    id: 'gs-service-mulch-img',
+    slug: 'mulch-installation',
+    name: 'Mulch Installation',
+    alt: 'Mulch installation service Roanoke Virginia – Greenscapes VA',
+    description: 'Fresh mulch installation that beautifies your beds, suppresses weeds, retains moisture, and protects your plant roots every season.',
+    image: '/assets/landscaping-before.webp',
+  },
 ]
 
 export default function Services() {

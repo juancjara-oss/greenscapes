@@ -239,6 +239,115 @@ export const servicePages: ServicePage[] = [
       <p>Ready to create your dream outdoor space? Call <strong>(540) 798-4479</strong> or email <strong>prettylawn@greenscapesva.com</strong> for a free hardscaping consultation and estimate.</p>
     `,
   },
+  {
+    slug: 'commercial-grounds-maintenance',
+    name: 'Commercial Grounds Maintenance',
+    tagline: 'Professional grounds care that keeps your business looking its best.',
+    metaTitle: 'Commercial Grounds Maintenance Roanoke VA | Greenscapes VA',
+    metaDescription: 'Commercial grounds maintenance in Roanoke, VA. Reliable mowing, trimming, cleanup and landscaping for businesses, office parks and commercial properties. Call (540) 798-4479.',
+    image: '/assets/landscaping-after.webp',
+    keywords: 'commercial grounds maintenance Roanoke VA, commercial lawn care Roanoke Virginia, business landscaping Roanoke, commercial mowing Salem VA, grounds maintenance Botetourt County',
+    content: `
+      <p>Your property's exterior is the first thing clients, customers, and employees see. At Greenscapes VA, we provide dependable commercial grounds maintenance for businesses, office parks, retail centers, and commercial properties throughout Roanoke, Salem, Vinton, and the surrounding Roanoke Valley.</p>
+
+      <h2>Why Commercial Properties Need a Different Approach</h2>
+      <p>Commercial grounds maintenance isn't simply residential lawn care at a larger scale. It requires consistent scheduling, accountability, and a crew that works efficiently without disrupting your operations or your customers. We understand that a missed visit or a poorly maintained entrance reflects directly on your business — and we take that seriously.</p>
+      <p>Our commercial clients receive priority scheduling, direct communication with our team, and service that meets the same standard every single visit. No excuses, no skipped visits during busy season.</p>
+
+      <h2>Commercial Services We Provide</h2>
+      <ul>
+        <li><strong>Lawn Mowing & Edging</strong> — Regular mowing on a schedule that keeps your property looking sharp at all times. We handle properties of all sizes, from small storefronts to large office campuses.</li>
+        <li><strong>Hedge & Shrub Trimming</strong> — Precision trimming of foundation plantings, entrance hedges, and ornamental shrubs to maintain a polished, professional appearance.</li>
+        <li><strong>Seasonal Cleanup</strong> — Spring and fall cleanups to remove debris, cut back overgrowth, and prepare your grounds for the season ahead.</li>
+        <li><strong>Mulch Installation</strong> — Fresh mulch in planting beds keeps your commercial landscape looking maintained and well-invested.</li>
+        <li><strong>Landscape Design & Enhancement</strong> — Upgrade your property's entrance or common areas with new planting designs that improve curb appeal and make a strong first impression.</li>
+        <li><strong>Irrigation System Maintenance</strong> — Keep your irrigation running efficiently with seasonal startup, inspections, and winterization.</li>
+      </ul>
+
+      <h2>Serving Commercial Properties Across the Roanoke Valley</h2>
+      <p>We work with a wide range of commercial clients in Roanoke, Salem, Vinton, Daleville, and Botetourt County — including office buildings, medical facilities, retail shopping centers, restaurant properties, warehouses, and industrial facilities. Whether your property needs weekly visits during the growing season or a year-round maintenance contract, we build a service plan around your needs and your budget.</p>
+
+      <h2>Reliable, Accountable, Local</h2>
+      <p>We're a locally owned company, not a national franchise. When you call, you reach Carlos directly — not a call center. That means faster responses, more flexibility, and a crew that treats your commercial property with the same care they'd give their own. We're fully licensed and insured in Virginia, and we carry the coverage required for commercial property work.</p>
+      <p>Most of our commercial clients have been with us for multiple seasons. That consistency is something we're proud of — and something you can count on.</p>
+
+      <p>Call <strong>(540) 798-4479</strong> or email <strong>prettylawn@greenscapesva.com</strong> to discuss a commercial grounds maintenance contract for your property. We offer free site assessments and can typically begin service within the same week.</p>
+    `,
+  },
+  {
+    slug: 'hoa-grounds-maintenance',
+    name: 'HOA Grounds Maintenance',
+    tagline: 'Keeping community common areas pristine — every week, every season.',
+    metaTitle: 'HOA Grounds Maintenance Roanoke VA | Greenscapes VA',
+    metaDescription: 'HOA grounds maintenance in Roanoke, VA. Reliable lawn care and landscaping for homeowner associations and community common areas. Call (540) 798-4479.',
+    image: '/assets/hardscaping-after.webp',
+    keywords: 'HOA grounds maintenance Roanoke VA, HOA lawn care Roanoke Virginia, homeowner association landscaping Roanoke, community grounds maintenance Salem VA',
+    content: `
+      <p>Homeowner associations have a unique challenge: the grounds need to look great all the time, for every resident, on a budget that has to work for the whole community. Greenscapes VA partners with HOAs throughout the Roanoke Valley to provide consistent, high-quality grounds maintenance that keeps common areas looking their best — without the management headaches.</p>
+
+      <h2>What HOA Grounds Maintenance Includes</h2>
+      <p>We work with each HOA board to build a customized maintenance plan that covers the specific needs of your community. Typical HOA contracts include:</p>
+      <ul>
+        <li><strong>Common Area Mowing & Edging</strong> — Entrances, medians, retention pond surrounds, pocket parks, and any shared turf areas maintained on a consistent weekly or bi-weekly schedule.</li>
+        <li><strong>Hedge & Shrub Trimming</strong> — Entrance plantings, common area hedges, and ornamental shrubs kept neatly shaped throughout the season.</li>
+        <li><strong>Mulch Installation</strong> — Annual or semi-annual mulch refresh in common area planting beds to maintain a clean, maintained appearance and protect plant roots.</li>
+        <li><strong>Seasonal Cleanup</strong> — Spring and fall cleanup of common areas including leaf removal, bed cleanup, and debris removal.</li>
+        <li><strong>Irrigation Maintenance</strong> — Startup, inspection, repair, and winterization for common area irrigation systems.</li>
+        <li><strong>Landscape Enhancement</strong> — Annual color plantings, entrance landscape upgrades, and bed renovation to keep your community looking fresh.</li>
+      </ul>
+
+      <h2>Why HOAs Choose Greenscapes VA</h2>
+      <p>HOA boards need a contractor they can trust to show up consistently, communicate clearly, and handle issues without being micromanaged. We provide a single point of contact for your board, detailed service logs on request, and a crew that understands the importance of consistency to your residents.</p>
+      <p>We know that residents notice everything — the entrance that wasn't edged, the hedge that's starting to look overgrown, the mulch that needs refreshing. Our HOA clients stay with us year after year because we stay ahead of those details before residents have to bring them up.</p>
+
+      <h2>Serving HOAs Throughout the Roanoke Valley</h2>
+      <p>We currently maintain HOA and community properties in Roanoke, Salem, Vinton, Daleville, Cloverdale, and surrounding areas. We're familiar with the common grass types, soil conditions, and seasonal patterns throughout the Roanoke Valley — which means we adjust our approach as conditions change, not just follow a generic calendar.</p>
+      <p>We're fully licensed and insured in Virginia and carry the coverage appropriate for community property work. References from current HOA clients are available on request.</p>
+
+      <p>Ready to discuss a maintenance contract for your community? Call us at <strong>(540) 798-4479</strong> or email <strong>prettylawn@greenscapesva.com</strong>. We offer free site assessments for HOA properties and can provide a detailed proposal for your board to review.</p>
+    `,
+  },
+  {
+    slug: 'mulch-installation',
+    name: 'Mulch Installation',
+    tagline: 'Fresh mulch that transforms your beds and protects your plants.',
+    metaTitle: 'Mulch Installation Roanoke VA | Greenscapes VA',
+    metaDescription: 'Professional mulch installation in Roanoke, VA. Hardwood, dyed, and natural mulch delivered and installed in planting beds. Call (540) 798-4479 for a free estimate.',
+    image: '/assets/landscaping-before.webp',
+    keywords: 'mulch installation Roanoke VA, mulch delivery Roanoke Virginia, hardwood mulch Roanoke, landscape mulch Salem VA, mulch beds Vinton Virginia',
+    content: `
+      <p>Fresh mulch is one of the fastest ways to transform how your property looks — and one of the best investments you can make for the long-term health of your trees, shrubs, and planting beds. Greenscapes VA provides professional mulch installation for residential and commercial properties throughout Roanoke, Salem, Vinton, and the surrounding Roanoke Valley.</p>
+
+      <h2>Why Mulch Matters More Than You Think</h2>
+      <p>Mulch does a lot more than make your beds look neat. A proper 2–3 inch layer of mulch:</p>
+      <ul>
+        <li><strong>Retains soil moisture</strong> — reduces evaporation so your plants need less water, especially during Roanoke's dry summer stretches</li>
+        <li><strong>Suppresses weeds</strong> — blocks sunlight that weed seeds need to germinate, dramatically reducing the amount of hand-weeding required</li>
+        <li><strong>Regulates soil temperature</strong> — keeps roots cooler in summer and insulates them during Roanoke's winter freezes</li>
+        <li><strong>Improves soil health</strong> — organic mulches like hardwood break down slowly and add nutrients and beneficial microbial activity to the soil over time</li>
+        <li><strong>Prevents erosion</strong> — especially important on sloped beds common in the hilly Roanoke Valley terrain</li>
+        <li><strong>Protects roots from mower and trimmer damage</strong> — a properly mulched ring around trees prevents the lawn equipment damage that kills more trees than disease does</li>
+      </ul>
+
+      <h2>Mulch Types We Install</h2>
+      <p>We work with our clients to choose the right mulch for their property, plantings, and budget:</p>
+      <ul>
+        <li><strong>Double-shredded hardwood</strong> — the most popular choice in the Roanoke area. Natural brown color that blends well with most landscapes, breaks down into the soil over 1–2 seasons.</li>
+        <li><strong>Dyed black mulch</strong> — provides a clean, high-contrast look that makes green plantings pop. Holds color longer than natural mulch.</li>
+        <li><strong>Dyed red/brown mulch</strong> — warm tones that complement brick homes and traditional landscapes common in Roanoke's older neighborhoods.</li>
+        <li><strong>Pine bark nuggets</strong> — larger pieces that last longer and work well for sloped beds where finer mulch washes away.</li>
+      </ul>
+
+      <h2>Our Mulch Installation Process</h2>
+      <p>We don't just dump mulch and spread it. A proper installation includes edging the beds for a clean definition line, removing or suppressing existing weeds before mulch goes down, applying the correct depth (2–3 inches — too little doesn't work, too much suffocates roots), and keeping mulch away from plant stems and tree trunks to prevent rot and disease.</p>
+      <p>Many properties only need one mulch refresh per year — typically in spring. Properties with high weed pressure or heavy organic breakdown may benefit from a light top-dress in fall as well.</p>
+
+      <h2>Residential & Commercial Mulch Installation</h2>
+      <p>We install mulch for homeowners, HOAs, commercial properties, and property managers throughout Roanoke, Salem, Vinton, Daleville, Smith Mountain Lake, and Botetourt County. Whether you have a few small beds or extensive commercial plantings across multiple acres, we have the crew and equipment to get it done efficiently.</p>
+
+      <p>Call <strong>(540) 798-4479</strong> or email <strong>prettylawn@greenscapesva.com</strong> for a free mulch installation estimate. We'll measure your beds, recommend the right product, and give you a clear price — no surprises.</p>
+    `,
+  },
 ]
 
 export function getServicePageBySlug(slug: string): ServicePage | undefined {
