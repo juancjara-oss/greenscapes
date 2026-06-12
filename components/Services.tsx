@@ -57,7 +57,7 @@ const services = [
     name: 'Commercial Grounds Maintenance',
     alt: 'Commercial grounds maintenance service Roanoke Virginia – Greenscapes VA',
     description: 'Reliable, professional grounds maintenance for businesses, office parks, and commercial properties throughout the Roanoke Valley.',
-    image: '/assets/landscaping-after.webp',
+    image: '/assets/commercial-grounds-maintenance.webp',
   },
   {
     id: 'gs-service-hoa-img',

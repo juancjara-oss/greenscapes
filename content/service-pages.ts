@@ -245,7 +245,7 @@ export const servicePages: ServicePage[] = [
     tagline: 'Professional grounds care that keeps your business looking its best.',
     metaTitle: 'Commercial Grounds Maintenance Roanoke VA | Greenscapes VA',
     metaDescription: 'Commercial grounds maintenance in Roanoke, VA. Reliable mowing, trimming, cleanup and landscaping for businesses, office parks and commercial properties. Call (540) 798-4479.',
-    image: '/assets/landscaping-after.webp',
+    image: '/assets/commercial-grounds-maintenance.webp',
     keywords: 'commercial grounds maintenance Roanoke VA, commercial lawn care Roanoke Virginia, business landscaping Roanoke, commercial mowing Salem VA, grounds maintenance Botetourt County',
     content: `
       <p>Your property's exterior is the first thing clients, customers, and employees see. At Greenscapes VA, we provide dependable commercial grounds maintenance for businesses, office parks, retail centers, and commercial properties throughout Roanoke, Salem, Vinton, and the surrounding Roanoke Valley.</p>
