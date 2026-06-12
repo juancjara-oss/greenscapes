@@ -179,7 +179,7 @@ export const locationPages: LocationPage[] = [
     tagline: 'Premium lawn care and landscaping at Smith Mountain Lake.',
     metaTitle: 'Lawn Care & Landscaping Smith Mountain Lake VA | Greenscapes VA',
     metaDescription: 'Professional lawn care and landscaping at Smith Mountain Lake, VA. Waterfront property specialists. Mowing, design, hardscaping & more. Call (540) 798-4479.',
-    image: '/assets/patio-after.webp',
+    image: '/assets/smith-mountain-lake.webp',
     keywords: 'lawn care Smith Mountain Lake VA, landscaping Smith Mountain Lake Virginia, lawn mowing SML, waterfront landscaping Virginia, hardscaping Smith Mountain Lake',
     content: `
       <p>Greenscapes VA provides professional lawn care and landscaping services to homeowners at Smith Mountain Lake, Virginia. Whether your lake property is a primary residence or a vacation retreat, we keep it looking pristine — so you can spend your time on the water, not behind a mower.</p>
