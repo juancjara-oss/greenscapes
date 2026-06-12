@@ -65,7 +65,7 @@ const services = [
     name: 'HOA Grounds Maintenance',
     alt: 'HOA grounds maintenance Roanoke VA – Greenscapes VA',
     description: 'Consistent, high-standard grounds care for homeowner associations and community properties — keeping common areas pristine year-round.',
-    image: '/assets/hardscaping-after.webp',
+    image: '/assets/hoa-grounds-maintenance.webp',
   },
   {
     id: 'gs-service-mulch-img',

@@ -280,7 +280,7 @@ export const servicePages: ServicePage[] = [
     tagline: 'Keeping community common areas pristine — every week, every season.',
     metaTitle: 'HOA Grounds Maintenance Roanoke VA | Greenscapes VA',
     metaDescription: 'HOA grounds maintenance in Roanoke, VA. Reliable lawn care and landscaping for homeowner associations and community common areas. Call (540) 798-4479.',
-    image: '/assets/hardscaping-after.webp',
+    image: '/assets/hoa-grounds-maintenance.webp',
     keywords: 'HOA grounds maintenance Roanoke VA, HOA lawn care Roanoke Virginia, homeowner association landscaping Roanoke, community grounds maintenance Salem VA',
     content: `
       <p>Homeowner associations have a unique challenge: the grounds need to look great all the time, for every resident, on a budget that has to work for the whole community. Greenscapes VA partners with HOAs throughout the Roanoke Valley to provide consistent, high-quality grounds maintenance that keeps common areas looking their best — without the management headaches.</p>
