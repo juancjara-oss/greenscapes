@@ -313,7 +313,7 @@ export const servicePages: ServicePage[] = [
     tagline: 'Fresh mulch that transforms your beds and protects your plants.',
     metaTitle: 'Mulch Installation Roanoke VA | Greenscapes VA',
     metaDescription: 'Professional mulch installation in Roanoke, VA. Hardwood, dyed, and natural mulch delivered and installed in planting beds. Call (540) 798-4479 for a free estimate.',
-    image: '/assets/landscaping-before.webp',
+    image: '/assets/mulch-installation.webp',
     keywords: 'mulch installation Roanoke VA, mulch delivery Roanoke Virginia, hardwood mulch Roanoke, landscape mulch Salem VA, mulch beds Vinton Virginia',
     content: `
       <p>Fresh mulch is one of the fastest ways to transform how your property looks — and one of the best investments you can make for the long-term health of your trees, shrubs, and planting beds. Greenscapes VA provides professional mulch installation for residential and commercial properties throughout Roanoke, Salem, Vinton, and the surrounding Roanoke Valley.</p>

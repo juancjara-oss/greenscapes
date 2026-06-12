@@ -73,7 +73,7 @@ const services = [
     name: 'Mulch Installation',
     alt: 'Mulch installation service Roanoke Virginia – Greenscapes VA',
     description: 'Fresh mulch installation that beautifies your beds, suppresses weeds, retains moisture, and protects your plant roots every season.',
-    image: '/assets/landscaping-before.webp',
+    image: '/assets/mulch-installation.webp',
   },
 ]
 
