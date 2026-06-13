@@ -54,7 +54,7 @@ export const metadata: Metadata = {
 
 const jsonLd = {
   '@context': 'https://schema.org',
-  '@type': 'LandscapeService',
+  '@type': ['LocalBusiness', 'LandscapeService'],
   name: 'Greenscapes VA',
   url: SITE_URL,
   logo: `${SITE_URL}/logo.png`,
