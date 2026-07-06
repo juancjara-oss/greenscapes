@@ -11,7 +11,7 @@ const poppins = Poppins({
 })
 
 const SITE_URL = 'https://greenscapesva.com'
-const OG_IMAGE = `${SITE_URL}/assets/landscaping-after.webp`
+const OG_IMAGE = `${SITE_URL}/assets/daleville-lawn-back-mower.webp`
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -173,6 +173,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {children}
         <WhatsAppButton />
         <ServiceWorkerRegistration />
+        <script src="//code.tidio.co/7om7uo7gt9xlwsx2cdj4ttcbxyuq3wzx.js" async></script>
       </body>
     </html>
   )

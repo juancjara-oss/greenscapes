@@ -1,14 +1,29 @@
 'use client'
 import { useRef, useState, useEffect } from 'react'
-import { motion, useInView } from 'framer-motion'
 
 function Counter({ to, suffix }: { to: number; suffix: string }) {
   const [count, setCount] = useState(0)
+  const [started, setStarted] = useState(false)
   const ref = useRef<HTMLSpanElement>(null)
-  const inView = useInView(ref, { once: true })
 
   useEffect(() => {
-    if (!inView) return
+    if (!ref.current) return
+    const el = ref.current
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setStarted(true)
+          observer.disconnect()
+        }
+      },
+      { threshold: 0.1 }
+    )
+    observer.observe(el)
+    return () => observer.disconnect()
+  }, [])
+
+  useEffect(() => {
+    if (!started) return
     const duration = 1800
     const steps = 60
     const step = to / steps
@@ -23,7 +38,7 @@ function Counter({ to, suffix }: { to: number; suffix: string }) {
       }
     }, duration / steps)
     return () => clearInterval(timer)
-  }, [inView, to])
+  }, [started, to])
 
   return (
     <span ref={ref} className="tabular-nums">
@@ -51,13 +66,10 @@ export default function Stats() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-4">
           {stats.map((stat, i) => (
-            <motion.div
+            <div
               key={stat.label}
-              className="text-center"
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: i * 0.1 }}
-              viewport={{ once: true }}
+              className="text-center services-card-fade"
+              style={{ animationDelay: `${i * 0.1}s` }}
             >
               <div
                 className="text-4xl sm:text-5xl lg:text-6xl font-poppins font-black text-[#39ff14]"
@@ -68,7 +80,7 @@ export default function Stats() {
               <p className="text-white/60 font-poppins font-semibold text-sm mt-2 uppercase tracking-wider">
                 {stat.label}
               </p>
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>

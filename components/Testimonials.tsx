@@ -1,6 +1,3 @@
-'use client'
-import { motion } from 'framer-motion'
-
 const testimonials = [
   {
     quote:
@@ -43,20 +40,14 @@ export default function Testimonials() {
   return (
     <section className="bg-[#050e07] py-24 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-14">
-        <motion.div
-          className="text-center"
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
-        >
+        <div className="text-center section-fade-up">
           <span className="text-[#f97316] font-poppins font-bold uppercase tracking-[0.3em] text-xs sm:text-sm">
             Real Clients. Real Results.
           </span>
           <h2 className="text-5xl sm:text-6xl font-poppins font-black text-white mt-3">
             What They&apos;re <span className="text-[#39ff14]">Saying</span>
           </h2>
-        </motion.div>
+        </div>
       </div>
 
       {/* Marquee track */}
@@ -65,11 +56,7 @@ export default function Testimonials() {
         <div className="absolute left-0 top-0 bottom-0 w-24 z-10 bg-gradient-to-r from-[#050e07] to-transparent pointer-events-none" />
         <div className="absolute right-0 top-0 bottom-0 w-24 z-10 bg-gradient-to-l from-[#050e07] to-transparent pointer-events-none" />
 
-        <motion.div
-          className="flex gap-6 w-max"
-          animate={{ x: ['0%', '-50%'] }}
-          transition={{ duration: 32, repeat: Infinity, ease: 'linear' }}
-        >
+        <div className="marquee-track gap-6">
           {[...testimonials, ...testimonials].map((t, i) => (
             <div
               key={i}
@@ -90,7 +77,7 @@ export default function Testimonials() {
               </div>
             </div>
           ))}
-        </motion.div>
+        </div>
       </div>
     </section>
   )

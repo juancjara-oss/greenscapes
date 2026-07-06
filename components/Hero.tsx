@@ -1,15 +1,13 @@
-'use client'
-import { motion } from 'framer-motion'
-
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background image with video fallback */}
+      {/* Hero background image */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&q=80"
+        src="/assets/hero-poster.webp"
         alt=""
         aria-hidden
+        fetchPriority="high"
         className="absolute inset-0 w-full h-full object-cover scale-105"
       />
 
@@ -30,26 +28,18 @@ export default function Hero() {
       <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-transparent via-[#39ff14] to-transparent opacity-40" />
 
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-24">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-          className="mb-6"
-        >
-          <span className="inline-flex items-center gap-2 text-[#39ff14] font-poppins font-bold text-xs sm:text-sm uppercase tracking-[0.35em]"
-            style={{ textShadow: '0 0 10px #39ff14' }}>
+        <div className="mb-6 hero-fade-1">
+          <span
+            className="inline-flex items-center gap-2 text-[#39ff14] font-poppins font-bold text-xs sm:text-sm uppercase tracking-[0.35em]"
+            style={{ textShadow: '0 0 10px #39ff14' }}
+          >
             <span className="w-8 h-px bg-[#39ff14]" />
             Roanoke Virginia&apos;s #1 Choice
             <span className="w-8 h-px bg-[#39ff14]" />
           </span>
-        </motion.div>
+        </div>
 
-        <motion.h1
-          className="text-5xl sm:text-7xl lg:text-8xl font-poppins font-black text-white leading-[1.05] mb-6"
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-        >
+        <h1 className="text-5xl sm:text-7xl lg:text-8xl font-poppins font-black text-white leading-[1.05] mb-6 hero-fade-2">
           We Don&apos;t Just{' '}
           <span className="text-[#39ff14]" style={{ textShadow: '0 0 40px rgba(57,255,20,0.5)' }}>
             Cut Grass.
@@ -59,23 +49,13 @@ export default function Hero() {
           <span className="text-[#f97316]" style={{ textShadow: '0 0 30px rgba(249,115,22,0.4)' }}>
             Landscapes.
           </span>
-        </motion.h1>
+        </h1>
 
-        <motion.p
-          className="text-lg sm:text-2xl text-[#f97316] font-poppins font-semibold mb-10"
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.6 }}
-        >
+        <p className="text-lg sm:text-2xl text-[#f97316] font-poppins font-semibold mb-10 hero-fade-3">
           Roanoke Virginia&apos;s Premier Grounds Maintenance
-        </motion.p>
+        </p>
 
-        <motion.div
-          className="flex flex-col sm:flex-row gap-4 justify-center"
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.8 }}
-        >
+        <div className="flex flex-col sm:flex-row gap-4 justify-center hero-fade-4">
           <a
             href="#portfolio"
             className="px-9 py-4 bg-[#39ff14] text-[#050e07] font-poppins font-black text-base sm:text-lg rounded-full hover:shadow-[0_0_35px_rgba(57,255,20,0.7)] transition-all duration-300 hover:scale-105"
@@ -88,33 +68,22 @@ export default function Hero() {
           >
             Get Free Quote
           </a>
-        </motion.div>
+        </div>
 
-        {/* Animated neon divider */}
-        <motion.div
-          className="mt-20 mx-auto max-w-2xl h-px"
+        {/* Neon divider */}
+        <div
+          className="mt-20 mx-auto max-w-2xl h-px hero-scale-x"
           style={{ background: 'linear-gradient(90deg, transparent, #39ff14, transparent)', boxShadow: '0 0 10px #39ff14' }}
-          initial={{ scaleX: 0, opacity: 0 }}
-          animate={{ scaleX: 1, opacity: 1 }}
-          transition={{ duration: 1.2, delay: 1 }}
         />
       </div>
 
       {/* Scroll indicator */}
-      <motion.div
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
-        animate={{ y: [0, 8, 0] }}
-        transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
-      >
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 hero-bounce">
         <span className="text-white/30 font-poppins text-xs uppercase tracking-widest">Scroll</span>
         <div className="w-5 h-9 border border-[#39ff14]/50 rounded-full flex justify-center pt-1.5">
-          <motion.div
-            className="w-1 h-2 bg-[#39ff14] rounded-full"
-            animate={{ y: [0, 12, 0] }}
-            transition={{ duration: 2, repeat: Infinity }}
-          />
+          <div className="w-1 h-2 bg-[#39ff14] rounded-full hero-dot-bounce" />
         </div>
-      </motion.div>
+      </div>
     </section>
   )
 }

@@ -63,6 +63,87 @@
   font-weight: 700;
 }
 
+/* Hero CSS animations — replaces framer-motion so above-fold content paints without JS */
+@keyframes hero-fade-up {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes hero-fade-up-large {
+  from { opacity: 0; transform: translateY(50px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes hero-scale-x {
+  from { opacity: 0; transform: scaleX(0); }
+  to   { opacity: 1; transform: scaleX(1); }
+}
+@keyframes hero-bounce-y {
+  0%, 100% { transform: translateX(-50%) translateY(0); }
+  50%       { transform: translateX(-50%) translateY(8px); }
+}
+@keyframes hero-dot-bounce {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(12px); }
+}
+.hero-fade-1 {
+  animation: hero-fade-up 0.6s ease both;
+  animation-delay: 0.2s;
+}
+.hero-fade-2 {
+  animation: hero-fade-up-large 0.8s ease both;
+  animation-delay: 0.4s;
+}
+.hero-fade-3 {
+  animation: hero-fade-up 0.7s ease both;
+  animation-delay: 0.6s;
+}
+.hero-fade-4 {
+  animation: hero-fade-up 0.7s ease both;
+  animation-delay: 0.8s;
+}
+.hero-scale-x {
+  animation: hero-scale-x 1.2s ease both;
+  animation-delay: 1s;
+}
+.hero-bounce {
+  animation: hero-bounce-y 2s ease-in-out infinite;
+}
+.hero-dot-bounce {
+  animation: hero-dot-bounce 2s linear infinite;
+}
+
+/* Services section CSS animations */
+.services-header-fade {
+  animation: hero-fade-up-large 0.6s ease both;
+  animation-delay: 0.3s;
+}
+.services-card-fade {
+  animation: hero-fade-up-large 0.5s ease both;
+}
+
+/* Navbar slide-down on load */
+@keyframes navbar-slide-down {
+  from { transform: translateY(-100%); opacity: 0; }
+  to   { transform: translateY(0);      opacity: 1; }
+}
+.navbar-slide-down { animation: navbar-slide-down 0.6s ease-out both; }
+
+/* Shared section fade-in for below-fold sections */
+.section-fade-up {
+  animation: hero-fade-up-large 0.6s ease both;
+  animation-delay: 0.2s;
+}
+
+/* Marquee (Testimonials) */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 32s linear infinite;
+}
+
 @layer utilities {
   .neon-glow {
     box-shadow: 0 0 10px #39ff14, 0 0 20px #39ff14, 0 0 40px #39ff14;

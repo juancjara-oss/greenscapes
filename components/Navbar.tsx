@@ -1,6 +1,5 @@
 'use client'
 import { useState, useEffect } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 
@@ -24,13 +23,10 @@ export default function Navbar() {
   }, [])
 
   return (
-    <motion.nav
-      className={`fixed top-0 left-0 right-0 z-40 transition-all duration-500 ${
+    <nav
+      className={`navbar-slide-down fixed top-0 left-0 right-0 z-40 transition-all duration-500 ${
         scrolled ? 'bg-[#050e07]/95 backdrop-blur-md shadow-[0_0_30px_rgba(57,255,20,0.05)]' : 'bg-transparent'
       }`}
-      initial={{ y: -100, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.6, ease: 'easeOut' }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
@@ -74,36 +70,31 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Mobile Menu */}
-      <AnimatePresence>
-        {menuOpen && (
-          <motion.div
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: 'auto' }}
-            exit={{ opacity: 0, height: 0 }}
-            className="md:hidden bg-[#050e07]/98 backdrop-blur-md border-t border-[#39ff14]/10 overflow-hidden"
+      {/* Mobile Menu — CSS transition, no framer-motion */}
+      <div
+        className={`md:hidden bg-[#050e07]/98 backdrop-blur-md border-t border-[#39ff14]/10 overflow-hidden transition-all duration-300 ${
+          menuOpen ? 'max-h-80 opacity-100' : 'max-h-0 opacity-0'
+        }`}
+      >
+        <div className="px-6 py-6 flex flex-col gap-5">
+          {links.map((l) => (
+            <Link
+              key={l}
+              href={getHref(l)}
+              className="text-white font-poppins font-bold text-lg hover:text-[#39ff14] transition-colors"
+              onClick={() => setMenuOpen(false)}
+            >
+              {l}
+            </Link>
+          ))}
+          <a
+            href="tel:+15407984479"
+            className="bg-[#39ff14] text-[#050e07] font-poppins font-black text-base px-6 py-3 rounded-full text-center"
           >
-            <div className="px-6 py-6 flex flex-col gap-5">
-              {links.map((l) => (
-                <Link
-                  key={l}
-                  href={getHref(l)}
-                  className="text-white font-poppins font-bold text-lg hover:text-[#39ff14] transition-colors"
-                  onClick={() => setMenuOpen(false)}
-                >
-                  {l}
-                </Link>
-              ))}
-              <a
-                href="tel:+15407984479"
-                className="bg-[#39ff14] text-[#050e07] font-poppins font-black text-base px-6 py-3 rounded-full text-center"
-              >
-                Call (540) 798-4479
-              </a>
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
-    </motion.nav>
+            Call (540) 798-4479
+          </a>
+        </div>
+      </div>
+    </nav>
   )
 }

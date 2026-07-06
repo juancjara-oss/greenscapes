@@ -1,5 +1,4 @@
 'use client'
-import { motion } from 'framer-motion'
 import { useState, useRef } from 'react'
 
 const projects = [
@@ -49,7 +48,7 @@ function SliderCard({ project }: { project: typeof projects[0] }) {
     >
       {/* Before */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={project.before} alt={project.altBefore} className="absolute inset-0 w-full h-full object-cover" />
+      <img src={project.before} alt={project.altBefore} loading="lazy" className="absolute inset-0 w-full h-full object-cover" />
 
       {/* After */}
       <div
@@ -57,7 +56,7 @@ function SliderCard({ project }: { project: typeof projects[0] }) {
         style={{ clipPath: `inset(0 ${100 - pos}% 0 0)` }}
       >
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={project.after} alt={project.altAfter} className="absolute inset-0 w-full h-full object-cover" />
+        <img src={project.after} alt={project.altAfter} loading="lazy" className="absolute inset-0 w-full h-full object-cover" />
       </div>
 
       {/* Slider line */}
@@ -96,13 +95,7 @@ export default function BeforeAfter() {
   return (
     <section className="bg-[#050e07] py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div
-          className="text-center mb-14"
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
-        >
+        <div className="text-center mb-14 section-fade-up">
           <span className="text-[#f97316] font-poppins font-bold uppercase tracking-[0.3em] text-xs sm:text-sm">
             Proof of Excellence
           </span>
@@ -110,19 +103,13 @@ export default function BeforeAfter() {
             Before &amp; <span className="text-[#39ff14]">After</span>
           </h2>
           <p className="text-white/40 font-poppins mt-3 text-sm">Drag the slider to reveal the transformation</p>
-        </motion.div>
+        </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {projects.map((p, i) => (
-            <motion.div
-              key={p.label}
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: i * 0.12 }}
-              viewport={{ once: true }}
-            >
+          {projects.map((p) => (
+            <div key={p.label}>
               <SliderCard project={p} />
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>

@@ -1,6 +1,3 @@
-'use client'
-import { motion } from 'framer-motion'
-
 export default function ContactStrip() {
   return (
     <section id="contact" className="bg-[#0d3b1e] py-24 relative overflow-hidden">
@@ -10,12 +7,7 @@ export default function ContactStrip() {
       </div>
 
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
-        >
+        <div className="section-fade-up">
           <span className="text-[#f97316] font-poppins font-bold uppercase tracking-[0.3em] text-xs sm:text-sm">
             Get In Touch
           </span>
@@ -72,7 +64,7 @@ export default function ContactStrip() {
           >
             prettylawn@greenscapesva.com
           </a>
-        </motion.div>
+        </div>
       </div>
     </section>
   )
