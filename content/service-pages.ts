@@ -348,6 +348,178 @@ export const servicePages: ServicePage[] = [
       <p>Call <strong>(540) 798-4479</strong> or email <strong>prettylawn@greenscapesva.com</strong> for a free mulch installation estimate. We'll measure your beds, recommend the right product, and give you a clear price — no surprises.</p>
     `,
   },
+  {
+    slug: 'fertilization-weed-control',
+    name: 'Fertilization & Weed Control',
+    tagline: 'Feed your lawn. Fight the weeds. Win the season.',
+    metaTitle: 'Lawn Fertilization & Weed Control Roanoke VA | Greenscapes VA',
+    metaDescription: 'Professional lawn fertilization and weed control in Roanoke, VA. Seasonal programs that keep your grass thick, green, and weed-free. Call (540) 798-4479.',
+    image: '/assets/fertilization-weed-control.jpg',
+    keywords: 'lawn fertilization Roanoke VA, weed control Roanoke Virginia, lawn treatment Roanoke, pre-emergent weed control Salem VA, fertilizer service Roanoke',
+    content: `
+      <p>A green, weed-free lawn doesn't happen by chance — it's the result of the right nutrients applied at the right time, combined with a consistent weed control strategy. Greenscapes VA offers professional fertilization and weed control programs designed specifically for the grass types and growing conditions of the Roanoke Valley.</p>
+
+      <h2>Lawn Fertilization in Roanoke, Virginia</h2>
+      <p>Most Roanoke-area lawns are planted with tall fescue, a cool-season grass that has specific nutritional needs throughout the year. Applying the wrong fertilizer at the wrong time — a common mistake with generic big-box products — can actually damage your lawn or promote disease rather than healthy growth.</p>
+      <p>We use professional-grade fertilizers with the correct nitrogen, phosphorus, and potassium ratios for each season. Our programs are timed around Virginia's growing calendar, not a generic national schedule, so your lawn gets what it needs when it actually needs it.</p>
+
+      <h2>Seasonal Fertilization Program</h2>
+      <ul>
+        <li><strong>Early Spring</strong> — Slow-release starter fertilizer to wake the lawn from dormancy and support early green-up</li>
+        <li><strong>Late Spring</strong> — Balanced feeding to sustain growth heading into summer</li>
+        <li><strong>Summer</strong> — Light feeding if needed; focus shifts to stress management during Roanoke's heat</li>
+        <li><strong>Early Fall</strong> — The most important application of the year for tall fescue — heavy feeding to promote root development and thickening before winter</li>
+        <li><strong>Late Fall</strong> — Winterizer application to store nutrients that fuel next spring's growth</li>
+      </ul>
+
+      <h2>Weed Control — Pre-Emergent & Post-Emergent</h2>
+      <p>Weeds compete directly with your grass for water, nutrients, and space. The most effective weed control strategy uses two approaches together:</p>
+      <ul>
+        <li><strong>Pre-emergent herbicides</strong> — applied in early spring before crabgrass and summer annual weeds germinate. Timing is everything — too early or too late and it doesn't work. We track soil temperatures to apply at exactly the right window.</li>
+        <li><strong>Post-emergent treatments</strong> — applied to actively growing broadleaf weeds like dandelions, clover, henbit, and chickweed. We use selective herbicides that kill the weeds without harming your turf.</li>
+      </ul>
+
+      <h2>Grub Control</h2>
+      <p>Grubs (the larvae of Japanese beetles and other beetles) feed on grass roots just below the soil surface. A bad infestation can kill large patches of lawn by late summer. We offer preventive grub control applications in early summer before populations establish, and curative treatments if grubs are already present.</p>
+
+      <h2>Serving the Roanoke Valley</h2>
+      <p>We provide fertilization and weed control services throughout Roanoke, Salem, Vinton, Daleville, Botetourt County, Smith Mountain Lake, and surrounding areas.</p>
+
+      <p>Call <strong>(540) 798-4479</strong> or email <strong>prettylawn@greenscapesva.com</strong> to get a free lawn assessment and fertilization program recommendation for your property.</p>
+    `,
+  },
+  {
+    slug: 'aeration-overseeding',
+    name: 'Aeration & Overseeding',
+    tagline: 'Open up the soil. Thicken the turf. Transform your lawn.',
+    metaTitle: 'Lawn Aeration & Overseeding Roanoke VA | Greenscapes VA',
+    metaDescription: 'Professional core aeration and overseeding in Roanoke, VA. The best investment for a thicker, healthier lawn. Fall scheduling available. Call (540) 798-4479.',
+    image: '/assets/aeration-overseeding.jpg',
+    keywords: 'lawn aeration Roanoke VA, overseeding Roanoke Virginia, core aeration Roanoke, lawn overseeding Salem VA, aeration service Roanoke fall',
+    content: `
+      <p>If your lawn looks thin, feels hard underfoot, or struggles to stay green despite regular watering and fertilizing, compacted soil is likely the culprit. Core aeration combined with overseeding is the single most impactful treatment you can do for a tall fescue lawn in the Roanoke Valley — and fall is the perfect time to do it.</p>
+
+      <h2>What Is Core Aeration?</h2>
+      <p>Core aeration uses a machine to pull small plugs of soil (called cores) out of your lawn, typically 2–3 inches deep and spaced every few inches across the entire turf area. This process:</p>
+      <ul>
+        <li>Relieves soil compaction caused by foot traffic, mowing equipment, and clay-heavy soils common in the Roanoke area</li>
+        <li>Allows air, water, and nutrients to penetrate deep into the root zone</li>
+        <li>Creates ideal seedbed conditions for overseeding</li>
+        <li>Encourages deeper root growth, making the lawn more drought-tolerant</li>
+        <li>Reduces thatch buildup that blocks water and fertilizer from reaching the soil</li>
+      </ul>
+      <p>The small cores left on the surface break down naturally within 2–3 weeks, returning beneficial organic matter to the soil.</p>
+
+      <h2>Overseeding — Thickening Your Turf</h2>
+      <p>After aeration, we overseed the lawn with premium tall fescue seed varieties selected for performance in Virginia's climate. The aeration holes create perfect seed-to-soil contact, dramatically improving germination rates compared to broadcasting seed on an un-aerated lawn.</p>
+      <p>Overseeding fills in thin areas, repairs summer damage, and gradually crowds out weeds by giving desirable grass a competitive advantage. A thick, dense turf is your lawn's best defense against both weeds and disease.</p>
+
+      <h2>Why Fall Is the Right Time in Roanoke</h2>
+      <p>For tall fescue lawns — the dominant grass type throughout the Roanoke Valley — fall is the ideal window for aeration and overseeding. Specifically, late August through mid-October is optimal because:</p>
+      <ul>
+        <li>Soil temperatures are still warm enough for rapid germination</li>
+        <li>Air temperatures are cooling down, reducing heat stress on new seedlings</li>
+        <li>Fall rains help keep new seed moist without requiring constant irrigation</li>
+        <li>New grass has the entire fall and winter to establish roots before summer heat arrives</li>
+        <li>Pre-emergent weed control from spring has broken down, so it won't block germination</li>
+      </ul>
+
+      <h2>After Aeration & Overseeding</h2>
+      <p>We walk you through the post-treatment care steps: keeping the seedbed moist for the first 2–3 weeks, avoiding heavy foot traffic while seed germinates, and timing your first mow of the new growth. We're available to answer questions throughout the germination period — typically 7–21 days for tall fescue.</p>
+
+      <h2>Serving the Roanoke Valley</h2>
+      <p>We provide aeration and overseeding services throughout Roanoke, Salem, Vinton, Daleville, Botetourt County, Smith Mountain Lake, and surrounding areas. Fall scheduling fills up quickly — we recommend booking in August to secure your preferred date.</p>
+
+      <p>Call <strong>(540) 798-4479</strong> or email <strong>prettylawn@greenscapesva.com</strong> to schedule your fall aeration and overseeding appointment.</p>
+    `,
+  },
+  {
+    slug: 'additional-services',
+    name: 'Additional Services',
+    tagline: 'More ways we can transform your outdoor space.',
+    metaTitle: 'Additional Lawn & Landscaping Services Roanoke VA | Greenscapes VA',
+    metaDescription: 'Sod installation, seeding, drainage, pressure washing, stump grinding, and bush hogging in Roanoke, VA. Full-service outdoor care from Greenscapes VA. Call (540) 798-4479.',
+    image: '/assets/additional-services.jpg',
+    keywords: 'sod installation Roanoke VA, stump grinding Roanoke Virginia, bush hogging Roanoke, drainage solutions Roanoke, pressure washing Roanoke VA, lawn seeding Salem VA',
+    content: `
+      <p>Beyond our core lawn care and landscaping services, Greenscapes VA offers a range of additional services to handle every aspect of your outdoor property. Whether you need an instant lawn, better water management, or a deep clean for your driveway, we have you covered throughout the Roanoke Valley.</p>
+
+      <h2>Sod Installation</h2>
+      <p>When you need results immediately — not weeks from now — sod installation is the answer. Fresh sod gives you an instant lawn that looks and functions like established turf from day one. Greenscapes VA handles the complete sod installation process:</p>
+      <ul>
+        <li>Soil preparation and grading for proper drainage and a level surface</li>
+        <li>Soil amendment to improve fertility and water retention where needed</li>
+        <li>Professional sod laying with tight seams and proper edging</li>
+        <li>Post-installation care instructions and follow-up</li>
+      </ul>
+      <p>Sod is ideal for new construction properties, heavily damaged lawn areas, high-erosion spots, and anywhere you need an immediate, finished look. We source high-quality tall fescue and Bermuda sod varieties suited to Roanoke's climate and sun conditions.</p>
+
+      <h2>Lawn Seeding</h2>
+      <p>For larger areas or budget-conscious projects, lawn seeding is an effective way to establish or restore turf. Proper seeding goes beyond scattering seed on bare dirt — it requires the right seed selection, proper seedbed preparation, and good soil contact to achieve strong germination rates.</p>
+      <p>Our seeding services include:</p>
+      <ul>
+        <li>Soil testing and amendment recommendations</li>
+        <li>Grading and seedbed preparation</li>
+        <li>Broadcast or slit seeding depending on the area and conditions</li>
+        <li>Starter fertilizer application</li>
+        <li>Straw or erosion control blanket installation on slopes</li>
+      </ul>
+      <p>Fall is the prime seeding season for tall fescue in the Roanoke area — we book up quickly, so plan ahead.</p>
+
+      <h2>Drainage Solutions</h2>
+      <p>Standing water, soggy lawn areas, and water pooling against your foundation are more than just nuisances — they can cause serious damage to your lawn, landscape plants, and home structure over time. Greenscapes VA diagnoses drainage problems and installs practical solutions that redirect water away from problem areas.</p>
+      <p>Our drainage services include:</p>
+      <ul>
+        <li><strong>French drains</strong> — perforated pipe systems buried underground that collect and redirect subsurface water</li>
+        <li><strong>Surface grading</strong> — regrading lawn areas to eliminate low spots where water collects</li>
+        <li><strong>Dry creek beds</strong> — decorative rock channels that manage surface runoff while adding visual interest to your landscape</li>
+        <li><strong>Downspout extensions and drainage pipes</strong> — directing roof runoff away from foundations and into appropriate discharge areas</li>
+        <li><strong>Catch basins</strong> — underground collection points for high-volume runoff areas</li>
+      </ul>
+      <p>Roanoke's hilly terrain and heavy clay soils make drainage issues extremely common. If you have areas that stay wet long after rain, or water that runs toward your home, call us for a free drainage assessment.</p>
+
+      <h2>Pressure Washing</h2>
+      <p>Years of dirt, algae, mold, and grime can make your hardscaping look far older than it is. Professional pressure washing restores driveways, walkways, patios, decks, and other outdoor surfaces to a clean, fresh appearance — often making them look almost new.</p>
+      <p>We offer pressure washing for:</p>
+      <ul>
+        <li>Concrete driveways and sidewalks</li>
+        <li>Paver patios and walkways</li>
+        <li>Wooden and composite decks</li>
+        <li>Retaining walls and stone features</li>
+        <li>Fences</li>
+        <li>Commercial parking areas and exterior surfaces</li>
+      </ul>
+      <p>We use appropriate pressure levels and cleaning agents for each surface type — enough to clean effectively without damaging softer materials like wood or aging pavers.</p>
+
+      <h2>Stump Grinding</h2>
+      <p>After a tree is removed, the stump left behind is more than an eyesore — it's a tripping hazard, a magnet for pests like termites and carpenter ants, and an obstacle for mowing. Greenscapes VA offers professional stump grinding to eliminate stumps quickly and cleanly.</p>
+      <p>Our stump grinder reduces stumps to wood chips a few inches below ground level, allowing you to fill the area with soil and seed or sod over it. We grind stumps of all sizes and can handle multiple stumps in a single visit. The resulting wood chips can be used as mulch on-site or removed entirely — your choice.</p>
+      <ul>
+        <li>All stump sizes handled</li>
+        <li>Ground to below surface level</li>
+        <li>Wood chips removed or repurposed as mulch</li>
+        <li>Area ready for seeding or sodding after service</li>
+      </ul>
+
+      <h2>Bush Hogging</h2>
+      <p>Overgrown fields, pastures, and large lots with heavy brush, tall weeds, and saplings require more than a standard mower — they need a bush hog. Greenscapes VA provides bush hogging services for rural properties, large lots, right-of-ways, and acreage throughout the Roanoke Valley that has become overgrown or difficult to manage.</p>
+      <p>Bush hogging is ideal for:</p>
+      <ul>
+        <li>Clearing overgrown fields and pastures</li>
+        <li>Maintaining rural property and fence lines</li>
+        <li>Reclaiming lots overtaken by brush and saplings</li>
+        <li>Right-of-way and easement clearing</li>
+        <li>Seasonal maintenance of large acreage properties</li>
+        <li>Preparing land for construction, seeding, or fencing</li>
+      </ul>
+      <p>We use a commercial Ventrac with a brush cutter attachment capable of handling heavy vegetation efficiently. Whether you need a one-time clearing or seasonal maintenance, we can put your land back under control.</p>
+
+      <h2>Serving the Roanoke Valley</h2>
+      <p>All additional services are available throughout Roanoke, Salem, Vinton, Daleville, Botetourt County, Smith Mountain Lake, and surrounding areas in the Roanoke Valley.</p>
+
+      <p>Call <strong>(540) 798-4479</strong> or email <strong>prettylawn@greenscapesva.com</strong> to discuss any of these services. We offer free estimates and can typically schedule an assessment within the same week.</p>
+    `,
+  },
 ]
 
 export function getServicePageBySlug(slug: string): ServicePage | undefined {
