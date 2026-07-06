@@ -5,6 +5,9 @@ import type { Metadata } from 'next'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
+const SITE_URL = 'https://greenscapesva.com'
+const OG_IMAGE = `${SITE_URL}/assets/landscaping-after.webp`
+
 export function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }))
 }
@@ -12,9 +15,27 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const post = getPostBySlug(params.slug)
   if (!post) return {}
+  const url = `${SITE_URL}/blog/${params.slug}`
   return {
     title: `${post.title} | Greenscapes VA Blog`,
     description: post.excerpt,
+    keywords: post.keywords,
+    alternates: { canonical: url },
+    openGraph: {
+      type: 'article',
+      url,
+      siteName: 'Greenscapes VA',
+      title: `${post.title} | Greenscapes VA Blog`,
+      description: post.excerpt,
+      publishedTime: post.date,
+      images: [{ url: OG_IMAGE, width: 800, height: 600, alt: post.title }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${post.title} | Greenscapes VA Blog`,
+      description: post.excerpt,
+      images: [OG_IMAGE],
+    },
   }
 }
 
@@ -22,8 +43,34 @@ export default function PostPage({ params }: { params: { slug: string } }) {
   const post = getPostBySlug(params.slug)
   if (!post) notFound()
 
+  const blogPostingSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: post.title,
+    description: post.excerpt,
+    datePublished: post.date,
+    dateModified: post.date,
+    image: OG_IMAGE,
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `${SITE_URL}/blog/${post.slug}`,
+    },
+    author: {
+      '@type': 'Organization',
+      name: 'Greenscapes VA',
+      url: SITE_URL,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Greenscapes VA',
+      url: SITE_URL,
+      logo: { '@type': 'ImageObject', url: `${SITE_URL}/logo.png` },
+    },
+  }
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema) }} />
       <Navbar />
       <main className="bg-[#050e07] min-h-screen pt-32 pb-24">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">

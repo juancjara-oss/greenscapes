@@ -4,9 +4,30 @@ import type { Metadata } from 'next'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
+const SITE_URL = 'https://greenscapesva.com'
+const OG_IMAGE = `${SITE_URL}/assets/landscaping-after.webp`
+
 export const metadata: Metadata = {
   title: 'Blog – Lawn Care & Landscaping Tips | Greenscapes VA Roanoke',
   description: 'Expert lawn care and landscaping tips for homeowners in Roanoke, Virginia. Seasonal advice, how-to guides, and local insights from Greenscapes VA.',
+  keywords: 'lawn care tips roanoke va, landscaping advice roanoke virginia, roanoke lawn care guide, lawn care blog virginia',
+  alternates: {
+    canonical: `${SITE_URL}/blog`,
+  },
+  openGraph: {
+    type: 'website',
+    url: `${SITE_URL}/blog`,
+    siteName: 'Greenscapes VA',
+    title: 'Blog – Lawn Care & Landscaping Tips | Greenscapes VA Roanoke',
+    description: 'Expert lawn care and landscaping tips for homeowners in Roanoke, Virginia. Seasonal advice, how-to guides, and local insights.',
+    images: [{ url: OG_IMAGE, width: 800, height: 600, alt: 'Greenscapes VA – Lawn Care Blog' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Blog – Lawn Care & Landscaping Tips | Greenscapes VA Roanoke',
+    description: 'Expert lawn care and landscaping tips for homeowners in Roanoke, Virginia. Seasonal advice, how-to guides, and local insights.',
+    images: [OG_IMAGE],
+  },
 }
 
 export default function BlogPage() {

@@ -6,6 +6,9 @@ import type { Metadata } from 'next'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
+const SITE_URL = 'https://greenscapesva.com'
+const OG_IMAGE = `${SITE_URL}/assets/landscaping-after.webp`
+
 export function generateStaticParams() {
   return getAllLocationSlugs().map((slug) => ({ slug }))
 }
@@ -13,10 +16,26 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const location = getLocationPageBySlug(params.slug)
   if (!location) return {}
+  const url = `${SITE_URL}/locations/${params.slug}`
   return {
     title: location.metaTitle,
     description: location.metaDescription,
     keywords: location.keywords,
+    alternates: { canonical: url },
+    openGraph: {
+      type: 'website',
+      url,
+      siteName: 'Greenscapes VA',
+      title: location.metaTitle,
+      description: location.metaDescription,
+      images: [{ url: OG_IMAGE, width: 800, height: 600, alt: `Lawn Care & Landscaping in ${location.city}, ${location.state} – Greenscapes VA` }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: location.metaTitle,
+      description: location.metaDescription,
+      images: [OG_IMAGE],
+    },
   }
 }
 

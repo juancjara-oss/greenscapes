@@ -5,6 +5,9 @@ import type { Metadata } from 'next'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
+const SITE_URL = 'https://greenscapesva.com'
+const OG_IMAGE = `${SITE_URL}/assets/landscaping-after.webp`
+
 export function generateStaticParams() {
   return getAllServiceSlugs().map((slug) => ({ slug }))
 }
@@ -12,10 +15,26 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const service = getServicePageBySlug(params.slug)
   if (!service) return {}
+  const url = `${SITE_URL}/services/${params.slug}`
   return {
     title: service.metaTitle,
     description: service.metaDescription,
     keywords: service.keywords,
+    alternates: { canonical: url },
+    openGraph: {
+      type: 'website',
+      url,
+      siteName: 'Greenscapes VA',
+      title: service.metaTitle,
+      description: service.metaDescription,
+      images: [{ url: OG_IMAGE, width: 800, height: 600, alt: `${service.name} – Greenscapes VA Roanoke` }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: service.metaTitle,
+      description: service.metaDescription,
+      images: [OG_IMAGE],
+    },
   }
 }
 
