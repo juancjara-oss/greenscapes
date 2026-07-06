@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { FaYelp } from 'react-icons/fa'
 
 const quickLinks = ['Services', 'Portfolio', 'About', 'Contact']
 
@@ -38,7 +39,7 @@ export default function Footer() {
                 href="https://www.facebook.com/GreenScapesVA"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-white/35 hover:border-[#39ff14] hover:text-[#39ff14] transition-all duration-300 text-xs font-poppins font-black"
+                className="w-10 h-10 rounded-full border border-[#1877F2]/40 flex items-center justify-center text-[#1877F2]/70 hover:border-[#1877F2] hover:text-[#1877F2] transition-all duration-300 text-xs font-poppins font-black"
               >
                 f
               </a>
@@ -46,7 +47,7 @@ export default function Footer() {
                 href="https://www.instagram.com/greenscapesva"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-white/35 hover:border-[#39ff14] hover:text-[#39ff14] transition-all duration-300 text-xs font-poppins font-black"
+                className="w-10 h-10 rounded-full border border-[#E1306C]/40 flex items-center justify-center text-[#E1306C]/70 hover:border-[#E1306C] hover:text-[#E1306C] transition-all duration-300 text-xs font-poppins font-black"
               >
                 ig
               </a>
@@ -54,9 +55,25 @@ export default function Footer() {
                 href="https://www.youtube.com/@greenscapesvalawncare780"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-white/35 hover:border-[#39ff14] hover:text-[#39ff14] transition-all duration-300 text-xs font-poppins font-black"
+                className="w-10 h-10 rounded-full border border-[#FF0000]/40 flex items-center justify-center text-[#FF0000]/70 hover:border-[#FF0000] hover:text-[#FF0000] transition-all duration-300 text-xs font-poppins font-black"
               >
                 ▶
+              </a>
+              <a
+                href="https://www.yelp.com/biz/greenscapes-va-roanoke-4"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full border border-[#d32323]/40 flex items-center justify-center text-[#d32323]/70 hover:border-[#d32323] hover:text-[#d32323] transition-all duration-300"
+              >
+                <FaYelp className="w-4 h-4" />
+              </a>
+              <a
+                href="https://www.homeadvisor.com/rated.GreenScapesVALtd.29799529.html?spId=29799529&preview=true"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full border border-[#F96302]/40 flex items-center justify-center text-[#F96302]/70 hover:border-[#F96302] hover:text-[#F96302] transition-all duration-300 text-xs font-poppins font-black tracking-tight"
+              >
+                Angi
               </a>
             </div>
           </div>
