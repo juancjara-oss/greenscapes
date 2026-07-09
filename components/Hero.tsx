@@ -51,7 +51,10 @@ export default function Hero() {
           </span>
         </h1>
 
-        <p className="text-lg sm:text-2xl text-[#f97316] font-poppins font-semibold mb-10 hero-fade-3">
+        <p className="text-lg sm:text-2xl text-[#f97316] font-poppins font-semibold mb-2 hero-fade-3">
+          Lawn Care &amp; Landscaping in Roanoke, Virginia
+        </p>
+        <p className="text-base sm:text-lg text-white/70 font-poppins font-medium mb-10 hero-fade-3">
           Roanoke Virginia&apos;s Premier Grounds Maintenance
         </p>
 

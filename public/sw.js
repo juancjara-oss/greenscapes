@@ -1,7 +1,7 @@
 // ─── Greenscapes VA — Service Worker ────────────────────────────────────────
 // Version is auto-replaced by scripts/update-sw-version.js on every build.
 // DO NOT edit CACHE_VERSION manually.
-const CACHE_VERSION = 'v1783346605741'
+const CACHE_VERSION = 'v1783586547867'
 const CACHE_NAME = `greenscapes-${CACHE_VERSION}`
 
 // ── Install: activate immediately, no waiting ────────────────────────────────

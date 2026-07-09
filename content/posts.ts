@@ -705,6 +705,82 @@ export const posts: Post[] = [
       <p>Need help getting your Roanoke property ready for winter? Greenscapes VA offers complete fall cleanup and winterization services. Contact us at <strong>(540) 798-4479</strong> or email <strong>prettylawn@greenscapesva.com</strong> for a free estimate.</p>
     `,
   },
+  {
+    slug: 'lawn-care-cost-roanoke-va',
+    title: 'How Much Does Lawn Care Cost in Roanoke, VA? A Real Pricing Breakdown',
+    date: '2026-07-09',
+    excerpt: 'Lawn care pricing in Roanoke varies more than most homeowners expect. Here\'s what actually drives the cost of mowing, fertilization, and full-service maintenance plans.',
+    readTime: '6 min read',
+    category: 'Buying Guides',
+    keywords: 'lawn care cost roanoke va, how much does lawn mowing cost roanoke, lawn care prices roanoke virginia, lawn maintenance pricing roanoke',
+    content: `
+      <p>One of the most common questions we get from Roanoke homeowners is simple: what does lawn care actually cost? The honest answer is "it depends" — but that's not a very useful answer, so here's a real breakdown of what drives pricing for mowing, seasonal programs, and full-service maintenance in the Roanoke Valley.</p>
+
+      <h2>Weekly Mowing: The Baseline Cost</h2>
+      <p>For a typical quarter-acre to half-acre residential lot in Roanoke, Salem, or Vinton, weekly mowing and edging generally falls in a moderate range that scales with lot size, terrain, and how many obstacles (beds, trees, slopes) the crew has to work around. Bi-weekly service costs more per visit than weekly, since the grass has grown more and takes longer to cut and clean up — a detail that surprises a lot of homeowners who assume less-frequent visits are automatically cheaper overall.</p>
+
+      <h2>What Actually Moves the Price</h2>
+      <ul>
+        <li><strong>Lot size and grass area</strong> — the single biggest factor. A flat, open half-acre costs less to mow than a smaller but heavily obstructed quarter-acre.</li>
+        <li><strong>Terrain and slope</strong> — Roanoke and Botetourt County properties with hills or drainage-heavy areas take longer and often require different equipment.</li>
+        <li><strong>Number of beds and obstacles</strong> — every tree ring, flower bed, and fence line adds trimming time.</li>
+        <li><strong>Service frequency</strong> — weekly service in growing season keeps clippings manageable; skipping weeks increases per-visit time and cost.</li>
+        <li><strong>Add-ons bundled in</strong> — edging, blowing off hard surfaces, and clipping cleanup are usually included, but confirm this before comparing quotes.</li>
+      </ul>
+
+      <h2>Seasonal Services and What They Add</h2>
+      <p>Beyond mowing, most Roanoke lawns benefit from a handful of seasonal services, each priced separately or bundled into an annual program:</p>
+      <ul>
+        <li><strong>Core aeration and overseeding</strong> (fall) — typically a once-a-year cost, priced by lawn square footage.</li>
+        <li><strong>Fertilization and weed control</strong> — usually sold as a multi-application seasonal program rather than a one-time service.</li>
+        <li><strong>Spring and fall cleanup</strong> — priced by the volume of leaves and debris, which varies a lot depending on tree cover.</li>
+        <li><strong>Mulch installation</strong> — priced by cubic yard plus labor, and varies with bed size and mulch type.</li>
+      </ul>
+
+      <h2>Why Quotes Vary So Much Between Companies</h2>
+      <p>If you've gotten wildly different quotes from different Roanoke lawn care companies for what sounds like the same job, it usually comes down to what's actually included. A lower quote might exclude edging, charge separately for clipping cleanup, or use a lower-grade mowing schedule that leaves the lawn looking rougher between visits. Always ask exactly what's included in a quoted price — same-week scheduling, licensed and insured crews, and satisfaction guarantees all affect value even when the sticker price looks similar.</p>
+
+      <h2>Getting an Accurate Quote</h2>
+      <p>Because lot size, terrain, and existing lawn condition matter so much, the only way to get a truly accurate number is a free on-site or photo-based estimate — not a generic price list. Greenscapes VA provides free, no-obligation estimates for properties throughout Roanoke, Salem, Vinton, Daleville, and Botetourt County, with same-week scheduling in most cases.</p>
+
+      <p>Want a real number for your property? Call <strong>(540) 798-4479</strong> or email <strong>prettylawn@greenscapesva.com</strong> for a free estimate — no pressure, no hidden fees.</p>
+    `,
+  },
+  {
+    slug: 'how-to-choose-lawn-care-company-roanoke-va',
+    title: 'How to Choose a Lawn Care Company in Roanoke, VA',
+    date: '2026-07-09',
+    excerpt: 'Roanoke has no shortage of lawn care options. Here\'s what to actually check before you hire one — licensing, insurance, scheduling reliability, and the questions most homeowners forget to ask.',
+    readTime: '5 min read',
+    category: 'Buying Guides',
+    keywords: 'best lawn care company roanoke va, how to choose lawn care roanoke, lawn care company roanoke virginia reviews, hiring lawn care roanoke',
+    content: `
+      <p>Roanoke has a lot of lawn care and landscaping options — from national franchises to one-truck operators to established local companies that have been around for decades. That variety is good for homeowners, but it also makes it harder to know who's actually going to show up reliably and do quality work. Here's what to check before you hire.</p>
+
+      <h2>Licensed, Insured, and Bonded</h2>
+      <p>This is non-negotiable. If a crew is injured on your property or damages something while working, an uninsured company can leave you exposed. Ask directly for proof of licensing and insurance — a legitimate local company will have this ready to share without hesitation.</p>
+
+      <h2>Local vs. Franchise vs. One-Person Operation</h2>
+      <p>Each has trade-offs. National franchises often have more standardized pricing and marketing, but less flexibility and a call center between you and the crew. One-person or very small operations can be affordable and personal, but may struggle with consistency if the owner is out sick, on vacation, or overloaded. Established local companies — especially ones that have been serving the Roanoke Valley for several years — tend to offer the best balance: enough crew capacity for reliable scheduling, but still accountable and reachable directly.</p>
+
+      <h2>Questions Worth Asking Before You Hire</h2>
+      <ul>
+        <li><strong>Who do I actually talk to if there's a problem?</strong> — A direct line to the owner or a dedicated contact beats a general call center.</li>
+        <li><strong>What's included in the quoted price?</strong> — Edging, blowing off hard surfaces, and clipping cleanup should be standard, not upsells.</li>
+        <li><strong>What happens if I'm not satisfied with a visit?</strong> — Reputable companies will come back and fix it, not just apologize.</li>
+        <li><strong>How far in advance do you schedule, and what's your rain policy?</strong> — Reliability during Roanoke's unpredictable spring and summer weather matters more than most homeowners expect going in.</li>
+        <li><strong>Do you offer both one-time and recurring service?</strong> — Flexibility matters if your needs change seasonally.</li>
+      </ul>
+
+      <h2>Read Reviews, But Read Them Carefully</h2>
+      <p>A handful of five-star reviews doesn't tell you much. Look for reviews that mention specifics — consistency over multiple seasons, how the company handled a mistake, or communication quality — rather than generic praise. Google Business Profile, Angi, and BBB accreditation are all worth checking, and a company with a genuine multi-year track record in the Roanoke Valley specifically (not just a regional or national brand with a Roanoke branch) usually has the most to lose by cutting corners.</p>
+
+      <h2>Same-Week Response Matters More Than It Sounds</h2>
+      <p>Roanoke's growing season moves fast, and a lawn that gets away from you for two extra weeks because a company is backed up can take a full season to recover its appearance. Ask any company you're considering how quickly they can typically get out for an estimate and start service — same-week response should be the expectation, not a bonus.</p>
+
+      <p>Greenscapes VA has served Roanoke, Salem, Vinton, Daleville, and Botetourt County since 2013 — locally owned, fully licensed and insured, with same-week estimates in most cases. Call <strong>(540) 798-4479</strong> or email <strong>prettylawn@greenscapesva.com</strong> to see the difference for yourself.</p>
+    `,
+  },
 ]
 
 export function getPublishedPosts(): Post[] {
