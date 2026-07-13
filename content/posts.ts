@@ -11,6 +11,142 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: 'dethatching-lawn-roanoke-va',
+    title: 'Dethatching Your Lawn: When and How in Roanoke, VA',
+    date: '2026-08-24',
+    excerpt: 'Too much thatch chokes a healthy lawn from below. Here\'s how to tell if your Roanoke lawn needs dethatching, and the right way to do it without causing more damage than good.',
+    readTime: '5 min read',
+    category: 'Lawn Care',
+    keywords: 'dethatching lawn roanoke va, lawn thatch removal roanoke virginia, when to dethatch lawn roanoke, power raking roanoke va',
+    content: `
+      <p>A thin layer of thatch is normal and even beneficial for a Roanoke lawn — it insulates the soil and holds a little moisture during dry stretches. But when that layer builds up past a half inch, it stops helping and starts choking the grass growing above it. Dethatching is the fix, and like most lawn care tasks in our transition-zone climate, timing determines whether it helps or hurts.</p>
+
+      <h2>What Is Thatch, and When Does It Become a Problem?</h2>
+      <p>Thatch is the layer of dead stems, roots, and organic debris that builds up between the soil surface and the green blades of grass. A small amount decomposes naturally and adds organic matter to Roanoke's clay-heavy soils. Problems start when thatch accumulates faster than it breaks down — typically from overwatering, over-fertilizing, or infrequent mowing that lets clippings pile up unevenly. Once thatch exceeds about three-quarters of an inch, it blocks water, air, and nutrients from reaching the root zone, and it creates a favorable environment for insects and fungal disease.</p>
+
+      <h2>Signs Your Roanoke Lawn Needs Dethatching</h2>
+      <ul>
+        <li><strong>Spongy feel underfoot</strong> — Walking across the lawn feels bouncy or soft, as if you're stepping on a mat rather than solid ground.</li>
+        <li><strong>Water runs off instead of soaking in</strong> — A thick thatch layer sheds water rather than letting it penetrate to the roots.</li>
+        <li><strong>Grass looks thin despite regular fertilizing</strong> — Nutrients are getting trapped in the thatch layer instead of reaching the soil.</li>
+        <li><strong>Visible brown, spongy layer when you cut a plug</strong> — Slice out a small section of turf with a knife and look at the cross-section between soil and green blades.</li>
+      </ul>
+
+      <h2>Dethatching vs. Aeration — Not the Same Fix</h2>
+      <p>Homeowners often confuse the two, but they solve different problems. Aeration relieves soil compaction by pulling small plugs of soil out of the ground. Dethatching physically removes the dead organic layer sitting on top of the soil, using a power rake or dethatching machine with vertical blades. A lawn can need one, the other, or both — a thin, compacted lawn with heavy thatch buildup benefits most from doing both in the same fall service window.</p>
+
+      <h2>How to Dethatch Without Damaging Your Lawn</h2>
+      <p>Dethatching is an aggressive process, and doing it at the wrong time or too often can do more harm than the thatch itself. For tall fescue — the dominant grass in Roanoke, Salem, and Vinton yards — a light dethatching pass is usually enough; save the heaviest power-raking settings for lawns with severe buildup. Always dethatch when the grass is actively growing, never during summer heat stress, and follow up immediately with overseeding and a light fertilization to help the lawn recover and fill back in.</p>
+
+      <h2>When to Dethatch in Roanoke</h2>
+      <p>Early fall — <strong>September into early October</strong> — is the best window for tall fescue lawns in our area, the same window that works well for aeration and overseeding. Dethatching in spring is possible but riskier, since it opens the lawn up right before summer heat arrives. Avoid dethatching in July or August altogether; a heat-stressed lawn has little capacity to recover from the disturbance.</p>
+
+      <p>If your lawn feels spongy or has stopped responding to regular fertilizing, Greenscapes VA can check thatch depth and recommend the right combination of dethatching, aeration, and overseeding for your property. We serve Roanoke, Salem, Vinton, Daleville, and Botetourt County. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> for a free lawn evaluation.</p>
+    `,
+  },
+  {
+    slug: 'drought-tolerant-native-plants-roanoke-va',
+    title: 'Drought-Tolerant and Native Plants for Roanoke, VA Landscapes',
+    date: '2026-08-31',
+    excerpt: 'Choosing plants built for the Roanoke Valley\'s soil and climate means less watering and less replacement after a rough summer. Here\'s what actually performs.',
+    readTime: '5 min read',
+    category: 'Landscaping',
+    keywords: 'drought tolerant plants roanoke va, native plants roanoke virginia, low maintenance landscaping roanoke, native landscaping roanoke va',
+    content: `
+      <p>Roanoke's summers bring stretches of heat and dry weather that put heavy demands on thirsty, high-maintenance plantings. Choosing drought-tolerant and native plant species for your landscape beds means less watering, less replacement after a rough summer, and a yard that actually looks better suited to where it is. Here's what performs well in the Roanoke Valley.</p>
+
+      <h2>Why Native and Drought-Tolerant Plants Make Sense in Roanoke</h2>
+      <p>Plants native to the Blue Ridge and Roanoke Valley region evolved alongside our clay-heavy soils, humid summers, and freeze-thaw winters — they don't need the babying that many ornamental imports do. Beyond lower water bills, native plantings typically need less fertilizer, resist local pests and disease better, and support the pollinators and birds that depend on regional plant species. For homeowners tired of replacing stressed-out annuals every year, switching even a portion of a landscape bed to natives is one of the highest-return changes you can make.</p>
+
+      <h2>Standout Native and Drought-Tolerant Choices for Roanoke Yards</h2>
+      <ul>
+        <li><strong>Black-eyed Susan</strong> — Extremely drought-tolerant once established, blooms all summer, and self-seeds readily in sunny Roanoke beds.</li>
+        <li><strong>Coneflower (Echinacea)</strong> — Deep taproots make it one of the toughest perennials for dry, sunny spots, and it draws pollinators heavily.</li>
+        <li><strong>Switchgrass and little bluestem</strong> — Native ornamental grasses that handle heat, drought, and Roanoke's clay soil without irrigation once rooted in.</li>
+        <li><strong>Eastern red cedar and inkberry holly</strong> — Drought-tolerant native shrubs and small trees that provide structure and winter interest without demanding attention.</li>
+        <li><strong>Butterfly weed</strong> — A milkweed species that thrives in poor, dry soil and is a host plant for monarch butterflies.</li>
+        <li><strong>Yarrow and sedum</strong> — Low-growing, extremely drought-tolerant groundcovers well suited to sunny slopes and foundation beds.</li>
+      </ul>
+
+      <h2>Designing With Natives Without Losing a Polished Look</h2>
+      <p>A common concern is that native plantings look "wild" compared to traditional foundation beds. The fix is in the layout, not the plant list: use natives in structured drifts and repeat groupings rather than one of everything, keep a clean mulched edge along the bed line, and mix in a few evergreen anchor plants for winter structure. Done this way, native beds read as intentional and well-designed — not overgrown — even to neighbors who wouldn't otherwise notice the difference.</p>
+
+      <h2>Where Drought-Tolerant Plantings Make the Biggest Difference in Roanoke</h2>
+      <p>Full-sun slopes, foundation beds facing south or west, and areas far from an irrigation zone are the best candidates for converting to drought-tolerant species. These are exactly the spots where traditional plantings struggle most during Roanoke's July and August dry spells, and where the water savings add up fastest.</p>
+
+      <h2>Getting Started Without Replacing Everything at Once</h2>
+      <p>You don't need to rip out an entire landscape to benefit. Start with the bed that struggles most every summer, or the area that costs the most in supplemental watering, and phase in native and drought-tolerant replacements as older plants decline. Over a few seasons, most Roanoke properties can shift to a landscape that needs meaningfully less water and maintenance without ever looking like a single big renovation happened.</p>
+
+      <p>Greenscapes VA designs and installs native and drought-tolerant plantings for properties throughout Roanoke, Salem, Vinton, Daleville, and Botetourt County. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> for a free landscape consultation.</p>
+    `,
+  },
+  {
+    slug: 'retaining-wall-cost-design-roanoke-va',
+    title: 'Retaining Wall Design and Cost Guide for Sloped Roanoke, VA Yards',
+    date: '2026-09-07',
+    excerpt: 'A well-built retaining wall stops erosion and creates usable flat space on a hillside lot. Here\'s what actually drives the design and cost of a wall in the Roanoke area.',
+    readTime: '5 min read',
+    category: 'Hardscaping',
+    keywords: 'retaining wall cost roanoke va, retaining wall installation roanoke virginia, sloped yard landscaping roanoke, retaining wall design roanoke',
+    content: `
+      <p>Roanoke's hills give the area its character, but they also leave a lot of yards dealing with erosion, runoff, and unusable sloped ground. A well-built retaining wall solves all three problems at once — and unlike most landscaping investments, it's one that keeps working with almost no maintenance for decades. Here's what actually drives the design and cost of a retaining wall in the Roanoke area.</p>
+
+      <h2>What a Retaining Wall Actually Solves</h2>
+      <p>Beyond looks, a retaining wall holds back soil on a slope, which stops erosion from washing mulch, topsoil, and plants downhill every time it rains. It also creates flat, usable space on a lot that would otherwise be too steep to plant, entertain on, or even mow safely. For many Roanoke and Botetourt County properties built into hillsides, a retaining wall is what turns an unusable side yard into a real extension of the property.</p>
+
+      <h2>Materials: What Roanoke Homeowners Actually Choose</h2>
+      <ul>
+        <li><strong>Segmental concrete block</strong> — The most common choice for walls under 4 feet. Interlocking blocks are durable, relatively affordable, and available in enough styles and colors to match most home exteriors.</li>
+        <li><strong>Natural stone</strong> — Fieldstone or Roanoke Valley limestone gives a higher-end, natural look that suits older neighborhoods and wooded lots, at a higher material and labor cost than block.</li>
+        <li><strong>Poured concrete</strong> — Used mainly for taller engineered walls where strength requirements exceed what modular block can handle safely.</li>
+        <li><strong>Timber</strong> — Lower upfront cost but a shorter lifespan in Roanoke's wet clay soils; timber walls typically need replacement well before block or stone walls do.</li>
+      </ul>
+
+      <h2>What Drives the Cost</h2>
+      <p>Wall height is the biggest factor — cost per square face-foot rises sharply once a wall exceeds about 3 feet, because taller walls require engineered drainage, geogrid soil reinforcement, and often a permit. Beyond height, the biggest cost drivers are soil conditions and access (how far materials have to be moved to reach the site), the amount of excavation and backfill required, and whether drainage — a gravel base, perforated pipe, and proper backfill — needs to be built in from scratch or is already partially in place. Any retaining wall over roughly 3 feet in Virginia should be professionally engineered; a failed wall is far more expensive to fix than to build correctly the first time.</p>
+
+      <h2>Drainage Is the Part Most DIY Walls Get Wrong</h2>
+      <p>The single most common reason retaining walls fail isn't the blocks or the stone — it's water pressure building up behind the wall with nowhere to go. A proper wall includes a compacted gravel base, a perforated drain pipe daylighted to the surface, and free-draining backfill material behind the entire wall face. Skipping any one of these is the shortcut that leads to bulging, leaning, or collapsed walls within a few years, especially in Roanoke's heavy clay soil, which holds water against a wall far more aggressively than sandy soil would.</p>
+
+      <h2>Planning Your Retaining Wall Project</h2>
+      <p>Walk your slope and note where water currently flows and pools during rain — that tells you where drainage needs to be routed, not just where the wall needs to go. Combine the wall project with grading, so water is directed away from your foundation and any new flat area actually stays dry and usable.</p>
+
+      <p>Greenscapes VA designs and builds retaining walls throughout Roanoke, Salem, Vinton, Daleville, and Botetourt County, with proper engineering and drainage built into every project. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> for a free on-site estimate.</p>
+    `,
+  },
+  {
+    slug: 'sprinkler-system-repair-roanoke-va',
+    title: 'Common Sprinkler System Problems and How to Fix Them in Roanoke, VA',
+    date: '2026-09-14',
+    excerpt: 'From heads that won\'t pop up to a climbing water bill with no obvious cause, here\'s how to diagnose the most common irrigation problems on Roanoke properties.',
+    readTime: '5 min read',
+    category: 'Irrigation',
+    keywords: 'sprinkler repair roanoke va, irrigation troubleshooting roanoke virginia, broken sprinkler head roanoke, irrigation system repair roanoke va',
+    content: `
+      <p>An irrigation system is supposed to take the guesswork out of watering — until something goes wrong and you're left with a soggy patch, a dry patch, or a water bill that doesn't make sense. Most sprinkler problems on Roanoke systems fall into a handful of predictable categories, and most are straightforward to diagnose once you know what to look for.</p>
+
+      <h2>Sprinkler Heads Not Popping Up (or Not Retracting)</h2>
+      <p>A head that won't rise usually means debris or dirt is jammed in the housing, or the head itself is damaged internally. A head that pops up but won't retract is often stuck on grit that's worked into the mechanism over a season of mowing and lawn care activity around it. In both cases, the fix is usually cleaning or replacing the individual head — an inexpensive repair if caught before it wastes a season of water on a dry zone.</p>
+
+      <h2>Uneven Coverage — Brown Strips or Soggy Spots</h2>
+      <p>If some areas of the lawn stay lush while others go brown, the most common cause is head spacing or a clogged or misaligned nozzle rather than a problem with the whole zone. Sprinkler heads are designed to overlap coverage — commonly called "head-to-head" spacing — so if a head is blocked by overgrown landscaping, sunk below grade, or simply pointed the wrong direction after being bumped by a mower, the areas between heads go dry while the areas directly hit stay wet.</p>
+
+      <h2>A Zone That Won't Turn On</h2>
+      <p>When an entire zone fails to run, the issue is usually electrical rather than mechanical — a bad solenoid at the valve, a wiring break (often from a shovel or aerator during other yard work), or a failed connection at the controller. Roanoke's clay soil holds moisture around buried wire splices longer than sandy soil would, which accelerates corrosion at old or poorly sealed connections over time.</p>
+
+      <h2>Water Pooling or Runoff During Watering</h2>
+      <p>If water runs off the lawn onto the driveway or sidewalk before it has time to soak in, the system is likely applying water faster than Roanoke's clay soil can absorb it. The fix is usually a cycle-and-soak adjustment on the controller — splitting one long watering cycle into two or three shorter cycles with a soak break between them — rather than assuming the system itself is broken.</p>
+
+      <h2>Higher Water Bills With No Obvious Cause</h2>
+      <p>A slow leak underground doesn't always show up as a visible wet spot. A gradually climbing water bill, combined with a soft or unusually green patch of lawn near a valve box or main line, is a common early sign of an underground leak. Left unaddressed, these leaks waste water continuously and can eventually undermine the soil around a driveway or foundation.</p>
+
+      <h2>When to Call a Professional</h2>
+      <p>Head cleaning and simple nozzle swaps are reasonable DIY fixes. Electrical issues, valve failures, and anything involving the backflow preventer or main line are worth having a professional diagnose — both because Virginia code has specific requirements for backflow devices, and because a misdiagnosed electrical issue can mean digging in the wrong spot entirely.</p>
+
+      <p>Greenscapes VA services and repairs irrigation systems throughout Roanoke, Salem, Vinton, Daleville, and Botetourt County, from single head replacements to full system diagnostics. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> to get a sprinkler problem fixed before it wastes another season of water.</p>
+    `,
+  },
+  {
     slug: 'spring-lawn-care-checklist-roanoke-va',
     title: 'Spring Lawn Care Checklist for Roanoke, VA Homeowners',
     date: '2026-08-17',
