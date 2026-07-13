@@ -11,6 +11,40 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: 'drought-recovery-aeration-overseeding-roanoke-va',
+    title: 'Why This Summer\'s Drought Means Your Roanoke Lawn Needs Aeration and Overseeding This Fall',
+    date: '2026-07-13',
+    excerpt: 'The dry stretch we\'re in right now is doing real damage to Roanoke lawns. Here\'s why that makes fall aeration and overseeding more important than ever this year — and why booking early matters.',
+    readTime: '5 min read',
+    category: 'Seasonal Tips',
+    keywords: 'lawn drought recovery roanoke va, aeration overseeding after drought roanoke, schedule fall lawn renovation roanoke virginia, drought damaged lawn roanoke va',
+    content: `
+      <p>If your lawn in Roanoke, Salem, or Vinton looks worse right now than it has in years, you're not imagining it. The extended dry stretch we're in the middle of is putting real stress on tall fescue lawns across the Valley, and the damage doesn't fully show up until weeks after the heat and lack of rain actually hit. This year, fall aeration and overseeding aren't just routine maintenance — they're recovery work, and the sooner you get on the schedule, the better your lawn's chances heading into next spring.</p>
+
+      <h2>Why This Drought Is Hitting Roanoke Lawns Harder Than Usual</h2>
+      <p>Tall fescue can survive short dry spells by going semi-dormant — the blades brown out, but the crown stays alive underground and the plant recovers once water returns. The problem is when dormancy stretches on too long, or when it lands on top of soil that was already compacted or thin going into summer. In that situation, the crown itself starts to die, not just the visible blades, and no amount of rain or watering afterward brings a dead plant back. What looks like a lawn that "should just green back up" often has real, permanent thinning underneath.</p>
+
+      <h2>Drought Dormancy vs. Drought Death — How to Tell the Difference</h2>
+      <p>Tug gently on a handful of brown grass. If it resists and stays rooted, the crown is likely still alive and dormant — it should recover with fall rain and cooler temperatures. If the blades pull free easily with no resistance, that patch has died and won't come back on its own. Most drought-stressed Roanoke lawns right now are a mix of both: some areas genuinely dormant, others quietly dead. The dead patches are exactly where fall overseeding needs to happen, and the extent of the damage is usually much larger than it looks from the porch.</p>
+
+      <h2>Why Aeration Matters More This Year, Not Less</h2>
+      <p>Dry soil compacts harder than moist soil, and a summer of drought stress leaves Roanoke's clay-heavy ground denser than usual by the time fall arrives. That compacted layer is exactly what stops water, air, and new seed from reaching the root zone — which means a lawn that's already thin from drought damage has an even harder time recovering without aeration first. Skipping aeration this fall and overseeding straight into hard, compacted soil is one of the most common reasons a "recovery" overseeding barely takes.</p>
+
+      <h2>Why Booking Early Matters This Particular Year</h2>
+      <p>A drought summer like this one means a lot more Roanoke lawns will need serious fall renovation work at the same time, and the ideal overseeding window for tall fescue — mid-September through mid-October — doesn't stretch to accommodate demand. Crews and schedules fill up fastest in years like this one. Getting your property assessed and booked in July or August, well before the window opens, means your lawn gets aerated and seeded at the right time instead of squeezed in late, when seedlings have less time to establish before the first frost.</p>
+
+      <h2>What to Do Right Now, Before Fall Arrives</h2>
+      <ul>
+        <li><strong>Don't panic-fertilize or heavily water a dormant lawn</strong> — pushing growth on a heat-stressed plant right now does more harm than good. Keep the crown alive with occasional deep watering rather than trying to force it green.</li>
+        <li><strong>Avoid mowing scalped, dormant grass short</strong> — leave it tall to protect what's left of the crown until active growth resumes.</li>
+        <li><strong>Get an assessment now</strong> — knowing which areas are dormant versus dead determines how much seed and aeration your lawn actually needs, and that's easier to plan for before the fall rush.</li>
+        <li><strong>Reserve your fall slot early</strong> — in a drought year, this is the single biggest factor in whether your lawn gets the timing it needs to fully recover before winter.</li>
+      </ul>
+
+      <p>Greenscapes VA is already assessing drought damage and booking fall aeration and overseeding for properties throughout Roanoke, Salem, Vinton, Daleville, and Botetourt County. If your lawn has taken a hit this summer, don't wait until September to start the conversation. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> to get on the schedule now.</p>
+    `,
+  },
+  {
     slug: 'dethatching-lawn-roanoke-va',
     title: 'Dethatching Your Lawn: When and How in Roanoke, VA',
     date: '2026-08-24',
