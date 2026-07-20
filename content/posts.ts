@@ -11,6 +11,143 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: 'grub-control-lawn-roanoke-va',
+    title: 'White Grubs in Roanoke Lawns: How to Spot, Treat, and Prevent Grub Damage',
+    date: '2026-09-21',
+    excerpt: 'If patches of your lawn peel back like carpet or the local wildlife is digging it up overnight, white grubs are the likely cause. Here\'s how to identify and control them in Roanoke.',
+    readTime: '5 min read',
+    category: 'Lawn Care',
+    keywords: 'grub control roanoke va, white grubs lawn roanoke virginia, lawn grub treatment roanoke, grub damage lawn roanoke va',
+    content: `
+      <p>You fertilized, you watered, you mowed high — and yet sections of your Roanoke lawn are turning brown and dying in late summer, with the dead grass lifting up like loose carpet. Before you blame drought or disease, check for white grubs. These plump, C-shaped larvae feed on grass roots just below the surface, and by the time the damage shows, a serious infestation is often already underway. Here's how to identify, treat, and prevent grub problems on lawns across Roanoke, Salem, and Vinton.</p>
+
+      <h2>What White Grubs Actually Are</h2>
+      <p>The grubs damaging Roanoke lawns are the larval stage of several beetles — most commonly Japanese beetles, June beetles, and masked chafers. Adults lay eggs in the soil in early to midsummer, and the larvae hatch and begin feeding on grass roots through late summer and into fall. Because they eat the roots, an infested lawn loses its ability to take up water and nutrients, which is why grub damage often looks like drought stress at first. The larvae are creamy white with brown heads and curl into a distinctive C shape when disturbed.</p>
+
+      <h2>Signs of a Grub Problem</h2>
+      <ul>
+        <li><strong>Turf that lifts like loose carpet</strong> — With the roots chewed away, dead patches peel back easily from the soil with a gentle tug.</li>
+        <li><strong>Irregular brown patches in late summer</strong> — Grub damage tends to spread in expanding, irregular shapes rather than the neat circles of brown patch fungus.</li>
+        <li><strong>Animals digging up the lawn</strong> — Skunks, raccoons, and birds tearing up sections of turf overnight are feeding on the grubs beneath. This is one of the most reliable early warning signs in the Roanoke Valley.</li>
+        <li><strong>A spongy feel underfoot</strong> — Heavily fed-on turf loses its root anchor and feels loose or soft.</li>
+      </ul>
+
+      <h2>How to Confirm You Have Grubs</h2>
+      <p>Don't treat based on brown patches alone — confirm first. Cut a one-foot-square flap of turf about two inches deep at the edge of a damaged area and fold it back. Count the grubs in that square foot. A healthy lawn can tolerate a few; the threshold for treatment is generally more than <strong>five to ten grubs per square foot</strong>. Fewer than that, and the better move is to strengthen the lawn rather than spray. Check several spots, since grubs cluster unevenly across a property.</p>
+
+      <h2>Treatment Options</h2>
+      <p>Timing determines which product works. Preventive grub-control products containing imidacloprid or chlorantraniliprole are applied in late spring to early summer, before eggs hatch, and protect the lawn all season — this is the most reliable approach for lawns with a history of grubs. Curative products containing trichlorfon are used when you already have active, feeding grubs in late summer or early fall, the situation most Roanoke homeowners discover. Water any grub treatment in thoroughly so it reaches the larvae in the root zone. Once cold weather drives grubs deeper for winter, treatment becomes ineffective until the following season.</p>
+
+      <h2>Preventing Grubs Long-Term</h2>
+      <p>A dense, deeply rooted tall fescue lawn tolerates grub feeding far better than a thin, shallow-rooted one. Mowing high at 3.5 to 4.5 inches, watering deeply but infrequently to drive roots down, and keeping the lawn thick through fall aeration and overseeding all reduce how much visible damage grubs can do. Because Japanese beetles are so common across Roanoke and Botetourt County, properties with recurring beetle activity in the flower beds are the ones most worth putting on a preventive grub program.</p>
+
+      <p>If your lawn is browning in patches and lifting from the soil, Greenscapes VA can confirm whether grubs are the cause and put the right treatment and prevention plan in place for your property throughout Roanoke, Salem, Vinton, Daleville, and Botetourt County. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> for a free lawn evaluation.</p>
+    `,
+  },
+  {
+    slug: 'paver-patio-cost-installation-roanoke-va',
+    title: 'Paver Patio Installation and Cost Guide for Roanoke, VA Homeowners',
+    date: '2026-09-28',
+    excerpt: 'A paver patio adds usable living space and lasting value — but only when the base is built right. Here\'s what drives the design, cost, and durability of a paver patio in the Roanoke area.',
+    readTime: '5 min read',
+    category: 'Hardscaping',
+    keywords: 'paver patio cost roanoke va, patio installation roanoke virginia, paver patio roanoke, backyard patio installation roanoke va',
+    content: `
+      <p>A well-built paver patio is one of the highest-value additions you can make to a Roanoke property. It turns unused backyard into an outdoor living space, requires almost no maintenance for decades, and holds up to our freeze-thaw winters far better than a poured slab. But the difference between a patio that stays flat for 25 years and one that heaves and shifts within a few is almost entirely in the base — the part you never see. Here's what actually drives the design, cost, and durability of a paver patio in the Roanoke Valley.</p>
+
+      <h2>Why Pavers Over Poured Concrete in Roanoke</h2>
+      <p>Roanoke's clay soil expands when wet and contracts when dry, and our winters cycle repeatedly through freezing and thawing. A solid concrete slab has no way to flex with that movement, so it cracks — and once it cracks, the only fix is replacement. Interlocking pavers, by contrast, sit on a flexible compacted base and move slightly with the ground without failing. If a paver is ever damaged or stained, a single unit can be lifted and swapped rather than repairing an entire slab. That flexibility is exactly why pavers outperform concrete in our climate.</p>
+
+      <h2>The Base Is Everything</h2>
+      <p>The single biggest factor in whether a paver patio lasts is the excavation and base preparation beneath it. A proper installation removes 7 to 10 inches of native soil, then builds back up with a compacted gravel base, a bedding layer of sand, and finally the pavers, with polymeric sand swept into the joints. Each layer is compacted in stages. Skipping depth or compaction on Roanoke's clay is the most common reason patios sink, heave, and develop uneven, tripping surfaces within a few years. When you compare estimates, the base spec matters more than the paver style.</p>
+
+      <h2>What Drives the Cost</h2>
+      <ul>
+        <li><strong>Size and shape</strong> — Cost scales with square footage, and curves, borders, and multiple levels add labor over a simple rectangle.</li>
+        <li><strong>Paver material</strong> — Standard concrete pavers are the most affordable; tumbled, textured, or natural stone options cost more per square foot.</li>
+        <li><strong>Site access and grading</strong> — A sloped Roanoke lot, poor drainage, or a backyard that heavy equipment can't easily reach all raise the labor involved.</li>
+        <li><strong>Excavation and disposal</strong> — Hauling away excavated clay soil is a real cost that surprises many homeowners.</li>
+        <li><strong>Add-ons</strong> — Seat walls, fire pits, steps, and lighting are common upgrades that expand the project scope and budget.</li>
+      </ul>
+
+      <h2>Drainage and Slope: Don't Skip It</h2>
+      <p>A patio must be pitched to shed water away from the house — typically about a quarter inch of fall per foot. Get this wrong and water pools on the surface or, worse, runs back toward your foundation. On Roanoke properties with existing drainage issues or nearby downspouts, planning the patio's slope and any needed drainage together with the build is what keeps the finished space dry and usable.</p>
+
+      <h2>Planning Your Patio Project</h2>
+      <p>Think about how you'll actually use the space before settling on size — a dining set, a grill area, and a seating area each need room, and patios are almost always better slightly larger than you first imagine. Consider how the patio connects to the house and yard, and whether you'll want to add a fire pit, seat wall, or lighting later, since it's far cheaper to plan for those upfront than to retrofit them.</p>
+
+      <p>Greenscapes VA designs and installs paver patios with proper excavation, base preparation, and drainage built into every project across Roanoke, Salem, Vinton, Daleville, and Botetourt County. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> for a free on-site design consultation and estimate.</p>
+    `,
+  },
+  {
+    slug: 'fall-planting-trees-shrubs-roanoke-va',
+    title: 'Why Fall Is the Best Time to Plant Trees and Shrubs in Roanoke, VA',
+    date: '2026-10-05',
+    excerpt: 'Most homeowners plant in spring, but fall is actually the ideal season for establishing trees and shrubs in Roanoke. Here\'s why — and how to do it right before the ground freezes.',
+    readTime: '5 min read',
+    category: 'Landscaping',
+    keywords: 'fall planting roanoke va, best time to plant trees shrubs roanoke virginia, fall tree planting roanoke, when to plant shrubs roanoke va',
+    content: `
+      <p>Spring gets all the attention at the garden center, but if you want a tree or shrub to establish quickly and thrive, fall is the better season to plant in Roanoke. The cooler air, warm soil, and reliable autumn rain create nearly ideal conditions for roots to get established before winter — giving fall plantings a real head start over anything you put in the ground next spring. Here's why fall works so well in the Roanoke Valley, and how to do it right.</p>
+
+      <h2>Why Fall Beats Spring for Establishment</h2>
+      <p>When you plant a tree or shrub, the roots need time to grow into the surrounding soil before the plant faces summer heat. In fall, the air is cool enough that the plant isn't stressed by putting energy into new top growth, while the soil stays warm well into November — and warm soil is exactly what roots need to keep growing. A plant installed in September or October spends the entire fall and even parts of a mild winter developing roots, then greets spring already anchored. A spring planting, by contrast, has only a few weeks of root growth before Roanoke's summer heat arrives.</p>
+
+      <h2>Best Trees and Shrubs to Plant in Fall Here</h2>
+      <ul>
+        <li><strong>Deciduous shade trees</strong> — Maples, oaks, and other hardy shade trees establish well from fall planting and are dormant enough to transplant with minimal shock.</li>
+        <li><strong>Evergreen shrubs</strong> — Boxwood, holly, and juniper planted in early fall have time to root before the ground cools, adding year-round structure to Roanoke landscapes.</li>
+        <li><strong>Flowering shrubs</strong> — Hydrangea, viburnum, and spirea take to fall planting and reward you with stronger blooms the following season.</li>
+        <li><strong>Native trees and shrubs</strong> — Species adapted to the Blue Ridge region, like serviceberry and redbud, establish especially well when planted into our fall conditions.</li>
+      </ul>
+
+      <h2>How Late Is Too Late in Roanoke?</h2>
+      <p>The goal is to get plants in the ground with enough warm-soil time left for roots to establish before a hard freeze. In the Roanoke area, that means aiming for planting from <strong>mid-September through the end of October</strong>. Planting into November is still possible for hardy, dormant deciduous material, but the later you go, the less root growth happens before winter. Evergreens are best planted earlier in the window, since they continue losing moisture through their needles all winter and need a stronger root system in place.</p>
+
+      <h2>Planting It Right</h2>
+      <p>Dig the hole two to three times as wide as the root ball but no deeper than the root ball itself — planting too deep is one of the most common and most fatal mistakes. The top of the root ball should sit slightly above grade, especially in Roanoke's heavy clay, which drains slowly and can drown roots set too low. Loosen the roots if they're circling the pot, backfill with the native soil rather than heavily amended mix, and water deeply to settle out air pockets.</p>
+
+      <h2>Don't Skip Fall Watering and Mulch</h2>
+      <p>Cooler weather doesn't mean the job is done. Newly planted trees and shrubs need consistent watering right up until the ground freezes — fall rain helps, but check the soil and water deeply during dry stretches. A two-to-three-inch ring of mulch (kept back off the trunk) insulates the root zone, holds moisture, and moderates the soil temperature swings that stress new roots over a Roanoke winter.</p>
+
+      <p>Greenscapes VA designs and installs trees, shrubs, and full landscape plantings during the ideal fall window throughout Roanoke, Salem, Vinton, Daleville, and Botetourt County. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> for a free planting consultation before the ground freezes.</p>
+    `,
+  },
+  {
+    slug: 'sprinkler-winterization-roanoke-va',
+    title: 'Sprinkler System Winterization in Roanoke, VA: Why the Blow-Out Matters',
+    date: '2026-10-12',
+    excerpt: 'One skipped winterization can crack pipes, valves, and backflow devices when Roanoke\'s first hard freeze hits. Here\'s why the blow-out matters and when to schedule it.',
+    readTime: '5 min read',
+    category: 'Irrigation',
+    keywords: 'sprinkler winterization roanoke va, irrigation blow out roanoke virginia, winterize sprinkler system roanoke, irrigation winterization roanoke va',
+    content: `
+      <p>Of all the seasonal irrigation tasks, winterization is the one you can't afford to skip in Roanoke. Water left sitting in sprinkler lines expands when it freezes, and that expansion is powerful enough to crack pipes, split valve bodies, and destroy an expensive backflow preventer. A single missed winterization can turn into a several-hundred-dollar repair the following spring. Here's why the blow-out matters, and when to get it done before Roanoke's first hard freeze.</p>
+
+      <h2>What Winterization Actually Does</h2>
+      <p>Winterizing an irrigation system means clearing every drop of water out of the pipes, valves, and sprinkler heads before freezing temperatures arrive. In our area, the standard and most reliable method is the compressed-air blow-out: air is pushed through each zone under controlled pressure to force the water out through the heads. Simply shutting the system off is not enough — the water already sitting in the lines is exactly what freezes and cracks the components.</p>
+
+      <h2>Why Roanoke's Climate Makes This Non-Negotiable</h2>
+      <p>Roanoke winters swing repeatedly through freezing and thawing, and it only takes one hard overnight freeze to damage a system that still has water in the lines. Our clay soil doesn't insulate shallow pipes as well as many homeowners assume, and backflow preventers and valves sitting above ground or just below the surface are especially vulnerable. Unlike warmer parts of the country where systems can sometimes ride out winter untouched, in the Roanoke Valley winterization is a yearly necessity, not an optional precaution.</p>
+
+      <h2>What a Proper Blow-Out Includes</h2>
+      <ul>
+        <li><strong>Shutting off the water supply</strong> — The main valve to the irrigation system is closed and the system is isolated from the household water line.</li>
+        <li><strong>Blowing out each zone</strong> — Compressed air is run through the zones one at a time at a safe pressure until each set of heads runs dry. Over-pressurizing is a common DIY mistake that damages heads.</li>
+        <li><strong>Draining and protecting the backflow device</strong> — The backflow preventer is drained and, where needed, insulated, since it's often the most expensive component to replace.</li>
+        <li><strong>Setting the controller</strong> — The timer is set to its off or rain mode so the system doesn't try to run over winter.</li>
+      </ul>
+
+      <h2>When to Schedule It in Roanoke</h2>
+      <p>The right time to winterize is <strong>after the growing season ends but before the first hard freeze</strong> — for most of the Roanoke area, that means from mid-October through early November. The first hard freeze can arrive late in October, so scheduling on the early side of that window is the safe play. Waiting until a freeze is already in the forecast is cutting it close, and it's also when irrigation companies are busiest, so booking ahead is worth it.</p>
+
+      <h2>Why This Is Worth Leaving to a Professional</h2>
+      <p>A blow-out requires a compressor with enough volume to clear the lines at a pressure that won't damage the heads or fittings — most homeowner shop compressors don't move enough air to do the job properly, and pushing too hard causes its own damage. A professional winterization also gives your system a quick end-of-season check, so any small issues get caught before they sit unaddressed all winter. Against the cost of replacing a cracked backflow device or dug-up broken line, it's inexpensive insurance.</p>
+
+      <p>Greenscapes VA winterizes irrigation systems with proper compressed-air blow-outs throughout Roanoke, Salem, Vinton, Daleville, and Botetourt County. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> to get on the winterization schedule before the first hard freeze.</p>
+    `,
+  },
+  {
     slug: 'drought-recovery-aeration-overseeding-roanoke-va',
     title: 'Why This Summer\'s Drought Means Your Roanoke Lawn Needs Aeration and Overseeding This Fall',
     date: '2026-07-13',
