@@ -11,6 +11,144 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: 'fall-leaf-removal-cleanup-roanoke-va',
+    title: 'Fall Leaf Removal in Roanoke, VA: Why Leaving Them Down Kills Your Lawn',
+    date: '2026-10-19',
+    excerpt: 'A layer of wet leaves left on tall fescue over winter can smother and kill it outright. Here\'s how often to clear leaves in Roanoke and what to do with them.',
+    readTime: '5 min read',
+    category: 'Seasonal Tips',
+    keywords: 'leaf removal roanoke va, fall cleanup roanoke virginia, leaf cleanup service roanoke, fall yard cleanup roanoke va',
+    content: `
+      <p>The Roanoke Valley is beautiful in October, and the mature oaks and maples that make it that way drop an enormous volume of leaves onto local lawns from mid-October through November. It's tempting to wait until the trees are bare and do it all in one weekend, but that single delay is what turns a routine chore into actual lawn damage. Here's what wet leaves do to tall fescue, how often to clear them, and what to do with the volume once it's off the grass.</p>
+
+      <h2>What Leaves Actually Do to a Tall Fescue Lawn</h2>
+      <p>Tall fescue does not go fully dormant in a Roanoke winter — it keeps photosynthesizing on mild days and continues developing roots well into December. A matted layer of wet leaves blocks that light completely. Worse, it traps moisture against the crown of the plant, creating exactly the cool, damp, airless conditions that snow mold and other winter fungal diseases need. The result shows up in March as matted, gray-brown dead patches in the precise shape of wherever the leaves piled deepest. Those patches then need reseeding in fall — a full year later — because spring seeding rarely survives Roanoke's summer.</p>
+
+      <h2>How Often to Clear Leaves in Roanoke</h2>
+      <p>The practical rule is that leaves should never be allowed to fully cover the grass for more than about a week, especially after rain. For most Roanoke, Salem, and Vinton properties with mature trees, that means <strong>three to five cleanups spread across October and November</strong> rather than one big push at the end. Properties in older neighborhoods like Grandin Village or South Roanoke, or wooded lots in Botetourt County, often need more. A lot with only a few young trees may genuinely get by with one or two passes.</p>
+
+      <h2>Mulch-Mowing vs. Full Removal</h2>
+      <ul>
+        <li><strong>Mulch-mowing works for light coverage</strong> — When leaves are thin enough that you can still see grass through them, running a mower over them chops them fine and returns organic matter and nutrients to the soil. This genuinely helps Roanoke's clay soil.</li>
+        <li><strong>Heavy coverage must come off</strong> — Once leaves are deep enough to hide the turf, mulching just creates a thick shredded mat that smothers grass the same way whole leaves do.</li>
+        <li><strong>Wet leaves need removal, not mulching</strong> — Soggy leaves clump rather than shred and will clog the mower and leave clumps behind.</li>
+        <li><strong>Certain leaves are worse than others</strong> — Large, leathery oak and sycamore leaves — extremely common in the Roanoke Valley — break down slowly and mat down harder than thin maple or birch leaves.</li>
+      </ul>
+
+      <h2>Don't Forget the Beds, Gutters, and Drainage</h2>
+      <p>Leaves in landscape beds are less urgent than leaves on turf, since shrubs and perennials aren't smothered the same way, but they should still be cleared off low groundcovers and away from the crowns of perennials. More important on Roanoke's sloped lots: clear leaves out of downspout outlets, drainage swales, and any French drain or catch basin grate. A clogged drainage path during a heavy November rain sends water toward your foundation instead of away from it, and that's a far more expensive problem than a thin lawn.</p>
+
+      <h2>Combining Leaf Cleanup With Other Fall Work</h2>
+      <p>The final cleanup of the season is the natural time to handle the rest of the winter prep list at once — cutting back spent perennials, a last mow at normal height, and confirming your irrigation system has been winterized before the first hard freeze. Bundling these makes the timing work out correctly instead of leaving one task stranded until it's too late in the season to do properly.</p>
+
+      <p>Greenscapes VA handles recurring fall leaf removal and full seasonal cleanups throughout Roanoke, Salem, Vinton, Daleville, and Botetourt County — on a schedule that keeps leaves off your lawn instead of one late pass after the damage is done. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> to get on the fall cleanup schedule.</p>
+    `,
+  },
+  {
+    slug: 'fire-pit-installation-roanoke-va',
+    title: 'Fire Pit Installation in Roanoke, VA: Built-In vs. Portable, Wood vs. Gas',
+    date: '2026-10-26',
+    excerpt: 'A fire pit is the cheapest way to make a backyard usable from March through November in Roanoke. Here\'s how to choose the type, size, and placement before you build.',
+    readTime: '5 min read',
+    category: 'Hardscaping',
+    keywords: 'fire pit installation roanoke va, outdoor fire pit roanoke virginia, built in fire pit roanoke, backyard fire pit roanoke va',
+    content: `
+      <p>Of all the hardscaping additions available to a Roanoke homeowner, a fire pit delivers the most usable time per dollar spent. Our shoulder seasons are long — cool evenings run from March into June and again from September through November — and a fire pit is what makes a backyard genuinely comfortable during all of them. But there are real decisions to make about type, fuel, size, and placement, and getting them wrong is how a fire pit ends up unused. Here's how to think it through.</p>
+
+      <h2>Built-In vs. Portable: What You Actually Gain</h2>
+      <p>A portable steel or cast-iron bowl costs a fraction of a built-in and can be moved or stored, which makes it a reasonable starting point. What you give up is permanence and scale: portable bowls are small, they scorch the grass or patio beneath them, and they never read as part of the landscape. A built-in masonry pit becomes an architectural focal point, holds a much larger fire, and — paired with a paver surround and seat wall — adds real resale value to a Roanoke property. If you already know you'll use it regularly, building it in is the better investment.</p>
+
+      <h2>Wood-Burning vs. Gas</h2>
+      <ul>
+        <li><strong>Wood-burning</strong> — The traditional choice, and what most Roanoke homeowners want. Bigger flame, real crackle and smell, and no fuel line to run. Downsides are smoke, ash cleanout, and wood storage.</li>
+        <li><strong>Natural gas</strong> — Instant on and off, no smoke, no cleanup. Requires running a gas line from the house, which is the main cost driver and needs to be planned before the pit is built.</li>
+        <li><strong>Propane</strong> — Same clean-burning convenience as natural gas without a permanent line, but you're managing tank swaps and hiding the tank within the structure.</li>
+        <li><strong>Smokeless wood inserts</strong> — A middle ground gaining popularity: a double-wall insert that burns wood far more completely, cutting smoke substantially. Worth considering on tighter Roanoke city lots where smoke drifting to a neighbor's deck is a real concern.</li>
+      </ul>
+
+      <h2>Sizing and Seating — The Part People Get Wrong</h2>
+      <p>The most common mistake is building the pit correctly and then not leaving enough room around it. A pit itself is typically 36 to 44 inches in outside diameter, but you need roughly <strong>a 7-foot clear radius from the pit's edge</strong> to seat people comfortably and let them walk behind the chairs. That means the patio or gravel area around the pit needs to be substantially larger than most homeowners first sketch. Building a fire pit into the middle of an existing small patio usually means the patio becomes unusable for anything else.</p>
+
+      <h2>Placement, Clearance, and Local Considerations</h2>
+      <p>A fire pit needs at least 10 to 15 feet of clearance from the house, fences, deck structures, and overhanging tree limbs — the last one catches people out on wooded Roanoke and Botetourt County lots, where a mature canopy sits directly above the obvious spot. Check your specific city or county requirements and any HOA rules before building, since open-burning setback rules vary across Roanoke City, Roanoke County, Salem, and Vinton. Also think about prevailing wind and where smoke will drift, and about the view: a pit that looks out toward the Blue Ridge or over a sloped yard is far more appealing than one facing a fence.</p>
+
+      <h2>Building It to Last in Our Climate</h2>
+      <p>Like a paver patio, a built-in fire pit lives or dies on its base. It needs a compacted gravel foundation so Roanoke's clay soil doesn't heave it out of level through winter freeze-thaw cycles, and the interior must be lined with firebrick or a steel insert rated for direct heat — standard pavers and block will spall and crack when exposed to fire directly. A drainage provision in the base keeps rainwater from pooling in the bowl and freezing.</p>
+
+      <p>Greenscapes VA designs and builds fire pits, patios, and seat walls as integrated outdoor living spaces throughout Roanoke, Salem, Vinton, Daleville, and Botetourt County. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> for a free on-site design consultation.</p>
+    `,
+  },
+  {
+    slug: 'soil-test-lime-lawn-roanoke-va',
+    title: 'Soil Testing and Lime: Why Your Roanoke Lawn Isn\'t Responding to Fertilizer',
+    date: '2026-11-02',
+    excerpt: 'If you fertilize on schedule and the lawn still looks tired, the problem is probably soil pH. Here\'s how to test it and correct acidic clay soil in the Roanoke Valley.',
+    readTime: '5 min read',
+    category: 'Lawn Care',
+    keywords: 'soil test lawn roanoke va, lime lawn roanoke virginia, soil ph lawn roanoke, when to apply lime roanoke va',
+    content: `
+      <p>Here's a frustrating scenario we see constantly across the Roanoke Valley: a homeowner fertilizes on schedule, waters correctly, mows high — and the lawn still looks thin and tired. Before adding more fertilizer, check the soil pH. Roanoke's clay soils tend to run acidic, and below a certain pH the nutrients you're applying are chemically locked up in the soil where grass roots simply cannot take them up. You're paying for fertilizer the lawn can't use.</p>
+
+      <h2>Why Roanoke Valley Soil Trends Acidic</h2>
+      <p>The soils across much of the Roanoke, Salem, and Botetourt County area are naturally on the acidic side, and several things push them further that direction over time: our substantial annual rainfall leaches calcium and magnesium down out of the root zone, decomposing organic matter and pine or oak leaf litter add acidity, and most nitrogen fertilizers are themselves acidifying with repeated use. So a lawn that started at an acceptable pH drifts lower year after year unless something is done about it.</p>
+
+      <h2>What pH Does to Nutrient Availability</h2>
+      <p>Tall fescue performs best in soil with a pH of roughly <strong>6.0 to 6.5</strong>. As pH drops below about 5.5, phosphorus and several micronutrients become chemically bound in forms roots can't absorb, and beneficial soil microbes that break down organic matter and thatch slow down. Aluminum and manganese also become more soluble at low pH, to the point of being toxic to roots in severe cases. This is the mechanism behind "my fertilizer isn't working" — the nutrients are physically in the soil, just unavailable.</p>
+
+      <h2>How to Get a Real Soil Test</h2>
+      <ul>
+        <li><strong>Use the Virginia Cooperative Extension</strong> — The Roanoke and Botetourt County Extension offices provide soil test kits processed by the Virginia Tech Soil Testing Laboratory. It's inexpensive, and the report gives you actual pH, phosphorus, potassium, and a specific lime recommendation for your lawn.</li>
+        <li><strong>Sample properly</strong> — Pull small plugs 3 to 4 inches deep from 10 to 15 spots across the lawn, mix them together in a clean bucket, and submit that composite. A single plug from one spot tells you almost nothing.</li>
+        <li><strong>Sample problem areas separately</strong> — If one section of the lawn consistently struggles, submit it as its own sample rather than blending it in.</li>
+        <li><strong>Skip the cheap probe kits</strong> — Hardware-store pH meters and color-strip kits are too imprecise to base a lime rate on, and they don't tell you anything about nutrient levels.</li>
+        <li><strong>Retest every 2 to 3 years</strong> — pH drifts slowly. Testing annually is unnecessary; testing once and never again is how lawns end up acidic all over.</li>
+      </ul>
+
+      <h2>Applying Lime the Right Way</h2>
+      <p>Lime raises pH, and the amount you need depends entirely on your current pH and soil type — which is exactly why the soil test comes first. Guessing at lime is a real risk: over-liming pushes pH too high and creates its own nutrient lockout, which is much slower and harder to correct than acidity. Pelletized lime is easiest to spread evenly with a standard broadcast spreader. Lime works slowly, taking <strong>six months to a year</strong> to fully change soil pH, and if your test calls for a very large amount, splitting it across two applications six months apart works better than dumping it all at once.</p>
+
+      <h2>When to Lime in Roanoke</h2>
+      <p>Fall and winter are the ideal window here. Applying lime between <strong>October and February</strong> lets our freeze-thaw cycles and winter precipitation work it down into the soil profile over months, so the pH correction is in place before spring green-up and the first fertilizer application of the year. Lime can be applied any time the ground isn't frozen solid, but a fall or winter application is the one that has your lawn ready when the growing season starts. It also pairs well with fall aeration — core holes give the lime a direct path into the root zone.</p>
+
+      <p>Greenscapes VA tests soil and builds fertilization and lime programs around what your lawn's soil actually needs across Roanoke, Salem, Vinton, Daleville, and Botetourt County. If you've been fertilizing without results, call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> for a free lawn and soil evaluation.</p>
+    `,
+  },
+  {
+    slug: 'yard-drainage-french-drain-roanoke-va',
+    title: 'Yard Drainage Solutions for Roanoke, VA: French Drains, Swales, and Regrading',
+    date: '2026-11-09',
+    excerpt: 'Standing water and soggy lawn aren\'t just annoying — they kill grass and threaten foundations. Here are the drainage fixes that actually work on Roanoke\'s clay-and-slope lots.',
+    readTime: '5 min read',
+    category: 'Landscaping',
+    keywords: 'yard drainage roanoke va, french drain installation roanoke virginia, standing water yard roanoke, drainage solutions roanoke va',
+    content: `
+      <p>Roanoke properties get hit with a specific combination that produces drainage problems: hillside lots that funnel runoff, and dense clay soil that absorbs water far too slowly to keep up with it. The result is standing water in low spots, a soggy strip of lawn that never quite dries out, water pooling against the foundation, and grass that dies from suffocated roots. The good news is these are solvable problems — but only if you fix the right one. Here's how the common drainage solutions actually work and when each applies.</p>
+
+      <h2>Diagnose Before You Dig</h2>
+      <p>Drainage work goes wrong when someone installs a solution without identifying the source. Go outside during a real rain and watch where water actually flows, where it pools, and how long it takes to disappear afterward. There's a meaningful difference between <strong>surface water</strong> — runoff coming off a roof, driveway, neighboring uphill lot, or slope — and <strong>subsurface water</strong>, where the ground itself stays saturated because clay below won't let it percolate down. Surface problems are fixed by redirecting flow; subsurface problems need a way to collect and carry water out. Installing a French drain to solve a downspout problem is expensive and won't work.</p>
+
+      <h2>The Main Drainage Solutions and When Each Fits</h2>
+      <ul>
+        <li><strong>Downspout extensions</strong> — The cheapest fix and the right first step. A roof sheds an enormous volume of water, and dumping it two feet from the foundation causes many of the "mystery" wet spots we get called about. Piping downspouts 10 or more feet out, or underground to a daylighted outlet, solves a surprising share of Roanoke drainage complaints on its own.</li>
+        <li><strong>Regrading</strong> — Reshaping the soil so the ground slopes away from the house, typically at least 6 inches of fall over the first 10 feet. The correct fix when water sits against the foundation because the grade is flat or pitched inward.</li>
+        <li><strong>Swales</strong> — A shallow, gently sloped, often planted channel that intercepts surface runoff and carries it around or away from a problem area. Excellent on Roanoke's sloped lots for catching water coming down from above before it reaches the lawn or house.</li>
+        <li><strong>French drains</strong> — A trench with a perforated pipe in gravel, wrapped in filter fabric, that collects subsurface water and carries it to an outlet. The right answer for chronically saturated soil, and the wrong answer for pure surface runoff.</li>
+        <li><strong>Catch basins and dry wells</strong> — A grated basin collects water from a specific low point and pipes it away; a dry well gives collected water somewhere to slowly disperse when there's no good place to daylight a pipe.</li>
+      </ul>
+
+      <h2>What Makes a French Drain Work — or Fail</h2>
+      <p>Three things determine whether a French drain performs for decades or clogs within a few years. First, it needs continuous slope to a real outlet — every drain has to daylight somewhere lower, and on flat sections of a Roanoke lot finding that outlet is the hardest part of the design. Second, it must be wrapped in filter fabric with clean, washed gravel; skip that, and our fine clay silts into the gravel and pipe and seals it shut. Third, pipe selection matters — rigid perforated pipe outperforms flexible corrugated pipe, which sags between low points and traps sediment. A drain built without these is a trench full of expensive gravel.</p>
+
+      <h2>Why Clay Soil Changes the Math Here</h2>
+      <p>In sandy soil, water that reaches the ground largely disappears into it. Roanoke's clay absorbs only a fraction of an inch per hour, so during any real storm nearly all the rainfall becomes surface flow, and whatever soaks in sits in the root zone rather than draining down. That's why drainage problems here are usually about moving water somewhere else rather than helping it soak in, and why "it'll dry out eventually" is often untrue — the water has nowhere to go.</p>
+
+      <h2>Getting It Designed as One System</h2>
+      <p>Drainage work is most effective and least expensive when it's planned alongside other landscape work. If you're already building a patio, retaining wall, or new planting beds, that's the moment to route drainage properly, because the excavation is happening anyway. Retrofitting a drain under a finished patio costs several times more than building it in from the start.</p>
+
+      <p>Greenscapes VA diagnoses and installs yard drainage — downspout routing, regrading, swales, French drains, and catch basins — throughout Roanoke, Salem, Vinton, Daleville, and Botetourt County. If part of your yard never dries out, call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> for a free on-site drainage assessment.</p>
+    `,
+  },
+  {
     slug: 'grub-control-lawn-roanoke-va',
     title: 'White Grubs in Roanoke Lawns: How to Spot, Treat, and Prevent Grub Damage',
     date: '2026-09-21',
