@@ -1,8 +1,13 @@
 DirectoryIndex index.html
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^ index.html [L]
+
+# This is a fully static Next.js export with trailingSlash: true, so every real
+# route exists on disk as a directory containing index.html. mod_dir resolves
+# those (and 301-redirects the missing trailing slash), so NO SPA catch-all
+# rewrite is needed. The old "RewriteRule ^ index.html [L]" served homepage
+# content with HTTP 200 for every nonexistent URL, which made typo'd and stale
+# links look to Google like duplicate copies of the homepage. Serve Next's real
+# 404 page with a real 404 status instead.
+ErrorDocument 404 /404.html
 
 # Cache static assets for 1 year
 <IfModule mod_expires.c>

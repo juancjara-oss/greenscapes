@@ -61,12 +61,14 @@ const jsonLd = {
   image: OG_IMAGE,
   telephone: '+15407984479',
   email: 'prettylawn@greenscapesva.com',
+  // Service-area business: the Google Business Profile is set to
+  // "No location; deliveries and home services only", so no street address is
+  // published anywhere. Keep this city/region-level only — adding a street
+  // address back would contradict the GBP and Google's SAB guidelines.
   address: {
     '@type': 'PostalAddress',
-    streetAddress: '428 Liberty Rd NE',
     addressLocality: 'Roanoke',
     addressRegion: 'VA',
-    postalCode: '24012',
     addressCountry: 'US',
   },
   geo: {
@@ -102,13 +104,9 @@ const jsonLd = {
     { '@type': 'City', name: 'Smith Mountain Lake', addressRegion: 'VA' },
     { '@type': 'AdministrativeArea', name: 'Botetourt County', addressRegion: 'VA' },
   ],
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: '5',
-    reviewCount: '5',
-    bestRating: '5',
-    worstRating: '1',
-  },
+  // NOTE: no aggregateRating here on purpose. Google's structured data policy
+  // disallows self-serving review markup (ratings a business publishes about
+  // itself). Real ratings come from the Google Business Profile instead.
   priceRange: '$$',
   hasOfferCatalog: {
     '@type': 'OfferCatalog',

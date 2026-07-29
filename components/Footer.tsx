@@ -34,6 +34,25 @@ export default function Footer() {
               Roanoke Virginia&apos;s premier grounds maintenance company. Transforming properties
               with precision, pride, and passion since 2013.
             </p>
+
+            {/* Visible NAP — must stay identical to the LocalBusiness schema in
+                app/layout.tsx and to every external citation (GBP, Yelp, BBB…).
+                Google corroborates schema against on-page text; mismatches cost
+                local ranking.
+                NOTE: service-area business — the GBP is set to "No location;
+                deliveries and home services only". Do NOT add a street address
+                here; city/region only. */}
+            <address className="not-italic mt-6 text-white/45 font-poppins text-sm leading-relaxed">
+              <div className="text-white/70 font-semibold">Greenscapes VA</div>
+              <div>Serving Roanoke, VA &amp; the Roanoke Valley</div>
+              <a href="tel:+15407984479" className="block mt-2 hover:text-white transition-colors duration-300">
+                (540) 798-4479
+              </a>
+              <a href="mailto:prettylawn@greenscapesva.com" className="block hover:text-white transition-colors duration-300">
+                prettylawn@greenscapesva.com
+              </a>
+            </address>
+
             <div className="flex gap-3 mt-6">
               <a
                 href="https://www.facebook.com/GreenScapesVA"
