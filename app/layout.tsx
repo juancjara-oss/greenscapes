@@ -79,18 +79,24 @@ const jsonLd = {
     latitude: 37.2796,
     longitude: -79.9414,
   },
+  // Abierto 24/7, igual que el Google Business Profile y Yelp. Si esto
+  // cambia, hay que cambiarlo en los tres lados a la vez — un horario
+  // distinto entre el sitio y el GBP es inconsistencia de NAP.
+  // 00:00–23:59 es la convención de schema.org para "24 horas".
   openingHoursSpecification: [
     {
       '@type': 'OpeningHoursSpecification',
-      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
-      opens: '08:00',
-      closes: '17:00',
-    },
-    {
-      '@type': 'OpeningHoursSpecification',
-      dayOfWeek: ['Saturday'],
-      opens: '10:00',
-      closes: '16:00',
+      dayOfWeek: [
+        'Monday',
+        'Tuesday',
+        'Wednesday',
+        'Thursday',
+        'Friday',
+        'Saturday',
+        'Sunday',
+      ],
+      opens: '00:00',
+      closes: '23:59',
     },
   ],
   areaServed: [

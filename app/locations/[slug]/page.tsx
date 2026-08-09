@@ -172,9 +172,8 @@ export default function LocationPage({ params }: { params: { slug: string } }) {
               {/* Hours */}
               <div className="bg-white/4 border border-white/8 rounded-2xl p-6">
                 <p className="text-white/35 font-poppins text-xs mb-3 uppercase tracking-widest">Hours</p>
-                <p className="text-white font-poppins text-sm">Mon–Fri: 8am – 5pm</p>
-                <p className="text-white font-poppins text-sm">Saturday: 10am – 4pm</p>
-                <p className="text-white/35 font-poppins text-sm">Sunday: Closed</p>
+                <p className="text-white font-poppins text-sm">Open 24 hours</p>
+                <p className="text-white/35 font-poppins text-sm">7 days a week</p>
                 <a
                   href="tel:+15407984479"
                   className="block mt-4 text-[#39ff14] font-poppins font-bold text-sm hover:underline"
