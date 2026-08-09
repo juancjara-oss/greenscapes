@@ -129,13 +129,13 @@ export const locationPages: LocationPage[] = [
     slug: 'roanoke-va',
     city: 'Roanoke',
     state: 'VA',
-    tagline: 'Roanoke\'s trusted lawn care and landscaping company since 2013.',
+    tagline: 'Roanoke\'s trusted lawn care and landscaping company since 2005.',
     metaTitle: 'Lawn Care & Landscaping Roanoke VA | Greenscapes VA',
-    metaDescription: 'Top-rated lawn care and landscaping in Roanoke, VA. Mowing, landscape design, hardscaping, irrigation & seasonal cleanup. Locally owned since 2013. Call (540) 798-4479.',
+    metaDescription: 'Top-rated lawn care and landscaping in Roanoke, VA. Mowing, landscape design, hardscaping, irrigation & seasonal cleanup. Locally owned since 2005. Call (540) 798-4479.',
     image: '/assets/landscaping-after.webp',
     keywords: 'lawn care Roanoke VA, landscaping Roanoke Virginia, lawn mowing Roanoke, landscape design Roanoke VA, hardscaping Roanoke Virginia, grounds maintenance Roanoke',
     content: `
-      <p>Greenscapes VA is Roanoke's locally owned lawn care and landscaping company. Based right here in the Roanoke Valley, we've been transforming residential and commercial properties across the city since 2013 — one lawn at a time.</p>
+      <p>Greenscapes VA is Roanoke's locally owned lawn care and landscaping company. Based right here in the Roanoke Valley, we've been transforming residential and commercial properties across the city since 2005 — one lawn at a time.</p>
 
       <h2>Roanoke's Lawn Care Specialists</h2>
       <p>We know Roanoke's neighborhoods because we live and work here. From the historic streets of Old Southwest to the newer subdivisions in Northwest Roanoke, from Peters Creek Road to the Grandin Village area — our crews are in your neighborhood every week. That local presence means faster response times, consistent scheduling, and a team that treats your property the way a neighbor would.</p>

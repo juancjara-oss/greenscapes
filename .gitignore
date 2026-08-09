@@ -38,6 +38,11 @@ yarn-error.log*
 # assets_before — originales temporales, nunca se sincronizan
 assets_before/
 
+# propuestas de clientes — ESTE REPO ES PÚBLICO.
+# Llevan nombre del cliente y precios; se despliegan al sitio pero
+# NUNCA se commitean. Ver memoria: feedback_no_precios_publicos.
+public/proposal/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

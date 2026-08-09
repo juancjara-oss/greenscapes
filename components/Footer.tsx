@@ -32,7 +32,7 @@ export default function Footer() {
             <img src="/logo.png" alt="Greenscapes VA – Lawn Care & Landscaping Roanoke Virginia" className="h-16 w-auto mb-5" />
             <p className="text-white/45 font-poppins text-sm leading-relaxed max-w-xs">
               Roanoke Virginia&apos;s premier grounds maintenance company. Transforming properties
-              with precision, pride, and passion since 2013.
+              with precision, pride, and passion since 2005.
             </p>
 
             {/* Visible NAP — must stay identical to the LocalBusiness schema in
