@@ -61,6 +61,9 @@ const jsonLd = {
   image: OG_IMAGE,
   telephone: '+15407984479',
   email: 'prettylawn@greenscapesva.com',
+  // 2005 es el año real de fundación (BBB: "Business Started 2/27/2005").
+  // La incorporación como Ltd. fue después, el 6/10/2008 — no usar esa.
+  foundingDate: '2005-02-27',
   // Service-area business: the Google Business Profile is set to
   // "No location; deliveries and home services only", so no street address is
   // published anywhere. Keep this city/region-level only — adding a street
