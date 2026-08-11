@@ -11,6 +11,146 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: 'paver-walkway-garden-path-roanoke-va',
+    title: 'Paver Walkways and Garden Paths: How to Build One That Survives a Roanoke Winter',
+    date: '2026-11-16',
+    excerpt: 'A walkway is the hardest-working hardscape on your property, and the one most likely to heave, sink, or crack. Here is what separates a path that lasts 25 years from one that fails in three.',
+    readTime: '5 min read',
+    category: 'Hardscaping',
+    keywords: 'paver walkway installation roanoke va, garden path roanoke virginia, front walkway pavers roanoke va, stone walkway salem va, hardscape walkway botetourt county',
+    content: `
+      <p>Patios get the attention, but the walkway is the piece of hardscape every visitor actually touches. It carries daily foot traffic, absorbs everything the mailman and the snow shovel do to it, and sits directly in the freeze-thaw zone that makes Roanoke winters so hard on masonry. Done right, a paver walkway outlives the roof. Done cheaply, it starts tilting by the second spring. The difference is almost entirely below the surface.</p>
+
+      <h2>The Base Is the Whole Job</h2>
+      <p>On the red clay we work in across Roanoke, Salem, and Vinton, a walkway needs an excavated, compacted aggregate base — typically 4 to 6 inches of crushed stone for a pedestrian path, compacted in lifts rather than all at once, over a geotextile fabric that keeps the clay from pumping up into the stone. Skip the fabric and the base slowly contaminates with clay, holds water, and starts moving with every freeze.</p>
+      <p>That freeze-thaw cycle is the specific enemy here. The Roanoke Valley crosses 32°F dozens of times each winter, far more than a colder climate that simply stays frozen. Every cycle expands trapped water and lifts anything sitting on saturated soil. A properly drained stone base gives that water somewhere to go; a walkway laid on bare dirt or a sand cushion alone does not.</p>
+
+      <h2>Slope, Width, and the Details People Regret</h2>
+      <p>A few decisions are effectively permanent once the pavers are down:</p>
+      <ul>
+        <li><strong>Pitch it away from the house</strong> — About a quarter-inch of fall per foot. Flat walkways puddle, and puddles next to a foundation are a basement problem waiting to happen.</li>
+        <li><strong>Build it wide enough for two people</strong> — A 36-inch front walk is legal and feels cramped. Forty-eight inches lets two people walk side by side, and it visually scales correctly against a full-size house.</li>
+        <li><strong>Curve with purpose</strong> — A gentle curve looks intentional; a wandering one looks like a mistake. If the path connects two fixed points, a soft arc reads better than a hard diagonal.</li>
+        <li><strong>Edge restraint is not optional</strong> — Without a solid edge, the outer course migrates outward every year and the joints open up. This is the single most common failure we're called to repair.</li>
+      </ul>
+
+      <h2>Choosing Material for Our Climate</h2>
+      <p>Concrete pavers rate well for freeze-thaw durability and, because they're modular, a settled section can be lifted and reset without demolishing the whole path — a real advantage over poured concrete, which cracks where it wants to. Natural flagstone looks superb on older homes in South Roanoke and Grandin Village, but demands a thicker, better-drained base since the pieces vary in thickness. Whatever the material, joints should be filled with polymeric sand: it locks the pavers together, resists washout on the sloped lots common here, and dramatically slows weed growth between stones.</p>
+
+      <h2>Why Late Fall and Winter Are Good Times to Build</h2>
+      <p>Hardscape installation is one of the few outdoor services that doesn't need warm soil or a growing season. As long as the ground isn't frozen solid, crews can excavate and compact through late fall and winter in the Roanoke Valley, and schedules are far more open than in May. Building now also means the base gets a full winter of settling and freeze cycles before you're using the path daily in spring — any minor movement shows up while we're still standing behind the work.</p>
+
+      <h2>What a Walkway Quote Should Include</h2>
+      <p>An honest walkway estimate spells out excavation depth, base thickness, whether geotextile fabric is included, the edge restraint type, and the joint sand. If a bid is meaningfully cheaper than the others, that money almost always came out of the base — the part you can't inspect after the job is finished. We measure the actual run, account for the grade change, and quote the whole assembly rather than a per-square-foot number that hides the details.</p>
+
+      <p>Greenscapes VA builds paver walkways, garden paths, and steps throughout Roanoke, Salem, Vinton, Daleville, Cave Spring, and Botetourt County, with a base built for Virginia freeze-thaw. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> for an on-site walkthrough and a written estimate.</p>
+    `,
+  },
+  {
+    slug: 'salt-deicer-damage-lawn-landscape-roanoke-va',
+    title: 'Salt and De-Icer Damage: Protecting Your Lawn and Beds Through a Roanoke Winter',
+    date: '2026-11-23',
+    excerpt: 'The brown, dead strip along your driveway every March is not winterkill — it is salt. Here is how de-icers damage turf and shrubs in the Roanoke Valley, and what to do differently this year.',
+    readTime: '5 min read',
+    category: 'Seasonal Tips',
+    keywords: 'salt damage lawn roanoke va, de-icer damage landscaping roanoke virginia, driveway salt grass damage salem va, winter lawn protection roanoke va, ice melt safe for plants roanoke',
+    content: `
+      <p>Every spring we walk properties in Roanoke and Salem where the lawn looks fine except for a two-foot band of dead, matted turf running along the driveway, the front walk, and the street edge. Homeowners usually assume the cold killed it. It didn't — cool-season fescue handles our winters easily. What killed it was sodium chloride, either from the bag by the back door or from the road crews on Route 419 and Williamson Road.</p>
+
+      <h2>How Salt Actually Kills Turf and Shrubs</h2>
+      <p>Salt damages plants two ways at once. Dissolved sodium in the soil pulls water away from roots by osmosis, so grass sitting in salty soil dehydrates even when the ground is wet — a kind of chemical drought. At the same time, sodium ions displace calcium and magnesium on soil particles, which destroys soil structure and turns clay into a tight, poorly draining layer. That second effect is why the same strip fails year after year: the soil itself has been degraded, not just the plants growing in it.</p>
+      <p>Evergreens catch a different version of the damage. Salt spray thrown by traffic lands on needles and leaves, drawing moisture out of the foliage. If you've noticed arborvitae, boxwood, or hollies browning only on the road-facing side while the back stays green, that's spray burn, not disease.</p>
+
+      <h2>Choosing a De-Icer That Won't Cost You a Lawn</h2>
+      <p>Not all ice melt is equally destructive, and the labels are vague on purpose:</p>
+      <ul>
+        <li><strong>Rock salt (sodium chloride)</strong> — Cheapest, most damaging to soil and plants, and largely ineffective below about 15°F anyway.</li>
+        <li><strong>Calcium chloride</strong> — Works to far colder temperatures, so you need meaningfully less product per application. Still a salt, but the reduced volume helps.</li>
+        <li><strong>Magnesium chloride</strong> — Gentler on concrete and vegetation than rock salt, and a reasonable middle ground for walkways next to planting beds.</li>
+        <li><strong>Calcium magnesium acetate (CMA)</strong> — The safest common option for plants and pets. It costs more and works slower, which is why it's best reserved for the paths that run directly through your landscaping.</li>
+      </ul>
+      <p>Two habits matter more than the product choice: apply less than you think you need — most people over-apply by a wide margin — and shovel first, so the de-icer is melting a thin residual layer instead of the whole storm.</p>
+
+      <h2>Physical Protection Where Spray Is the Problem</h2>
+      <p>For beds along a busy road, burlap screening on the traffic side through the winter blocks most spray damage on evergreens and costs almost nothing. Where possible, angle snow removal so plowed and shoveled snow lands on the lawn away from beds rather than piling salt-loaded slush onto your shrubs. And when you replant a road-edge bed, choose salt-tolerant material — daylilies, junipers, ornamental grasses, and inkberry hold up far better than boxwood or rhododendron in that position.</p>
+
+      <h2>Repairing the Damage in Spring</h2>
+      <p>If a strip has already been hit, the fix is to flush and rebuild. A heavy spring watering leaches sodium down past the root zone, and gypsum — calcium sulfate — chemically displaces sodium off the soil particles and helps restore structure on our clay. From there the damaged band needs the soil loosened and fresh seed; salt-injured turf rarely fills back in on its own because the crowns are dead, not dormant. A soil test through the Virginia Cooperative Extension office in Roanoke County will confirm whether sodium is genuinely elevated before you spend money guessing.</p>
+
+      <p>Greenscapes VA handles winter landscape protection and spring salt-damage repair across Roanoke, Salem, Vinton, Daleville, and Botetourt County. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> to have the damaged areas assessed before the next round of storms.</p>
+    `,
+  },
+  {
+    slug: 'winter-landscape-interest-evergreens-roanoke-va',
+    title: 'Winter Curb Appeal: Building a Landscape That Still Looks Good in January',
+    date: '2026-11-30',
+    excerpt: 'Most Roanoke landscapes are designed for May and disappear for four months. Structure, evergreens, bark, and berries keep a yard worth looking at all winter — and winter is when buyers and neighbors see it bare.',
+    readTime: '5 min read',
+    category: 'Landscaping',
+    keywords: 'winter landscaping ideas roanoke va, evergreen shrubs roanoke virginia, winter curb appeal roanoke va, four season landscape design salem va, plants for winter interest botetourt county',
+    content: `
+      <p>Walk a Roanoke neighborhood in January and the difference between landscapes is stark. Some yards still have shape, color, and depth. Most look like a row of brown sticks in front of a house. The gap usually isn't money spent — it's that the planting was chosen entirely for spring bloom, so roughly a third of the year was never designed at all.</p>
+
+      <h2>Structure Comes Before Plants</h2>
+      <p>Winter strips a landscape down to its bones, which is exactly why it's the best season to judge a design. Without foliage, you're looking at bed lines, elevation changes, and the permanent elements: a low retaining wall, a stone edge, a path, a specimen tree with real form. If those read well bare, the landscape will look good every month of the year. If the beds only work because summer perennials hide their shape, winter exposes it immediately.</p>
+      <p>This is also the practical argument for putting hardscape money before plant money. A well-proportioned bed line and a good wall carry the view in February; a flat of annuals does not.</p>
+
+      <h2>Evergreens That Earn Their Space in the Valley</h2>
+      <p>Evergreens do the heavy lifting, but they need variety in texture and height or the front of the house turns into a green meatball hedge. Reliable performers in Roanoke's climate and clay:</p>
+      <ul>
+        <li><strong>American holly and inkberry</strong> — Native, tough, and holly gives you red fruit against dark foliage exactly when nothing else has color.</li>
+        <li><strong>Eastern red cedar</strong> — Genuinely native to our region, drought-proof once established, and excellent as a screen on exposed Botetourt County lots.</li>
+        <li><strong>Boxwood, sited carefully</strong> — Beautiful formal structure, but keep it out of salt spray and give it airflow; boxwood blight and winter burn are both real here.</li>
+        <li><strong>Dwarf conifers</strong> — Blue, gold, and green forms in compact sizes add color to a winter bed without outgrowing a foundation planting in six years.</li>
+      </ul>
+
+      <h2>Color That Shows Up After the Leaves Drop</h2>
+      <p>Once foliage is gone, bark and fruit become the color palette. Red-twig and yellow-twig dogwood turn genuinely brilliant in cold weather and are best planted in a group where they'll be seen from a window. River birch — a native that thrives in our wetter areas — peels into cinnamon-colored sheets that look best in low winter light. Winterberry holly drops its leaves entirely and leaves a shrub covered in red berries, and it's one of the few plants that looks better after a frost than before it. Add ornamental grasses left standing rather than cut back in fall: switchgrass and little bluestem hold their form through snow and move in the wind when nothing else does.</p>
+
+      <h2>Light Matters More in Winter Than Any Other Season</h2>
+      <p>In late December, it's dark before most people get home. Any landscape without lighting is effectively invisible for the entire evening half of the season. A few well-aimed uplights on an evergreen or a specimen tree, plus path lighting on the front walk, changes a property more in winter than in summer — and the fixtures are far easier to place correctly while beds are bare and the plant material isn't in the way.</p>
+
+      <h2>Why Plan It Now</h2>
+      <p>Winter is the honest season for landscape assessment: you can see exactly where the design falls apart, and there's no foliage hiding grade or drainage problems. Designing in December and January also lines the work up ahead of the spring rush, when nursery stock and crew availability both tighten. We routinely walk properties in the cold specifically because it's the most useful time to look at them.</p>
+
+      <p>Greenscapes VA designs and installs four-season landscapes in Roanoke, Salem, Vinton, Cave Spring, Daleville, and Botetourt County. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> to schedule a winter walkthrough and a plan for spring.</p>
+    `,
+  },
+  {
+    slug: 'smart-irrigation-controller-water-savings-roanoke-va',
+    title: 'Smart Irrigation Controllers: Cutting a Roanoke Water Bill Without Hurting the Lawn',
+    date: '2026-12-07',
+    excerpt: 'Most sprinkler systems in the Roanoke Valley run on a fixed schedule that ignores rain, season, and soil. A weather-based controller fixes that, and usually pays for itself in a couple of seasons.',
+    readTime: '5 min read',
+    category: 'Irrigation',
+    keywords: 'smart irrigation controller roanoke va, sprinkler water savings roanoke virginia, wifi sprinkler controller salem va, irrigation efficiency roanoke va, rain sensor sprinkler system vinton va',
+    content: `
+      <p>The most common irrigation problem we find in Roanoke isn't a broken head or a leaking valve — it's a controller that was programmed once, years ago, and has run the same schedule ever since. Twenty minutes per zone, three days a week, every week from April to October, whether it rained four inches on Tuesday or hasn't rained in three weeks. That single setting is where most of the wasted water and most of the shallow-rooted, disease-prone turf in the Valley comes from.</p>
+
+      <h2>What "Smart" Actually Means Here</h2>
+      <p>A smart controller replaces the fixed calendar with an actual decision. Weather-based models pull local forecast and evapotranspiration data — how much water the grass and soil are genuinely losing to heat, sun, and wind — and adjust each cycle accordingly. Soil-moisture-based models read sensors in the ground and water only when the root zone drops below a set threshold. Either way, the system stops watering the day after a storm and increases run time during a July dry stretch, which is exactly the pattern a Roanoke summer demands and exactly what a fixed timer can't do.</p>
+
+      <h2>The Savings Are Real, and So Is the Agronomic Benefit</h2>
+      <p>The EPA's WaterSense program certifies controllers that demonstrate measurable efficiency gains, and typical outdoor water reduction runs well into double-digit percentages on systems that were previously on a fixed schedule. On a property irrigating a half-acre through a Virginia summer, that shows up clearly on the Western Virginia Water Authority bill.</p>
+      <p>The turf benefit matters just as much. Frequent shallow watering trains roots to stay near the surface, where they cook in August. Smart controllers tend to water less often and longer, which drives roots down into the soil profile. On our clay, that usually also means cycle-and-soak scheduling — splitting a zone into two or three shorter cycles with a soak period between — so water infiltrates instead of running down the slope into the street. That feature alone is worth the upgrade on the graded lots common in Cave Spring, Hunting Hills, and Botetourt County.</p>
+
+      <h2>Features Worth Having, and One That's Required</h2>
+      <ul>
+        <li><strong>A working rain sensor</strong> — Virginia law requires automatic irrigation systems to have one. Many older Roanoke systems have a sensor that failed years ago and was never replaced; the system keeps running in the rain and nobody notices.</li>
+        <li><strong>Zone-by-zone configuration</strong> — Good controllers let you set soil type, slope, sun exposure, plant type, and head type per zone. A shaded bed on flat ground and a sunny slope should never share a schedule.</li>
+        <li><strong>Flow monitoring and leak alerts</strong> — Higher-end models flag a stuck valve or a broken lateral immediately instead of after a quarter's worth of water is gone.</li>
+        <li><strong>Phone control</strong> — Mostly convenience, but genuinely useful for shutting the system down remotely or adding a cycle after seeding.</li>
+      </ul>
+
+      <h2>Where People Get It Wrong</h2>
+      <p>A smart controller manages water; it does not fix hardware. If half the heads are tilted, the spray pattern is blocked by a shrub that grew in, or one zone mixes rotors and spray heads with wildly different precipitation rates, no controller can compensate — the software assumes the system applies water evenly. Getting real value out of the upgrade means auditing the heads, correcting mixed-head zones, and setting the per-zone parameters honestly rather than accepting the defaults. Installation itself is straightforward on most existing systems; the setup is where the savings are won or lost.</p>
+
+      <p>Winter is a good time to plan this. The system is already shut down and drained, we can inspect and quote without disrupting a running schedule, and the controller is programmed and ready before the first spring startup.</p>
+
+      <p>Greenscapes VA installs and configures smart irrigation controllers and audits existing sprinkler systems throughout Roanoke, Salem, Vinton, Daleville, and Botetourt County. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> to schedule an efficiency evaluation.</p>
+    `,
+  },
+  {
     slug: 'benefits-aeration-overseeding-roanoke-va',
     title: 'The Real Benefits of Aeration and Overseeding — and Why Roanoke Lawns Need Both, Not One',
     date: '2026-08-07',
