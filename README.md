@@ -16,9 +16,9 @@ Sitio web oficial de **Greenscapes VA**, empresa de lawn care y landscaping en e
 | Estilos | Tailwind CSS |
 | Animaciones | Framer Motion |
 | Fuente | Poppins (Google Fonts via next/font) |
-| Hosting | Contabo VPS — Ubuntu 22.04 + Nginx |
-| SSL | Let's Encrypt / Certbot (auto-renew) |
-| CI/CD | GitHub Actions → rsync → VPS |
+| Hosting | Hostinger — hosting estático |
+| SSL | Hostinger (renovación automática) |
+| CI/CD | Deploy asistido por Claude (`hosting_deployStaticWebsite`); GitHub queda como respaldo |
 | Caché | Service Worker con versioning automático |
 
 ---
@@ -107,28 +107,24 @@ YYYYMMDDHHmm_nombre-descriptivo
 
 | Campo | Valor |
 |-------|-------|
-| VPS | Contabo — `89.116.27.241` |
-| Usuario SSH | `root` |
-| SSH Key | `~/.ssh/greenscapes_contabo` |
-| Web root | `/var/www/greenscapes-va` |
-| Nginx config | `/etc/nginx/sites-available/greenscapes-va` |
-| SSL cert | `/etc/letsencrypt/live/greenscapesva.com/` |
+| Hosting | Hostinger |
+| Dominio | `greenscapesva.com` |
+| Web root | `/home/<usuario>/domains/greenscapesva.com/public_html` |
+| Deploy | Herramienta MCP de Hostinger: `hosting_deployStaticWebsite` |
+| Repo | Respaldo del código, no es el canal de deploy |
 
-Ver detalles completos en [`docs/vps-setup.md`](docs/vps-setup.md).
+> El sitio vivió en un VPS de Contabo hasta agosto de 2026. Ese servidor ya no se
+> usa y el contrato está cancelado — si encuentras referencias a una IP, Nginx o
+> `rsync` en documentación vieja, están obsoletas.
 
 ---
 
-## Deploy manual (si GitHub Actions no está configurado)
+## Deploy
 
 ```bash
-npm run build
-tar -czf site.tar.gz -C out .
-scp -i ~/.ssh/greenscapes_contabo site.tar.gz root@89.116.27.241:/tmp/
-ssh -i ~/.ssh/greenscapes_contabo root@89.116.27.241 \
-  "rm -rf /var/www/greenscapes-va/* && \
-   tar -xzf /tmp/site.tar.gz -C /var/www/greenscapes-va && \
-   find /var/www/greenscapes-va -type d -exec chmod 755 {} \; && \
-   find /var/www/greenscapes-va -type f -exec chmod 644 {} \; && \
-   chown -R www-data:www-data /var/www/greenscapes-va && \
-   systemctl reload nginx"
+npm run build   # genera /out
 ```
+
+Luego se publica el contenido de `out/` en Hostinger con
+`hosting_deployStaticWebsite` (dominio `greenscapesva.com`). El deploy reemplaza
+el sitio completo, así que se sube todo `out/`, nunca archivos sueltos.

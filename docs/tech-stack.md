@@ -25,13 +25,13 @@
 
 | Herramienta | Rol |
 |-------------|-----|
-| **GitHub** | Repositorio de código fuente |
-| **GitHub Actions** | Pipeline CI/CD automático |
-| **Vercel** | Hosting CDN (producción actual) |
-| **Contabo VPS** | Hosting VPS dedicado (producción definitiva) |
-| **Nginx** | Web server en el VPS |
-| **rsync** | Sincronización de archivos al VPS |
-| **Let's Encrypt** | SSL gratuito (a configurar) |
+| **GitHub** | Respaldo del código fuente (repo **público**) |
+| **Hostinger** | Hosting de producción — greenscapesva.com |
+| **`hosting_deployStaticWebsite`** | Herramienta MCP con la que Claude publica `/out` |
+| **SSL** | Administrado por Hostinger, renovación automática |
+
+> Contabo VPS, Nginx, rsync, Vercel y GitHub Actions aparecían aquí como el plan
+> original de infraestructura. Ninguno se usa: el VPS se canceló en agosto de 2026.
 
 ## Estructura de archivos clave
 
@@ -55,10 +55,7 @@ greenscapes-va/
 │   └── WhatsAppButton.tsx  # Botón flotante pulsante
 ├── docs/                   # ← Esta carpeta (documentación técnica)
 ├── scripts/
-│   └── vps-setup.sh        # Script de setup del VPS
-├── .github/
-│   └── workflows/
-│       └── deploy.yml      # GitHub Actions CI/CD
+│   └── update-sw-version.js # Estampa la versión del service worker antes del build
 ├── public/
 │   └── logo.png            # ⚠️ Pendiente: subir logo real
 ├── .env                    # Variables locales (NO en git)
