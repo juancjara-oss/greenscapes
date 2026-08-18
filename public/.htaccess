@@ -1,5 +1,19 @@
 DirectoryIndex index.html
 
+# Canonical host: force non-www. Both hostnames resolve to this same docroot,
+# and both returned HTTP 200 with no redirect, so every page existed at two
+# crawlable URLs. The <link rel="canonical"> tags already pointed at the
+# non-www version and Google had mostly consolidated on its own, but two live
+# copies still split crawl budget on a low-authority domain. Make it a hard
+# 301. This must stay ABOVE any other rewrite so it runs first.
+# NOTE: this is a host redirect only — do NOT turn it into an SPA catch-all
+# (see the ErrorDocument comment below for why that broke things before).
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+  RewriteRule ^ https://%1%{REQUEST_URI} [L,R=301]
+</IfModule>
+
 # This is a fully static Next.js export with trailingSlash: true, so every real
 # route exists on disk as a directory containing index.html. mod_dir resolves
 # those (and 301-redirects the missing trailing slash), so NO SPA catch-all

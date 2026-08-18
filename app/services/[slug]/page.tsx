@@ -46,8 +46,30 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
   const otherServices = servicePages.filter((s) => s.slug !== service.slug)
   const servicePosts = getPostsByService(service.slug, 8)
 
+  // Still valid schema.org and still parsed by AI crawlers, even though it no
+  // longer produces a Google rich result. Only emitted when the same Q&A is
+  // rendered visibly below — markup without visible content is a violation.
+  const faqSchema =
+    service.faqs && service.faqs.length > 0
+      ? {
+          '@context': 'https://schema.org',
+          '@type': 'FAQPage',
+          mainEntity: service.faqs.map((f) => ({
+            '@type': 'Question',
+            name: f.question,
+            acceptedAnswer: { '@type': 'Answer', text: f.answer },
+          })),
+        }
+      : null
+
   return (
     <>
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
       <Navbar />
       <main className="bg-[#050e07] min-h-screen">
 
@@ -119,6 +141,33 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
                   </a>
                 </div>
               </div>
+
+              {/* Visible Q&A for question-shaped searches. Google killed FAQ
+                  rich results on 2026-05-07, so this is not a snippet play —
+                  the value is having the actual answer on the page for the
+                  query, and for AI answer engines that quote short answers. */}
+              {service.faqs && service.faqs.length > 0 && (
+                <div className="mt-12">
+                  <h2 className="text-white font-poppins font-black text-xl mb-6">
+                    Common Questions About {service.name}
+                  </h2>
+                  <div className="space-y-5">
+                    {service.faqs.map((f) => (
+                      <div
+                        key={f.question}
+                        className="bg-white/[0.03] border border-white/8 rounded-xl p-5"
+                      >
+                        <h3 className="text-white font-poppins font-bold text-base mb-2 leading-snug">
+                          {f.question}
+                        </h3>
+                        <p className="text-white/55 font-poppins text-sm leading-relaxed">
+                          {f.answer}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
 
               {/* Articles written about this service — the return half of the
                   hub-and-spoke. Proves topical depth to Google and gives a

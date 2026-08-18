@@ -7,6 +7,15 @@ export interface ServicePage {
   image: string
   keywords: string
   content: string
+  /**
+   * Visible Q&A for the page. Aimed at question-shaped searches ("when should
+   * I aerate", "how much does overseeding cost") and at AI answer engines,
+   * which quote short direct answers. Note: Google fully deprecated FAQ rich
+   * results on 2026-05-07, so this earns no SERP snippet — the value is in the
+   * on-page copy answering the query, not in the markup.
+   * Never put a price here — see the pricing rule; describe how we quote.
+   */
+  faqs?: { question: string; answer: string }[]
 }
 
 export const servicePages: ServicePage[] = [
@@ -432,6 +441,43 @@ export const servicePages: ServicePage[] = [
 
       <p>Call <strong>(540) 798-4479</strong> or email <strong>prettylawn@greenscapesva.com</strong> to schedule your fall aeration and overseeding appointment.</p>
     `,
+    faqs: [
+      {
+        question: 'When should I aerate and overseed my lawn in Roanoke?',
+        answer:
+          'Go by soil temperature rather than the calendar. Tall fescue germinates reliably once soil temperature falls below about 70°F, with the sweet spot in the 60s. In the Roanoke Valley that usually means late August through early October. Seed needs roughly six weeks of growing time before the first frost, which typically arrives in the second half of October here.',
+      },
+      {
+        question: 'How much does aeration and overseeding cost?',
+        answer:
+          'We quote on the actual turf area we treat, not the size of the lot — a half-acre property with beds, driveway, and tree cover has far less grass than a half acre of open lawn, and it would not be fair to charge as though it did. Quality seed is included. We measure the property and give you a written price before any work starts.',
+      },
+      {
+        question: 'Do I need to do both aeration and overseeding, or just one?',
+        answer:
+          'They work considerably better together. Aeration without seed relieves compaction but leaves the same thin stand of grass. Seed without aeration mostly sits on the surface and washes away, because tall fescue needs direct seed-to-soil contact to germinate. The aeration holes are what create that contact, which is why we perform both in the same visit.',
+      },
+      {
+        question: 'Can I aerate and overseed in the spring instead?',
+        answer:
+          'Aeration alone is fine in spring. Overseeding is not. Spring seedlings have only a few weeks of mild weather before Roanoke summer heat arrives, and they reach July with a shallow root system. Spring seeding also conflicts with crabgrass pre-emergent, since anything that stops crabgrass seed from germinating stops grass seed too.',
+      },
+      {
+        question: 'How long until the new grass comes up?',
+        answer:
+          'Tall fescue typically germinates in 7 to 21 days when soil temperature and moisture are right. The seedbed needs to stay consistently moist through that period — light, frequent watering rather than heavy soaking. Hold off on heavy foot traffic until after the first mow of the new growth.',
+      },
+      {
+        question: 'What are the soil plugs left on the lawn afterward?',
+        answer:
+          'Those are the cores the aerator pulled out, and they should be left alone. They break down naturally within two to three weeks, returning organic matter and soil microbes to the surface. Raking them up removes part of the benefit of the job.',
+      },
+      {
+        question: 'Does my lawn need to be watered before you aerate?',
+        answer:
+          'Yes, and it matters more on Roanoke clay than most people expect. Aeration needs damp soil to pull clean, deep cores. Clay that has gone through a dry stretch sets up hard, and the tines skip across the surface pulling short crumbly plugs that accomplish very little. Water the lawn well the day before, or we schedule you a day or two after decent rain.',
+      },
+    ],
   },
   {
     slug: 'additional-services',
