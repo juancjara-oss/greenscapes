@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { getServicePageBySlug, getAllServiceSlugs, servicePages } from '@/content/service-pages'
+import { getPostsByService } from '@/content/posts'
 import type { Metadata } from 'next'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
@@ -43,6 +44,7 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
   if (!service) notFound()
 
   const otherServices = servicePages.filter((s) => s.slug !== service.slug)
+  const servicePosts = getPostsByService(service.slug, 8)
 
   return (
     <>
@@ -117,6 +119,34 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
                   </a>
                 </div>
               </div>
+
+              {/* Articles written about this service — the return half of the
+                  hub-and-spoke. Proves topical depth to Google and gives a
+                  reader who isn't ready to call somewhere useful to go. */}
+              {servicePosts.length > 0 && (
+                <div className="mt-10">
+                  <h2 className="text-white font-poppins font-black text-xl mb-5">
+                    More on {service.name}
+                  </h2>
+                  <ul className="grid sm:grid-cols-2 gap-3">
+                    {servicePosts.map((p) => (
+                      <li key={p.slug}>
+                        <Link
+                          href={`/blog/${p.slug}`}
+                          className="group block h-full bg-white/[0.03] border border-white/8 rounded-xl p-4 hover:border-[#39ff14]/40 transition-colors duration-200"
+                        >
+                          <span className="block text-white font-poppins font-bold text-sm leading-snug group-hover:text-[#39ff14] transition-colors duration-200">
+                            {p.title}
+                          </span>
+                          <span className="block text-white/35 font-poppins text-xs mt-2">
+                            {p.readTime}
+                          </span>
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
             </div>
 
             {/* Sidebar */}

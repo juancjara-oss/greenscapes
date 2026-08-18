@@ -5,6 +5,8 @@ export interface Post {
   excerpt: string
   readTime: string
   category: string
+  /** Slug of the service page this post supports — drives internal linking. */
+  service: string
   keywords: string
   content: string
 }
@@ -159,6 +161,7 @@ export const posts: Post[] = [
     excerpt: 'A walkway is the hardest-working hardscape on your property, and the one most likely to heave, sink, or crack. Here is what separates a path that lasts 25 years from one that fails in three.',
     readTime: '5 min read',
     category: 'Hardscaping',
+    service: 'hardscaping-patios',
     keywords: 'paver walkway installation roanoke va, garden path roanoke virginia, front walkway pavers roanoke va, stone walkway salem va, hardscape walkway botetourt county',
     content: `
       <p>Patios get the attention, but the walkway is the piece of hardscape every visitor actually touches. It carries daily foot traffic, absorbs everything the mailman and the snow shovel do to it, and sits directly in the freeze-thaw zone that makes Roanoke winters so hard on masonry. Done right, a paver walkway outlives the roof. Done cheaply, it starts tilting by the second spring. The difference is almost entirely below the surface.</p>
@@ -195,6 +198,7 @@ export const posts: Post[] = [
     excerpt: 'The brown, dead strip along your driveway every March is not winterkill — it is salt. Here is how de-icers damage turf and shrubs in the Roanoke Valley, and what to do differently this year.',
     readTime: '5 min read',
     category: 'Seasonal Tips',
+    service: 'seasonal-cleanup',
     keywords: 'salt damage lawn roanoke va, de-icer damage landscaping roanoke virginia, driveway salt grass damage salem va, winter lawn protection roanoke va, ice melt safe for plants roanoke',
     content: `
       <p>Every spring we walk properties in Roanoke and Salem where the lawn looks fine except for a two-foot band of dead, matted turf running along the driveway, the front walk, and the street edge. Homeowners usually assume the cold killed it. It didn't — cool-season fescue handles our winters easily. What killed it was sodium chloride, either from the bag by the back door or from the road crews on Route 419 and Williamson Road.</p>
@@ -229,6 +233,7 @@ export const posts: Post[] = [
     excerpt: 'Most Roanoke landscapes are designed for May and disappear for four months. Structure, evergreens, bark, and berries keep a yard worth looking at all winter — and winter is when buyers and neighbors see it bare.',
     readTime: '5 min read',
     category: 'Landscaping',
+    service: 'landscape-design',
     keywords: 'winter landscaping ideas roanoke va, evergreen shrubs roanoke virginia, winter curb appeal roanoke va, four season landscape design salem va, plants for winter interest botetourt county',
     content: `
       <p>Walk a Roanoke neighborhood in January and the difference between landscapes is stark. Some yards still have shape, color, and depth. Most look like a row of brown sticks in front of a house. The gap usually isn't money spent — it's that the planting was chosen entirely for spring bloom, so roughly a third of the year was never designed at all.</p>
@@ -265,6 +270,7 @@ export const posts: Post[] = [
     excerpt: 'Most sprinkler systems in the Roanoke Valley run on a fixed schedule that ignores rain, season, and soil. A weather-based controller fixes that, and usually pays for itself in a couple of seasons.',
     readTime: '5 min read',
     category: 'Irrigation',
+    service: 'irrigation-systems',
     keywords: 'smart irrigation controller roanoke va, sprinkler water savings roanoke virginia, wifi sprinkler controller salem va, irrigation efficiency roanoke va, rain sensor sprinkler system vinton va',
     content: `
       <p>The most common irrigation problem we find in Roanoke isn't a broken head or a leaking valve — it's a controller that was programmed once, years ago, and has run the same schedule ever since. Twenty minutes per zone, three days a week, every week from April to October, whether it rained four inches on Tuesday or hasn't rained in three weeks. That single setting is where most of the wasted water and most of the shallow-rooted, disease-prone turf in the Valley comes from.</p>
@@ -293,12 +299,85 @@ export const posts: Post[] = [
     `,
   },
   {
+    slug: 'soil-temperature-aerate-overseed-roanoke-va',
+    title: 'Soil Temperature, Not the Calendar, Tells You When to Aerate and Overseed',
+    date: '2026-08-18',
+    excerpt: 'Every lawn company will tell you to aerate and overseed "in the fall." The soil is more specific than that. Here is the number that actually decides whether your seed germinates in Roanoke.',
+    readTime: '6 min read',
+    category: 'Lawn Care',
+    service: 'aeration-overseeding',
+    keywords: 'soil temperature overseeding roanoke va, when to aerate lawn soil temperature, tall fescue seeding soil temp virginia, soil temperature roanoke va lawn, best time to overseed roanoke virginia',
+    content: `
+      <p>Ask five lawn companies in the Roanoke Valley when to aerate and overseed and you will get five versions of the same answer: fall. That is not wrong, but it is a proxy. The calendar is a rough stand-in for the thing your grass seed actually responds to, which is the temperature of the soil it is sitting in. In a normal year the two line up. In a year with a hot September or an early cool-down, they do not — and that is the year people wonder why their seed never came up.</p>
+
+      <p>Seed does not know what month it is. It responds to soil temperature and moisture. If you learn to read one number, you will time this job better than most of the people you could hire to do it.</p>
+
+      <h2>The Number: Below 70°F and Falling</h2>
+
+      <p>Tall fescue — the grass in the overwhelming majority of Roanoke lawns — germinates reliably once soil temperature drops <strong>below about 70°F</strong>. The sweet spot sits in the 60s. Seed dropped into soil in that range germinates in roughly one to two weeks and puts down real roots before winter.</p>
+
+      <p>Two things matter about that number, and both get missed:</p>
+
+      <ul>
+        <li><strong>It has to be falling, not rising.</strong> Soil passes through the 60s twice a year. In spring it is on the way up, and the seedlings that germinate then meet a Roanoke July with a root system a few inches deep. In fall it is on the way down, and those same seedlings get eight to ten weeks of ideal growing weather. Same temperature, completely different outcome.</li>
+        <li><strong>There is a floor as well as a ceiling.</strong> Germination slows badly as soil drops through the low 50s and effectively stops below about 50°F. Seed sown that late does not die — it just sits there until spring, unprotected, and a good bit of it washes off or gets eaten.</li>
+      </ul>
+
+      <p>So the window is not "fall." It is the stretch between the day soil temperature falls below 70°F and the day it approaches 50°F. In the Roanoke Valley that is usually somewhere from late August into early October.</p>
+
+      <h2>Air Temperature Will Lie to You</h2>
+
+      <p>This is the part that catches homeowners. Soil holds heat far longer than air does. We get those first genuinely pleasant mornings in the upper 50s around the end of August, everyone decides fall has arrived, and the soil three inches down is still holding in the mid-70s from six weeks of August sun. Seed goes into soil that is too warm, germinates unevenly if at all, and what does come up is walking straight into brown patch weather.</p>
+
+      <p>The lag runs the other way too. A cold snap in early October does not immediately cool the soil, which is why the window often stays open a little longer than the weather app suggests.</p>
+
+      <p>Measure the soil, not the air. A basic soil thermometer costs very little at any garden center — push it in about two to three inches, take the reading in the morning rather than the late afternoon, and check a spot in full sun and a spot in shade, because they will not match. If you would rather not buy one, <a href="https://www.soiltemps.com/roanoke-va" target="_blank" rel="noopener noreferrer">soiltemps.com tracks current soil temperature for Roanoke</a> and is a genuinely useful thing to bookmark this time of year.</p>
+
+      <h2>What Going Too Early Costs You</h2>
+
+      <p>Seeding into soil still above 70°F is the most common timing mistake we see, and it fails in three ways at once. Germination is patchy, so you pay for full coverage and get half. Warm, damp soil plus fresh watering is exactly the condition brown patch fungus wants, and thin new seedlings have no defense against it. And the seedlings that do survive have to push through the tail end of Roanoke's heat with almost no root system.</p>
+
+      <p>Waiting two weeks for the soil to come down almost always produces a better lawn than seeding two weeks early, even though it feels like falling behind.</p>
+
+      <h2>What Going Too Late Costs You</h2>
+
+      <p>The other end of the window is set by frost, not just by temperature. New seedlings need roughly six weeks of growing time to root well enough to survive winter. Roanoke's first frost typically lands in the second half of October, which means seed really wants to be down and germinating by early October at the latest.</p>
+
+      <p>Miss that and you are not just losing this season. A thin lawn going into winter is a lawn with open soil in March, and open soil in March is where crabgrass comes from — which turns a timing problem into next summer's weed problem.</p>
+
+      <h2>Aeration Has Its Own Condition: Moisture</h2>
+
+      <p>Soil temperature governs the seed. Aeration answers to moisture. Core aeration pulls plugs, and it only pulls clean, deep plugs when the soil is damp — not saturated, not baked. On the red clay across Roanoke, Salem, and Vinton this matters more than it would on sandy ground. Clay that has gone through a dry stretch turns to something close to brick, and the tines skip across the surface pulling short, crumbly cores that do very little.</p>
+
+      <p>The practical version: aerate a day or two after a decent rain, or water the lawn well the day before. If you are combining aeration and overseeding — and you should, since <a href="/blog/benefits-aeration-overseeding-roanoke-va/">they work considerably better together than separately</a> — you need both conditions at once: soil damp enough to core, and cool enough to germinate. That overlap is narrower than people expect, and it is the real reason schedules fill up in September.</p>
+
+      <h2>The Valley Is Not One Temperature</h2>
+
+      <p>Roanoke's terrain spreads this window out more than a flat region would. Higher ground around Catawba and the north county cools earlier. Properties down near Smith Mountain Lake hold warmth later. A south-facing slope in full sun can run several degrees warmer than a shaded back yard on the same street, which is why the sunny half of a lawn sometimes germinates a week ahead of the shaded half.</p>
+
+      <p>If your property has a real elevation change or a heavily shaded section, it is worth taking two readings rather than one and timing to the section that matters most to you.</p>
+
+      <h2>A Simple Way to Play It</h2>
+
+      <ul>
+        <li>Start checking soil temperature in mid-August, two to three inches down, in the morning.</li>
+        <li>When it settles below 70°F and the trend is downward, you are open for business.</li>
+        <li>Get seed down with at least six weeks before your first frost — early October in most of the valley.</li>
+        <li>Make sure the soil is damp when the aerator runs, and keep the seedbed consistently moist for the two to three weeks after.</li>
+        <li>If soil has dropped near 50°F, stop. Wait for spring and plan on <a href="/blog/best-time-to-aerate-lawn-roanoke-va/">hitting the fall window properly next year</a>.</li>
+      </ul>
+
+      <p>Greenscapes VA schedules <a href="/services/aeration-overseeding/">core aeration and overseeding</a> against soil conditions rather than a fixed date, across Roanoke, Salem, Vinton, Daleville, Cave Spring, and Botetourt County. Jobs are quoted on the actual turf area we treat rather than the size of the lot, and quality seed is included. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> to get measured and on the schedule while the window is open.</p>
+    `,
+  },
+  {
     slug: 'benefits-aeration-overseeding-roanoke-va',
     title: 'The Real Benefits of Aeration and Overseeding — and Why Roanoke Lawns Need Both, Not One',
     date: '2026-08-07',
     excerpt: 'Aeration fixes the soil. Overseeding fixes the grass. Done together in early fall they compound; done separately, most of the money is wasted. Here\'s what each one actually buys you on a Roanoke lawn.',
     readTime: '6 min read',
     category: 'Lawn Care',
+    service: 'aeration-overseeding',
     keywords: 'benefits of aeration and overseeding roanoke va, core aeration benefits roanoke virginia, aeration and overseeding roanoke va, overseeding benefits roanoke virginia, lawn renovation roanoke va',
     content: `
       <p>Every fall we get the same question from Roanoke homeowners: "Do I really need both, or can I just do one?" It's a fair question — aeration and overseeding are sold together so often that they sound like a package invented by lawn companies. They aren't. They solve two completely different problems, and each one makes the other work better. Here's what each service actually does, what you get out of the pair, and why the calendar matters more than almost anything else.</p>
@@ -336,7 +415,7 @@ export const posts: Post[] = [
       <h2>How It Gets Quoted</h2>
       <p>Aeration and overseeding is priced by the actual turf area, not by the size of the lot — you shouldn't be paying for the house, the driveway, or the landscape beds. We measure the real grass area before quoting, and seed is included in the number we give you. Most Roanoke properties land somewhere between a quarter and half an acre of true turf. Dollar for dollar it's the single highest-return service on a cool-season lawn: one visit that improves the soil and the grass at the same time, and makes every fertilizer application after it work harder.</p>
 
-      <p>Greenscapes VA provides core aeration and overseeding throughout Roanoke, Salem, Vinton, Daleville, Cave Spring, and Botetourt County, scheduled inside the correct fall window. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> to get measured and on the schedule before the window closes.</p>
+      <p>Greenscapes VA provides <a href="/services/aeration-overseeding/">core aeration and overseeding</a> throughout Roanoke, Salem, Vinton, Daleville, Cave Spring, and Botetourt County, scheduled inside the correct fall window. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> to get measured and on the schedule before the window closes.</p>
     `,
   },
   {
@@ -346,6 +425,7 @@ export const posts: Post[] = [
     excerpt: 'A layer of wet leaves left on tall fescue over winter can smother and kill it outright. Here\'s how often to clear leaves in Roanoke and what to do with them.',
     readTime: '5 min read',
     category: 'Seasonal Tips',
+    service: 'seasonal-cleanup',
     keywords: 'leaf removal roanoke va, fall cleanup roanoke virginia, leaf cleanup service roanoke, fall yard cleanup roanoke va',
     content: `
       <p>The Roanoke Valley is beautiful in October, and the mature oaks and maples that make it that way drop an enormous volume of leaves onto local lawns from mid-October through November. It's tempting to wait until the trees are bare and do it all in one weekend, but that single delay is what turns a routine chore into actual lawn damage. Here's what wet leaves do to tall fescue, how often to clear them, and what to do with the volume once it's off the grass.</p>
@@ -380,6 +460,7 @@ export const posts: Post[] = [
     excerpt: 'A fire pit is the cheapest way to make a backyard usable from March through November in Roanoke. Here\'s how to choose the type, size, and placement before you build.',
     readTime: '5 min read',
     category: 'Hardscaping',
+    service: 'hardscaping-patios',
     keywords: 'fire pit installation roanoke va, outdoor fire pit roanoke virginia, built in fire pit roanoke, backyard fire pit roanoke va',
     content: `
       <p>Of all the hardscaping additions available to a Roanoke homeowner, a fire pit delivers the most usable time per dollar spent. Our shoulder seasons are long — cool evenings run from March into June and again from September through November — and a fire pit is what makes a backyard genuinely comfortable during all of them. But there are real decisions to make about type, fuel, size, and placement, and getting them wrong is how a fire pit ends up unused. Here's how to think it through.</p>
@@ -414,6 +495,7 @@ export const posts: Post[] = [
     excerpt: 'If you fertilize on schedule and the lawn still looks tired, the problem is probably soil pH. Here\'s how to test it and correct acidic clay soil in the Roanoke Valley.',
     readTime: '5 min read',
     category: 'Lawn Care',
+    service: 'fertilization-weed-control',
     keywords: 'soil test lawn roanoke va, lime lawn roanoke virginia, soil ph lawn roanoke, when to apply lime roanoke va',
     content: `
       <p>Here's a frustrating scenario we see constantly across the Roanoke Valley: a homeowner fertilizes on schedule, waters correctly, mows high — and the lawn still looks thin and tired. Before adding more fertilizer, check the soil pH. Roanoke's clay soils tend to run acidic, and below a certain pH the nutrients you're applying are chemically locked up in the soil where grass roots simply cannot take them up. You're paying for fertilizer the lawn can't use.</p>
@@ -449,6 +531,7 @@ export const posts: Post[] = [
     excerpt: 'Standing water and soggy lawn aren\'t just annoying — they kill grass and threaten foundations. Here are the drainage fixes that actually work on Roanoke\'s clay-and-slope lots.',
     readTime: '5 min read',
     category: 'Landscaping',
+    service: 'additional-services',
     keywords: 'yard drainage roanoke va, french drain installation roanoke virginia, standing water yard roanoke, drainage solutions roanoke va',
     content: `
       <p>Roanoke properties get hit with a specific combination that produces drainage problems: hillside lots that funnel runoff, and dense clay soil that absorbs water far too slowly to keep up with it. The result is standing water in low spots, a soggy strip of lawn that never quite dries out, water pooling against the foundation, and grass that dies from suffocated roots. The good news is these are solvable problems — but only if you fix the right one. Here's how the common drainage solutions actually work and when each applies.</p>
@@ -484,6 +567,7 @@ export const posts: Post[] = [
     excerpt: 'If patches of your lawn peel back like carpet or the local wildlife is digging it up overnight, white grubs are the likely cause. Here\'s how to identify and control them in Roanoke.',
     readTime: '5 min read',
     category: 'Lawn Care',
+    service: 'fertilization-weed-control',
     keywords: 'grub control roanoke va, white grubs lawn roanoke virginia, lawn grub treatment roanoke, grub damage lawn roanoke va',
     content: `
       <p>You fertilized, you watered, you mowed high — and yet sections of your Roanoke lawn are turning brown and dying in late summer, with the dead grass lifting up like loose carpet. Before you blame drought or disease, check for white grubs. These plump, C-shaped larvae feed on grass roots just below the surface, and by the time the damage shows, a serious infestation is often already underway. Here's how to identify, treat, and prevent grub problems on lawns across Roanoke, Salem, and Vinton.</p>
@@ -518,6 +602,7 @@ export const posts: Post[] = [
     excerpt: 'A paver patio adds usable living space and lasting value — but only when the base is built right. Here\'s what drives the design, cost, and durability of a paver patio in the Roanoke area.',
     readTime: '5 min read',
     category: 'Hardscaping',
+    service: 'hardscaping-patios',
     keywords: 'paver patio cost roanoke va, patio installation roanoke virginia, paver patio roanoke, backyard patio installation roanoke va',
     content: `
       <p>A well-built paver patio is one of the highest-value additions you can make to a Roanoke property. It turns unused backyard into an outdoor living space, requires almost no maintenance for decades, and holds up to our freeze-thaw winters far better than a poured slab. But the difference between a patio that stays flat for 25 years and one that heaves and shifts within a few is almost entirely in the base — the part you never see. Here's what actually drives the design, cost, and durability of a paver patio in the Roanoke Valley.</p>
@@ -553,6 +638,7 @@ export const posts: Post[] = [
     excerpt: 'Most homeowners plant in spring, but fall is actually the ideal season for establishing trees and shrubs in Roanoke. Here\'s why — and how to do it right before the ground freezes.',
     readTime: '5 min read',
     category: 'Landscaping',
+    service: 'landscape-design',
     keywords: 'fall planting roanoke va, best time to plant trees shrubs roanoke virginia, fall tree planting roanoke, when to plant shrubs roanoke va',
     content: `
       <p>Spring gets all the attention at the garden center, but if you want a tree or shrub to establish quickly and thrive, fall is the better season to plant in Roanoke. The cooler air, warm soil, and reliable autumn rain create nearly ideal conditions for roots to get established before winter — giving fall plantings a real head start over anything you put in the ground next spring. Here's why fall works so well in the Roanoke Valley, and how to do it right.</p>
@@ -587,6 +673,7 @@ export const posts: Post[] = [
     excerpt: 'One skipped winterization can crack pipes, valves, and backflow devices when Roanoke\'s first hard freeze hits. Here\'s why the blow-out matters and when to schedule it.',
     readTime: '5 min read',
     category: 'Irrigation',
+    service: 'irrigation-systems',
     keywords: 'sprinkler winterization roanoke va, irrigation blow out roanoke virginia, winterize sprinkler system roanoke, irrigation winterization roanoke va',
     content: `
       <p>Of all the seasonal irrigation tasks, winterization is the one you can't afford to skip in Roanoke. Water left sitting in sprinkler lines expands when it freezes, and that expansion is powerful enough to crack pipes, split valve bodies, and destroy an expensive backflow preventer. A single missed winterization can turn into a several-hundred-dollar repair the following spring. Here's why the blow-out matters, and when to get it done before Roanoke's first hard freeze.</p>
@@ -621,6 +708,7 @@ export const posts: Post[] = [
     excerpt: 'The dry stretch we\'re in right now is doing real damage to Roanoke lawns. Here\'s why that makes fall aeration and overseeding more important than ever this year — and why booking early matters.',
     readTime: '5 min read',
     category: 'Seasonal Tips',
+    service: 'aeration-overseeding',
     keywords: 'lawn drought recovery roanoke va, aeration overseeding after drought roanoke, schedule fall lawn renovation roanoke virginia, drought damaged lawn roanoke va',
     content: `
       <p>If your lawn in Roanoke, Salem, or Vinton looks worse right now than it has in years, you're not imagining it. The extended dry stretch we're in the middle of is putting real stress on tall fescue lawns across the Valley, and the damage doesn't fully show up until weeks after the heat and lack of rain actually hit. This year, fall aeration and overseeding aren't just routine maintenance — they're recovery work, and the sooner you get on the schedule, the better your lawn's chances heading into next spring.</p>
@@ -645,7 +733,7 @@ export const posts: Post[] = [
         <li><strong>Reserve your fall slot early</strong> — in a drought year, this is the single biggest factor in whether your lawn gets the timing it needs to fully recover before winter.</li>
       </ul>
 
-      <p>Greenscapes VA is already assessing drought damage and booking fall aeration and overseeding for properties throughout Roanoke, Salem, Vinton, Daleville, and Botetourt County. If your lawn has taken a hit this summer, don't wait until September to start the conversation. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> to get on the schedule now.</p>
+      <p>Greenscapes VA is already assessing drought damage and booking <a href="/services/aeration-overseeding/">fall aeration and overseeding</a> for properties throughout Roanoke, Salem, Vinton, Daleville, and Botetourt County. If your lawn has taken a hit this summer, don't wait until September to start the conversation. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> to get on the schedule now.</p>
     `,
   },
   {
@@ -655,6 +743,7 @@ export const posts: Post[] = [
     excerpt: 'Too much thatch chokes a healthy lawn from below. Here\'s how to tell if your Roanoke lawn needs dethatching, and the right way to do it without causing more damage than good.',
     readTime: '5 min read',
     category: 'Lawn Care',
+    service: 'aeration-overseeding',
     keywords: 'dethatching lawn roanoke va, lawn thatch removal roanoke virginia, when to dethatch lawn roanoke, power raking roanoke va',
     content: `
       <p>A thin layer of thatch is normal and even beneficial for a Roanoke lawn — it insulates the soil and holds a little moisture during dry stretches. But when that layer builds up past a half inch, it stops helping and starts choking the grass growing above it. Dethatching is the fix, and like most lawn care tasks in our transition-zone climate, timing determines whether it helps or hurts.</p>
@@ -679,7 +768,7 @@ export const posts: Post[] = [
       <h2>When to Dethatch in Roanoke</h2>
       <p>Early fall — <strong>September into early October</strong> — is the best window for tall fescue lawns in our area, the same window that works well for aeration and overseeding. Dethatching in spring is possible but riskier, since it opens the lawn up right before summer heat arrives. Avoid dethatching in July or August altogether; a heat-stressed lawn has little capacity to recover from the disturbance.</p>
 
-      <p>If your lawn feels spongy or has stopped responding to regular fertilizing, Greenscapes VA can check thatch depth and recommend the right combination of dethatching, aeration, and overseeding for your property. We serve Roanoke, Salem, Vinton, Daleville, and Botetourt County. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> for a free lawn evaluation.</p>
+      <p>If your lawn feels spongy or has stopped responding to regular fertilizing, Greenscapes VA can check thatch depth and recommend the right combination of dethatching, <a href="/services/aeration-overseeding/">aeration, and overseeding</a> for your property. We serve Roanoke, Salem, Vinton, Daleville, and Botetourt County. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> for a free lawn evaluation.</p>
     `,
   },
   {
@@ -689,6 +778,7 @@ export const posts: Post[] = [
     excerpt: 'Choosing plants built for the Roanoke Valley\'s soil and climate means less watering and less replacement after a rough summer. Here\'s what actually performs.',
     readTime: '5 min read',
     category: 'Landscaping',
+    service: 'landscape-design',
     keywords: 'drought tolerant plants roanoke va, native plants roanoke virginia, low maintenance landscaping roanoke, native landscaping roanoke va',
     content: `
       <p>Roanoke's summers bring stretches of heat and dry weather that put heavy demands on thirsty, high-maintenance plantings. Choosing drought-tolerant and native plant species for your landscape beds means less watering, less replacement after a rough summer, and a yard that actually looks better suited to where it is. Here's what performs well in the Roanoke Valley.</p>
@@ -725,6 +815,7 @@ export const posts: Post[] = [
     excerpt: 'A well-built retaining wall stops erosion and creates usable flat space on a hillside lot. Here\'s what actually drives the design and cost of a wall in the Roanoke area.',
     readTime: '5 min read',
     category: 'Hardscaping',
+    service: 'hardscaping-patios',
     keywords: 'retaining wall cost roanoke va, retaining wall installation roanoke virginia, sloped yard landscaping roanoke, retaining wall design roanoke',
     content: `
       <p>Roanoke's hills give the area its character, but they also leave a lot of yards dealing with erosion, runoff, and unusable sloped ground. A well-built retaining wall solves all three problems at once — and unlike most landscaping investments, it's one that keeps working with almost no maintenance for decades. Here's what actually drives the design and cost of a retaining wall in the Roanoke area.</p>
@@ -759,6 +850,7 @@ export const posts: Post[] = [
     excerpt: 'From heads that won\'t pop up to a climbing water bill with no obvious cause, here\'s how to diagnose the most common irrigation problems on Roanoke properties.',
     readTime: '5 min read',
     category: 'Irrigation',
+    service: 'irrigation-systems',
     keywords: 'sprinkler repair roanoke va, irrigation troubleshooting roanoke virginia, broken sprinkler head roanoke, irrigation system repair roanoke va',
     content: `
       <p>An irrigation system is supposed to take the guesswork out of watering — until something goes wrong and you're left with a soggy patch, a dry patch, or a water bill that doesn't make sense. Most sprinkler problems on Roanoke systems fall into a handful of predictable categories, and most are straightforward to diagnose once you know what to look for.</p>
@@ -791,6 +883,7 @@ export const posts: Post[] = [
     excerpt: 'What you do to your lawn in March and April sets the tone for the entire growing season. Here\'s the step-by-step spring checklist for tall fescue lawns in Roanoke.',
     readTime: '5 min read',
     category: 'Seasonal Tips',
+    service: 'seasonal-cleanup',
     keywords: 'spring lawn care roanoke va, spring lawn checklist roanoke virginia, lawn care march april roanoke, spring lawn prep roanoke va',
     content: `
       <p>After a long winter, it's tempting to look at a dormant, tan-colored lawn in Roanoke and want to throw everything at it at once — heavy fertilizer, an early mow, maybe some seed. But tall fescue, the grass in most Roanoke, Salem, and Vinton yards, responds best to a specific sequence of spring tasks done at the right time. Get the order right and you set up the whole growing season.</p>
@@ -829,6 +922,7 @@ export const posts: Post[] = [
     excerpt: 'Overhead sprinklers waste water and promote disease in planting beds. Here\'s why drip irrigation is the better choice for gardens, shrubs, and containers in Roanoke.',
     readTime: '5 min read',
     category: 'Irrigation',
+    service: 'irrigation-systems',
     keywords: 'drip irrigation roanoke va, garden bed irrigation roanoke virginia, water efficient irrigation roanoke, drip irrigation installation roanoke va',
     content: `
       <p>Most irrigation conversations in Roanoke focus on the lawn, but planting beds, vegetable gardens, and shrub borders often need water even more precisely than turf does. Overhead spray heads aimed at a garden bed waste a lot of water to evaporation and wind drift, and they leave plant foliage wet — a setup for the same fungal problems that plague Roanoke lawns in summer. Drip irrigation solves both problems at once.</p>
@@ -863,6 +957,7 @@ export const posts: Post[] = [
     excerpt: 'The right outdoor lighting extends your yard\'s usable hours and makes a property stand out after dark. Here\'s how Roanoke homeowners are using landscape lighting well.',
     readTime: '5 min read',
     category: 'Landscaping',
+    service: 'landscape-design',
     keywords: 'landscape lighting roanoke va, outdoor lighting installation roanoke virginia, path lighting roanoke, led landscape lighting roanoke va',
     content: `
       <p>A landscape that looks great at noon often disappears entirely after sunset. Landscape lighting changes that — it extends the hours you can actually use your outdoor space, adds a layer of safety along paths and steps, and gives a property a finished, higher-end look that plain daytime landscaping can't achieve on its own. For Roanoke homeowners investing in patios, plantings, or curb appeal, lighting is often the last piece that ties everything together.</p>
@@ -898,6 +993,7 @@ export const posts: Post[] = [
     excerpt: 'Weeds fill in wherever tall fescue is thin or stressed. Here\'s how to control crabgrass and common broadleaf weeds in Roanoke lawns — and why timing matters more than product choice.',
     readTime: '5 min read',
     category: 'Lawn Care',
+    service: 'fertilization-weed-control',
     keywords: 'crabgrass control roanoke va, weed control roanoke virginia, pre-emergent herbicide roanoke, broadleaf weed control roanoke va lawn',
     content: `
       <p>Weeds don't take over a healthy, dense lawn — they take over the bare and thin spots a healthy lawn should be filling instead. In Roanoke, where tall fescue naturally thins under summer heat, weed pressure and lawn health are two sides of the same problem. Controlling weeds effectively means understanding both the specific weed you're dealing with and the timing that actually works.</p>
@@ -932,6 +1028,7 @@ export const posts: Post[] = [
     excerpt: 'Not all grass types survive Roanoke\'s transition-zone climate. Here\'s what grows well, what struggles, and how to choose the right grass for your property.',
     readTime: '5 min read',
     category: 'Lawn Care',
+    service: 'aeration-overseeding',
     keywords: 'best grass type roanoke va, grass seed roanoke virginia, tall fescue roanoke, what grass grows in roanoke va, lawn grass roanoke valley',
     content: `
       <p>Choosing the right grass type for a Roanoke lawn isn't as simple as picking whatever looks good at the garden center. Roanoke sits in Virginia's "transition zone" — a climate belt that's too hot and humid for cool-season grasses to thrive all summer, and too cold in winter for warm-season grasses to survive reliably. That makes grass selection more critical here than in most of the country.</p>
@@ -964,7 +1061,7 @@ export const posts: Post[] = [
       <h2>The Bottom Line for Roanoke Homeowners</h2>
       <p>For most Roanoke properties — especially those with any shade, hills, or mixed conditions — tall fescue is the right choice. It's the most forgiving grass for our climate, holds up to normal use, and responds well to proper care. The key is choosing a quality turf-type variety, seeding at the right time (fall for cool-season grasses), and maintaining it at the correct mowing height throughout the season.</p>
 
-      <p>If you're not sure what grass you have or what would work best for your property, Greenscapes VA offers free lawn assessments throughout Roanoke, Salem, Vinton, Daleville, and Botetourt County. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> to schedule a visit.</p>
+      <p>If you're not sure what grass you have or what would work best for your property, Greenscapes VA offers free lawn assessments and <a href="/services/aeration-overseeding/">aeration and overseeding</a> throughout Roanoke, Salem, Vinton, Daleville, and Botetourt County. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> to schedule a visit.</p>
     `,
   },
   {
@@ -974,6 +1071,7 @@ export const posts: Post[] = [
     excerpt: 'Compacted soil is one of the most common reasons lawns in Roanoke thin out and underperform. Here are the signs that aeration should be on your fall to-do list.',
     readTime: '4 min read',
     category: 'Lawn Care',
+    service: 'aeration-overseeding',
     keywords: 'signs lawn needs aeration roanoke va, fall lawn aeration roanoke virginia, core aeration roanoke, compacted lawn roanoke va',
     content: `
       <p>Lawn aeration is one of the most effective treatments you can do for a struggling lawn in Roanoke — and also one of the most skipped. Many homeowners fertilize, mow, and water consistently but never aerate, and wonder why the lawn stays thin. Compacted soil is often the missing piece. Here are the five clearest signs it's time to aerate this fall.</p>
@@ -998,7 +1096,7 @@ export const posts: Post[] = [
       <p>For tall fescue — the dominant grass type in Roanoke, Salem, and the surrounding Valley — fall is the best time to aerate. The ideal window is <strong>late August through mid-October</strong>. Aerating in fall lets the lawn recover during its most active growth period and pairs naturally with overseeding, which is most effective when seed can fall directly into the aeration holes.</p>
       <p>Avoid aerating in summer heat. Poking holes in a heat-stressed lawn adds stress rather than relieving it. If your lawn shows signs of compaction in July, schedule the work for September.</p>
 
-      <p>Greenscapes VA provides professional core aeration and overseeding services throughout Roanoke, Salem, Vinton, Daleville, and Botetourt County. If your lawn shows any of these signs, call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> to get on our fall aeration schedule before spots fill up.</p>
+      <p>Greenscapes VA provides professional <a href="/services/aeration-overseeding/">core aeration and overseeding services</a> throughout Roanoke, Salem, Vinton, Daleville, and Botetourt County. If your lawn shows any of these signs, call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> to get on our fall aeration schedule before spots fill up.</p>
     `,
   },
   {
@@ -1008,6 +1106,7 @@ export const posts: Post[] = [
     excerpt: 'Brown patch is the most damaging summer lawn disease in Roanoke. Here\'s how to identify it, treat it fast, and prevent it from coming back next year.',
     readTime: '5 min read',
     category: 'Lawn Care',
+    service: 'fertilization-weed-control',
     keywords: 'brown patch fungus roanoke va, lawn disease roanoke virginia, brown patch treatment roanoke, lawn fungus roanoke va summer',
     content: `
       <p>Every summer in Roanoke, homeowners wake up to circular brown patches spreading across what was a healthy lawn a week earlier. In most cases, the culprit is brown patch fungus — the most common and damaging lawn disease in our area. The good news: it's treatable. The better news: it's largely preventable with the right lawn management habits.</p>
@@ -1057,6 +1156,7 @@ export const posts: Post[] = [
     excerpt: 'Fall is the single best time to overseed a thin or patchy lawn in Roanoke. Here\'s exactly how to do it right to maximize germination and results.',
     readTime: '5 min read',
     category: 'Seasonal Tips',
+    service: 'aeration-overseeding',
     keywords: 'fall overseeding roanoke va, overseed lawn roanoke virginia, lawn overseeding roanoke fall, thicker lawn roanoke va',
     content: `
       <p>If your lawn in Roanoke is thin, patchy, or slowly losing density year after year, fall overseeding is the single best thing you can do to turn it around. September and October are when tall fescue establishes fastest, and a well-executed overseeding can dramatically thicken a lawn in just one season.</p>
@@ -1093,7 +1193,7 @@ export const posts: Post[] = [
       <p>Newly germinated grass seed is extremely fragile. For the first two weeks after overseeding, keep the seed bed moist — water lightly two to three times per day if it's not raining. Once seedlings reach 1 inch tall, reduce to deep watering every other day. Don't let the seedlings dry out, but don't create waterlogged conditions either.</p>
       <p>Hold off on your first mow until new grass reaches 3–3.5 inches, and use a sharp blade to avoid pulling young seedlings out of the ground.</p>
 
-      <p>At Greenscapes VA, we perform professional aeration and overseeding services for Roanoke, Salem, Vinton, Daleville, and Botetourt County every fall. Our crews core-aerate and overseed in the same visit, giving your new seed the best possible start. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> to get on our fall overseeding schedule — spots fill quickly as September approaches.</p>
+      <p>At Greenscapes VA, we perform professional <a href="/services/aeration-overseeding/">aeration and overseeding services</a> for Roanoke, Salem, Vinton, Daleville, and Botetourt County every fall. Our crews core-aerate and overseed in the same visit, giving your new seed the best possible start. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> to get on our fall overseeding schedule — spots fill quickly as September approaches.</p>
     `,
   },
   {
@@ -1103,6 +1203,7 @@ export const posts: Post[] = [
     excerpt: 'Hand-watering and dragging hoses is inefficient and easy to forget. Here\'s what you need to know about in-ground irrigation systems for Roanoke properties.',
     readTime: '5 min read',
     category: 'Irrigation',
+    service: 'irrigation-systems',
     keywords: 'irrigation system installation roanoke va, sprinkler system roanoke virginia, inground irrigation roanoke, lawn sprinkler system roanoke va',
     content: `
       <p>If you're hand-watering your lawn or dragging hoses around the yard on a summer evening, you already know how inefficient it is. In-ground irrigation systems eliminate the guesswork, save water compared to manual watering, and keep your lawn and landscaping on a consistent schedule — exactly what plants need to thrive through Roanoke's hot summers.</p>
@@ -1140,6 +1241,7 @@ export const posts: Post[] = [
     excerpt: 'Mulch does much more than look good — it protects plants, conserves moisture, and suppresses weeds all season long. Here\'s what Roanoke homeowners need to know.',
     readTime: '5 min read',
     category: 'Landscaping',
+    service: 'mulch-installation',
     keywords: 'mulching landscaping beds roanoke va, best mulch roanoke virginia, mulch installation roanoke, landscape mulch type roanoke',
     content: `
       <p>Fresh mulch in a landscaping bed does more than make your property look well-maintained. It works all season to protect your plants, conserve moisture, and suppress the weeds that would otherwise compete with your shrubs and perennials. For Roanoke homeowners, mulching is one of the highest-value landscaping tasks you can do each spring — and one of the most misunderstood.</p>
@@ -1184,6 +1286,7 @@ export const posts: Post[] = [
     excerpt: 'Fertilizing at the wrong time wastes money and can damage your lawn. Here\'s the exact fertilization schedule that works for tall fescue lawns in the Roanoke, Virginia area.',
     readTime: '5 min read',
     category: 'Lawn Care',
+    service: 'fertilization-weed-control',
     keywords: 'lawn fertilization schedule roanoke va, when to fertilize lawn roanoke virginia, fertilize tall fescue roanoke, lawn fertilizer timing roanoke va',
     content: `
       <p>Most Roanoke homeowners fertilize their lawn once or twice a year and wonder why it still looks thin. The problem isn't usually the product — it's the timing. In Roanoke's transition zone climate, fertilizing at the wrong time wastes money, can burn your lawn, and misses the growth windows when grass actually benefits most from feeding.</p>
@@ -1230,6 +1333,7 @@ export const posts: Post[] = [
     excerpt: 'Most Roanoke homeowners mow their tall fescue too short and wonder why it turns brown every summer. Here\'s the one change that makes the biggest difference.',
     readTime: '5 min read',
     category: 'Lawn Care',
+    service: 'lawn-mowing',
     keywords: 'mow high tall fescue roanoke va, tall fescue mowing height roanoke, lawn mowing tips roanoke virginia, ideal mowing height roanoke lawn',
     content: `
       <p>If there's one piece of lawn care advice that applies to almost every yard in Roanoke, Salem, and the surrounding Roanoke Valley — it's this: <strong>mow higher than you think you should.</strong> Tall fescue, the dominant grass type in our area, is built for a taller cut. When you mow it short, you work against everything the plant is trying to do.</p>
@@ -1279,6 +1383,7 @@ export const posts: Post[] = [
     excerpt: 'Watering your lawn at the wrong time or in the wrong amount is one of the most common mistakes Roanoke homeowners make. Here\'s how to do it right all summer.',
     readTime: '5 min read',
     category: 'Lawn Care',
+    service: 'irrigation-systems',
     keywords: 'summer lawn watering roanoke va, how to water lawn roanoke virginia, lawn irrigation tips roanoke, watering schedule roanoke lawn summer',
     content: `
       <p>Summer in Roanoke brings heat, humidity, and stretches of dry weather that can stress even a well-maintained lawn. How you water — not just how often — makes the difference between a lawn that thrives through July and August and one that goes brown and thin by midsummer.</p>
@@ -1318,6 +1423,7 @@ export const posts: Post[] = [
     excerpt: 'Trimming at the wrong time can ruin a season of blooms or stress your plants heading into summer. Here\'s the right timing for every common shrub in Roanoke.',
     readTime: '5 min read',
     category: 'Landscaping',
+    service: 'hedge-trimming',
     keywords: 'hedge trimming roanoke va, shrub trimming roanoke virginia, when to trim hedges roanoke, bush trimming service roanoke va',
     content: `
       <p>Hedge and shrub trimming is one of the most visible aspects of a well-maintained property — but it's also one of the most misunderstood. Trimming at the wrong time doesn't just look bad; it can cost you an entire season of blooms, stress plants during vulnerable periods, and in some cases cause serious long-term damage. Here's what Roanoke homeowners need to know.</p>
@@ -1357,6 +1463,7 @@ export const posts: Post[] = [
     excerpt: 'The right hardscaping can transform a flat, unused backyard into an outdoor living space you use year-round. Here are the projects that deliver the best return in Roanoke.',
     readTime: '5 min read',
     category: 'Hardscaping',
+    service: 'hardscaping-patios',
     keywords: 'hardscaping ideas roanoke va, patio installation roanoke virginia, outdoor living roanoke, fire pit patio roanoke va',
     content: `
       <p>A well-designed backyard in Roanoke can be usable from March through November. The key is hardscaping — permanent features like patios, walkways, fire pits, and retaining walls that create functional, defined spaces that don't require constant maintenance like grass does. Here are the projects our Roanoke clients get the most value from.</p>
@@ -1392,6 +1499,7 @@ export const posts: Post[] = [
     excerpt: 'Aeration is one of the most overlooked lawn care steps in Virginia. Learn exactly when and how to aerate for a thicker, greener lawn in Roanoke.',
     readTime: '4 min read',
     category: 'Lawn Care',
+    service: 'aeration-overseeding',
     keywords: 'lawn aeration roanoke va, best time to aerate lawn roanoke, core aeration roanoke virginia, lawn aeration service roanoke',
     content: `
       <p>If your lawn in Roanoke looks thin, patchy, or struggles to stay green through the summer, compacted soil is likely the culprit. Aeration is the single best treatment you can do — and timing it right makes all the difference.</p>
@@ -1428,7 +1536,7 @@ export const posts: Post[] = [
         <li><strong>Watering</strong> — keep the lawn moist for 2–3 weeks after</li>
       </ul>
 
-      <p>At Greenscapes VA, we provide professional aeration services for residential and commercial properties throughout Roanoke, Salem, Vinton, and surrounding areas. Call us at <strong>(540) 798-4479</strong> for a free estimate.</p>
+      <p>At Greenscapes VA, we provide professional <a href="/services/aeration-overseeding/">aeration services</a> for residential and commercial properties throughout Roanoke, Salem, Vinton, and surrounding areas. Call us at <strong>(540) 798-4479</strong> for a free estimate.</p>
     `,
   },
   {
@@ -1438,6 +1546,7 @@ export const posts: Post[] = [
     excerpt: 'Winter in the Roanoke Valley can be tough on your lawn and landscape. Here\'s a step-by-step checklist to protect your property before the cold hits.',
     readTime: '5 min read',
     category: 'Seasonal Tips',
+    service: 'seasonal-cleanup',
     keywords: 'winter lawn care roanoke va, yard winterization roanoke virginia, fall yard cleanup roanoke, winterize irrigation system roanoke',
     content: `
       <p>Roanoke winters are unpredictable — temperatures swing between mild and freezing, and ice storms can appear overnight. Preparing your yard in fall is the best investment you can make to ensure a fast, healthy recovery in spring.</p>
@@ -1486,6 +1595,7 @@ export const posts: Post[] = [
     excerpt: 'Lawn care pricing in Roanoke varies more than most homeowners expect. Here\'s what actually drives the cost of mowing, fertilization, and full-service maintenance plans.',
     readTime: '6 min read',
     category: 'Buying Guides',
+    service: 'lawn-mowing',
     keywords: 'lawn care cost roanoke va, how much does lawn mowing cost roanoke, lawn care prices roanoke virginia, lawn maintenance pricing roanoke',
     content: `
       <p>One of the most common questions we get from Roanoke homeowners is simple: what does lawn care actually cost? The honest answer is "it depends" — but that's not a very useful answer, so here's a real breakdown of what drives pricing for mowing, seasonal programs, and full-service maintenance in the Roanoke Valley.</p>
@@ -1527,6 +1637,7 @@ export const posts: Post[] = [
     excerpt: 'Roanoke has no shortage of lawn care options. Here\'s what to actually check before you hire one — licensing, insurance, scheduling reliability, and the questions most homeowners forget to ask.',
     readTime: '5 min read',
     category: 'Buying Guides',
+    service: 'lawn-mowing',
     keywords: 'best lawn care company roanoke va, how to choose lawn care roanoke, lawn care company roanoke virginia reviews, hiring lawn care roanoke',
     content: `
       <p>Roanoke has a lot of lawn care and landscaping options — from national franchises to one-truck operators to established local companies that have been around for decades. That variety is good for homeowners, but it also makes it harder to know who's actually going to show up reliably and do quality work. Here's what to check before you hire.</p>
@@ -1572,4 +1683,28 @@ export function getAllSlugs(): string[] {
   // Only generate pages for published posts
   const now = new Date()
   return posts.filter((p) => new Date(p.date) <= now).map((p) => p.slug)
+}
+
+/**
+ * Published posts that support a given service page, newest first.
+ * Powers the hub-and-spoke internal linking between /services/<slug>
+ * and the articles written about it. Future-dated posts are excluded
+ * here too, so a queued post never becomes a link to a 404.
+ */
+export function getPostsByService(serviceSlug: string, limit?: number): Post[] {
+  const matches = getPublishedPosts().filter((p) => p.service === serviceSlug)
+  return typeof limit === 'number' ? matches.slice(0, limit) : matches
+}
+
+/**
+ * Sibling posts for the "Related reading" block on a post page:
+ * same service first, then same category, never the post itself.
+ */
+export function getRelatedPosts(post: Post, limit = 3): Post[] {
+  const pool = getPublishedPosts().filter((p) => p.slug !== post.slug)
+  const sameService = pool.filter((p) => p.service === post.service)
+  const sameCategory = pool.filter(
+    (p) => p.service !== post.service && p.category === post.category
+  )
+  return [...sameService, ...sameCategory].slice(0, limit)
 }

@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
-import { getPostBySlug, getAllSlugs } from '@/content/posts'
+import { getPostBySlug, getAllSlugs, getRelatedPosts } from '@/content/posts'
+import { getServicePageBySlug } from '@/content/service-pages'
 import type { Metadata } from 'next'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
@@ -42,6 +43,13 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 export default function PostPage({ params }: { params: { slug: string } }) {
   const post = getPostBySlug(params.slug)
   if (!post) notFound()
+
+  // Hub-and-spoke internal linking: every post points back at the service
+  // page it supports, and at its siblings. Without this the blog is an
+  // island — 12k words of aeration content that never reached
+  // /services/aeration-overseeding/.
+  const service = getServicePageBySlug(post.service)
+  const relatedPosts = getRelatedPosts(post, 3)
 
   const blogPostingSchema = {
     '@context': 'https://schema.org',
@@ -108,8 +116,59 @@ export default function PostPage({ params }: { params: { slug: string } }) {
             dangerouslySetInnerHTML={{ __html: post.content }}
           />
 
+          {/* Service the article supports — the link that was missing */}
+          {service && (
+            <div className="mt-14 bg-white/4 border border-white/8 rounded-2xl p-7">
+              <p className="text-[#39ff14] font-poppins font-bold uppercase tracking-widest text-xs mb-3">
+                The service behind this article
+              </p>
+              <h3 className="text-white font-poppins font-black text-xl mb-3">
+                {service.name} in Roanoke, VA
+              </h3>
+              <p className="text-white/50 font-poppins text-sm mb-5 leading-relaxed">
+                {service.metaDescription}
+              </p>
+              <Link
+                href={`/services/${service.slug}`}
+                className="inline-flex items-center gap-2 text-[#39ff14] font-poppins font-bold text-sm hover:underline"
+              >
+                See our {service.name.toLowerCase()} service
+                <span aria-hidden="true">→</span>
+              </Link>
+            </div>
+          )}
+
+          {/* Related reading — siblings in the same topic cluster */}
+          {relatedPosts.length > 0 && (
+            <div className="mt-8">
+              <h3 className="text-white font-poppins font-black text-sm uppercase tracking-widest mb-5">
+                Related Reading
+              </h3>
+              <ul className="space-y-3">
+                {relatedPosts.map((p) => (
+                  <li key={p.slug}>
+                    <Link
+                      href={`/blog/${p.slug}`}
+                      className="group flex items-start gap-3 bg-white/[0.03] border border-white/8 rounded-xl p-4 hover:border-[#39ff14]/40 transition-colors duration-200"
+                    >
+                      <span className="text-[#39ff14] text-xs mt-1" aria-hidden="true">→</span>
+                      <span>
+                        <span className="block text-white font-poppins font-bold text-sm leading-snug group-hover:text-[#39ff14] transition-colors duration-200">
+                          {p.title}
+                        </span>
+                        <span className="block text-white/35 font-poppins text-xs mt-1">
+                          {p.category} · {p.readTime}
+                        </span>
+                      </span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
           {/* CTA */}
-          <div className="mt-14 bg-[#0d3b1e] border border-[#39ff14]/20 rounded-2xl p-8 text-center">
+          <div className="mt-8 bg-[#0d3b1e] border border-[#39ff14]/20 rounded-2xl p-8 text-center">
             <p className="text-[#39ff14] font-poppins font-bold uppercase tracking-widest text-xs mb-3">
               Ready to get started?
             </p>

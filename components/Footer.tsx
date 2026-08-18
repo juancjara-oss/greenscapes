@@ -1,16 +1,14 @@
 import Link from 'next/link'
 import { FaYelp } from 'react-icons/fa'
+import { servicePages } from '@/content/service-pages'
 
 const quickLinks = ['Services', 'Portfolio', 'About', 'Contact']
 
-const services = [
-  { name: 'Lawn Mowing & Edging', slug: 'lawn-mowing' },
-  { name: 'Hedge & Shrub Trimming', slug: 'hedge-trimming' },
-  { name: 'Landscape Design', slug: 'landscape-design' },
-  { name: 'Irrigation Systems', slug: 'irrigation-systems' },
-  { name: 'Seasonal Cleanup', slug: 'seasonal-cleanup' },
-  { name: 'Hardscaping & Patios', slug: 'hardscaping-patios' },
-]
+// Driven from content/service-pages.ts on purpose — this list used to be
+// hardcoded to six services, which silently left Aeration & Overseeding out
+// of the footer on every blog post. A service page that exists but is never
+// linked from the blog earns nothing. Add a service there and it appears here.
+const services = servicePages.map((s) => ({ name: s.name, slug: s.slug }))
 
 const locations = [
   { name: 'Roanoke, VA', href: '/locations/roanoke-va' },
