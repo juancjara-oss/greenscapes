@@ -11,6 +11,148 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: 'winter-lawn-care-dormant-fescue-roanoke-va',
+    title: 'Winter Lawn Care in Roanoke, VA: What Helps Dormant Fescue and What Quietly Damages It',
+    date: '2026-12-14',
+    excerpt: 'A dormant lawn is not a dead lawn — it is a lawn that cannot repair itself. Here is what tall fescue actually needs between December and March in the Roanoke Valley.',
+    readTime: '5 min read',
+    category: 'Lawn Care',
+    keywords: 'winter lawn care roanoke va, dormant fescue winter roanoke virginia, snow mold lawn roanoke va, winter lawn damage salem va, tall fescue winter care botetourt county',
+    content: `
+      <p>By mid-December, tall fescue across Roanoke, Salem, and Vinton has stopped growing above ground. Most homeowners read that as "the lawn is done until spring" and stop thinking about it entirely. That is mostly right, and the part that is wrong is expensive. A dormant lawn still has a living root system, and it has almost no ability to repair damage done to the crowns. Anything you break in January stays broken until the turf regrows in April.</p>
+
+      <h2>Dormant Is Not Dead — and That Distinction Matters</h2>
+      <p>Tall fescue is a cool-season grass, so it never truly goes fully dormant here the way warm-season bermuda does. On the mild stretches the Roanoke Valley gets every winter — a run of days in the 50s in January is normal — fescue roots continue slow growth even while the blades sit still. That is why fall fertilizer applications keep paying off through winter, and why a lawn that went into December thick and well-rooted comes out of March looking dramatically better than one that went in thin.</p>
+      <p>The practical takeaway: winter is not a season where you improve the lawn. It is a season where you avoid subtracting from it.</p>
+
+      <h2>The Four Things That Actually Cause Winter Damage</h2>
+      <ul>
+        <li><strong>Traffic on frozen or frosted turf</strong> — Walking across grass while frost is on the blades ruptures the cell walls in every blade you step on. The footprints show up as tan tracks that stay visible for weeks. Trash cans dragged along the same line, a shortcut across the corner of the yard, or play equipment left in one spot all leave a mark that will not grow out until spring.</li>
+        <li><strong>Leaves and debris left through winter</strong> — A leaf mat that survives into December holds moisture directly against the crowns, blocks what little light the turf gets, and creates ideal conditions for disease. If leaves are still down, get them off, even in January.</li>
+        <li><strong>Snow mold under piled snow</strong> — Where snow gets shoveled or plowed into deep piles that sit for a week or more, gray and pink snow mold can develop underneath, showing up as matted, straw-colored circles when the pile melts. Roanoke does not get this every year, but the winters that deliver a heavy storm followed by a slow melt produce it reliably.</li>
+        <li><strong>De-icing salt spread wide</strong> — Rock salt applied heavily along walks and driveways migrates into the first foot or two of turf and burns it out. This is the most common winter injury we get called about in early spring.</li>
+      </ul>
+
+      <h2>What Is Worth Doing Between December and March</h2>
+      <p>Very little, and that is the point. Keep the lawn clear of debris and standing objects — a tarp, a stack of firewood, or a trampoline parked in one place for eight weeks will kill the turf under it. If we get a warm, dry stretch and the grass has genuinely put on a couple inches of growth, one cut at the normal high mowing height for fescue is fine, but only when the ground is firm. Mowing saturated Roanoke clay compacts it and leaves ruts that need addressing in spring.</p>
+      <p>Skip winter fertilizer. Skip herbicide — nothing is actively growing enough to take it up, and it just runs off. If you have a soil test result showing you need lime, winter is actually a reasonable time to apply it, because the freeze-thaw cycles help work it into the profile.</p>
+
+      <h2>Use Winter to Plan the Spring Fix</h2>
+      <p>If the lawn was thin, weedy, or drought-stressed last season, the correction is not a winter task — it is a pre-emergent application in late February or early March, followed by whatever the soil test says. Homeowners who decide in December get onto the early-spring schedule. Homeowners who decide in April are already behind the crabgrass.</p>
+
+      <p>Greenscapes VA handles winter cleanups, pre-emergent timing, and full-season lawn programs across Roanoke, Salem, Vinton, Cave Spring, Daleville, and Botetourt County. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> to get your lawn on the early-spring schedule before it fills up.</p>
+    `,
+  },
+  {
+    slug: 'deer-resistant-landscaping-roanoke-va',
+    title: 'Deer-Resistant Landscaping in Roanoke, VA: What They Eat, What They Skip, and What Actually Works',
+    date: '2026-12-21',
+    excerpt: 'Winter is when deer pressure peaks in the Roanoke Valley and browse damage becomes obvious. Here is how to build beds that survive it without fencing the whole property.',
+    readTime: '5 min read',
+    category: 'Landscaping',
+    keywords: 'deer resistant plants roanoke va, deer damage landscaping roanoke virginia, deer proof shrubs salem va, stop deer eating plants botetourt county, deer resistant landscaping vinton va',
+    content: `
+      <p>Every neighborhood that backs up to woods in the Roanoke Valley has a deer problem, and it is worst right now. Between December and March, natural forage runs out, the herd moves into yards, and ornamental plantings become the most reliable food source for a mile. Homeowners in Hunting Hills, Botetourt County, the ridges above Salem, and anywhere near Smith Mountain Lake see the same pattern: beds that looked fine in October come out of winter chewed to sticks.</p>
+
+      <h2>Understand What "Deer-Resistant" Actually Means</h2>
+      <p>No plant is deer-proof. A hungry deer in February will eat things it would walk past in June. What plant lists really rank is how far down the menu something sits — and the practical goal is to make your yard the least appealing option on the block, not an impenetrable one.</p>
+      <p>Deer avoid plants for three reasons: strong aromatic oils, fuzzy or coarse leaf texture, and toxicity. That is why the reliably skipped plants cluster into recognizable groups rather than being random.</p>
+
+      <h2>What Holds Up in Roanoke Yards</h2>
+      <ul>
+        <li><strong>Aromatic perennials</strong> — Russian sage, catmint, lavender, salvia, bee balm, and yarrow are rarely touched, and all of them handle our summer heat and clay once established.</li>
+        <li><strong>Fuzzy and coarse foliage</strong> — Lamb's ear, lady's mantle, and ornamental grasses like little bluestem and switchgrass. Grasses also carry winter interest, which matters when everything else is bare.</li>
+        <li><strong>Toxic or bitter shrubs</strong> — Boxwood, andromeda, Japanese pieris, and daffodils (as opposed to tulips, which deer treat as candy). Boxwood in particular is the workhorse evergreen for deer country in Virginia.</li>
+        <li><strong>Ferns and hellebores in the shade beds</strong> — Christmas fern and hellebore both stay green through a Roanoke winter and get consistently ignored.</li>
+      </ul>
+      <p>The plants that draw deer straight in are worth naming too: hosta, daylily, tulip, arborvitae, azalea, rhododendron, and yew. Arborvitae planted as a privacy screen is the single most common expensive mistake we see — deer strip it to the browse line, roughly four feet up, and it never fills back in.</p>
+
+      <h2>Layout Beats Plant Choice</h2>
+      <p>Where you put things matters as much as what you plant. Deer prefer open approaches and edges near cover. Put the vulnerable material — the hydrangeas, the hostas — close to the house, inside a walkway loop, or behind a solid mass of aromatic plantings. Save the deer-resistant, tough material for the property edge where the woods meet the lawn. That transition zone takes the pressure.</p>
+
+      <h2>Repellents and Physical Protection Through Winter</h2>
+      <p>Spray repellents work, but only on a real schedule: reapplied every three to four weeks and after heavy rain, rotating between a scent-based and a taste-based product so the herd does not habituate. Winter applications matter most and get skipped most.</p>
+      <p>For young trees and any shrub you cannot afford to lose, physical protection wins. A cylinder of welded wire fencing two to three feet out from the trunk stops browsing and, just as importantly, stops buck rub in fall, which girdles and kills more young trees in the Roanoke Valley than browsing does.</p>
+
+      <h2>Renovate the Beds That Keep Losing</h2>
+      <p>If the same bed gets destroyed every winter, replanting the same material is not a strategy. Winter is the right time to plan a swap — deer-resistant structure at the edges, protected specimens near the house — and get it installed in early spring while plant availability is strongest.</p>
+
+      <p>Greenscapes VA designs and installs deer-resistant plantings, privacy screens, and bed renovations throughout Roanoke, Salem, Vinton, Daleville, Botetourt County, and the Smith Mountain Lake area. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> for a walkthrough of what is worth saving and what should be replaced.</p>
+    `,
+  },
+  {
+    slug: 'outdoor-kitchen-grill-station-roanoke-va',
+    title: 'Outdoor Kitchens and Built-In Grill Stations for Roanoke, VA Backyards',
+    date: '2026-12-28',
+    excerpt: 'A built-in grill station is the most-used hardscape upgrade a Roanoke homeowner can add — if the utilities, materials, and layout are planned before the first block is set.',
+    readTime: '5 min read',
+    category: 'Hardscaping',
+    keywords: 'outdoor kitchen roanoke va, built in grill station roanoke virginia, outdoor kitchen installation salem va, backyard grill island botetourt county, outdoor living space vinton va',
+    content: `
+      <p>Once a patio is in, the next request we hear most often in Roanoke and Salem is some version of "can we build the grill in?" It is a reasonable instinct — a rolling grill on a nice patio always looks like furniture that wandered outside. A built-in station turns cooking into the reason people are out there. But an outdoor kitchen is the hardscape project where planning mistakes are least forgiving, because half of what makes it work is buried before the counter goes on.</p>
+
+      <h2>Decide the Scope Honestly First</h2>
+      <p>There are really three tiers, and picking the right one saves a lot of money:</p>
+      <ul>
+        <li><strong>A grill surround</strong> — A masonry island that houses a drop-in grill plus counter space on one or both sides. No utilities beyond a gas line. This covers what most families actually do outside.</li>
+        <li><strong>A working station</strong> — Grill, side burner, storage doors, and a compact refrigerator. Requires electrical, and a decision about whether the fridge gets pulled indoors for winter.</li>
+        <li><strong>A full outdoor kitchen</strong> — Adds a sink, which means a water supply and, more importantly, a drain and a winterization plan. This is where the cost and the complexity jump.</li>
+      </ul>
+      <p>In our climate, the sink is the item worth thinking hardest about. Any outdoor water line in the Roanoke Valley needs a shutoff and a drain-down point indoors, or it splits the first hard freeze. Plenty of homeowners here are better served by skipping the sink entirely and putting that budget into counter space and a better grill.</p>
+
+      <h2>Utilities Get Run Before the Structure, Not After</h2>
+      <p>Gas, electric, and water all have to be trenched and stubbed up inside the footprint before the block goes up. Retrofitting a line into a finished masonry island means demolition. Natural gas requires a licensed plumber and a permit in most jurisdictions around here; a propane setup avoids that but needs an accessible, ventilated tank location designed into the island rather than hidden behind it. Any outdoor receptacle must be GFCI-protected and in a weather-resistant in-use cover — that is code, and it is also just what survives a Virginia summer.</p>
+
+      <h2>Materials That Survive Freeze-Thaw</h2>
+      <p>The Roanoke Valley crosses freezing dozens of times each winter, which is harder on masonry than a climate that simply stays cold. Build the structure on a compacted aggregate base or a footing, not directly on soil, and use a steel-stud or block core rather than wood framing. For counters, granite and dense porcelain handle freeze-thaw well; polished marble and unsealed concrete counters do not, and they stain after a season of grilling on top of that. Match the veneer to the house or to the existing patio — an island that shares stone with a retaining wall or the home's foundation looks built-in rather than bolted-on.</p>
+
+      <h2>Layout Details People Regret Skipping</h2>
+      <p>Give the grill at least 24 inches of landing counter on the working side. Face the cook toward the seating area, not at the fence, so the person grilling is part of the gathering. Keep the island out from under low tree limbs and away from the house's soffit line — grill heat and vinyl siding do not coexist. Plan a light: an outdoor kitchen that cannot be used after dark in December loses half its year. And point the prevailing smoke path away from the door and the dining table, which sounds obvious until it is built wrong.</p>
+
+      <h2>Winter Is the Right Time to Design and Build</h2>
+      <p>Masonry work continues through winter in the Roanoke Valley as long as temperatures allow proper curing, and the calendar is far more open than in spring. Homeowners who design in December get built in late winter and have the space finished before the first warm weekend, instead of waiting behind a full spring queue.</p>
+
+      <p>Greenscapes VA designs and builds outdoor kitchens, grill stations, patios, and fire features across Roanoke, Salem, Vinton, Cave Spring, Daleville, and Botetourt County. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> to walk the space and get a written scope before you commit to a layout.</p>
+    `,
+  },
+  {
+    slug: 'planning-spring-landscape-project-winter-roanoke-va',
+    title: 'Why January Is the Smartest Month to Plan a Spring Landscape Project in Roanoke',
+    date: '2027-01-04',
+    excerpt: 'Nothing is growing, so nothing feels urgent — which is exactly why January is when the good spring slots, the accurate scopes, and the honest decisions happen.',
+    readTime: '5 min read',
+    category: 'Seasonal Tips',
+    keywords: 'landscape design planning roanoke va, spring landscaping project roanoke virginia, when to book landscaper salem va, winter landscape planning botetourt county, landscape design consultation vinton va',
+    content: `
+      <p>Most landscape projects in the Roanoke Valley get decided in April, which is the worst possible month to decide anything. The yard suddenly looks bad, everyone calls at once, every reputable crew is booked six to ten weeks out, and the homeowner ends up choosing between waiting until July or hiring whoever answers the phone. January has none of those pressures, and it has one advantage nobody thinks about: with the leaves down, you can actually see the property.</p>
+
+      <h2>Winter Shows You the Bones</h2>
+      <p>A landscape without foliage is an honest landscape. In January you can see where the grade actually falls, where water sits after a rain, which sightlines the neighbors have into your yard, and which shrubs are structurally overgrown versus just full. Drainage problems are especially obvious — a Roanoke winter delivers enough rain to reveal every low spot, every downspout dumping against a foundation, and every place clay soil is holding water. Those are exactly the problems that must be solved before anything decorative gets installed, and they are nearly invisible in a leafed-out June yard.</p>
+
+      <h2>Sequence Beats Wish List</h2>
+      <p>Almost every property needs its work done in a specific order, and doing it out of order means paying twice:</p>
+      <ul>
+        <li><strong>Drainage and grading first</strong> — Regrading after a patio is in means removing the patio.</li>
+        <li><strong>Hardscape second</strong> — Walls, patios, and walkways involve heavy equipment and access routes across the lawn.</li>
+        <li><strong>Irrigation third</strong> — Lines are trenched after the hard edges are set, so heads land where the beds actually ended up.</li>
+        <li><strong>Planting fourth</strong> — Trees, shrubs, and beds go in once nothing else will be driven over them.</li>
+        <li><strong>Lawn renovation last</strong> — Seeding or sod is the final step, after every other trade is off the property.</li>
+      </ul>
+      <p>A January consultation produces this sequence as a phased plan, which also lets a large project be split across two or three seasons on a budget instead of being abandoned.</p>
+
+      <h2>The Deadlines Winter Planning Actually Protects</h2>
+      <p>Some Roanoke work has narrow windows, and missing them costs a full year. Pre-emergent crabgrass control has to go down in late February or early March, before soil temperatures hit the mid-50s — a homeowner who calls in April has already lost that application. Dormant pruning on most trees and summer-blooming shrubs happens in late winter. Spring planting of trees and shrubs wants to happen while the plants are still dormant and nursery stock is at its best selection, not in the heat of late May. Booking in January means these are scheduled instead of missed.</p>
+
+      <h2>What to Bring to a Winter Consultation</h2>
+      <p>You do not need a design. Bring the list of things that annoy you about the yard, photos of it in summer if you have them, a realistic budget range, and any hard deadline — a graduation party, a wedding, a listing date. If you have a plat or survey, that saves time on setbacks and property lines. A good contractor will walk it with you, tell you which of your ideas are worth the money on that specific lot, and tell you which are not.</p>
+
+      <h2>The Practical Reason: Scheduling</h2>
+      <p>Spring crews in Roanoke, Salem, and Botetourt County fill up on a first-committed, first-scheduled basis. Projects scoped and approved in January get the early slots — the ones that finish before the heat, before the summer weeds, and before the yard is being used every weekend. That is not a sales pitch so much as arithmetic about how many working days exist between March and June.</p>
+
+      <p>Greenscapes VA offers winter design consultations and phased project planning throughout Roanoke, Salem, Vinton, Cave Spring, Daleville, Botetourt County, and Smith Mountain Lake. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> to walk the property while you can still see it clearly and lock in a spring installation date.</p>
+    `,
+  },
+  {
     slug: 'paver-walkway-garden-path-roanoke-va',
     title: 'Paver Walkways and Garden Paths: How to Build One That Survives a Roanoke Winter',
     date: '2026-11-16',
