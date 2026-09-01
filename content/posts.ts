@@ -13,12 +13,158 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: 'winter-burn-snow-load-evergreens-roanoke-va',
+    title: 'Winter Burn and Snow Load: Protecting Evergreens Through a Roanoke Winter',
+    date: '2027-01-11',
+    excerpt: 'Most evergreen damage in the Roanoke Valley happens on clear, windy January afternoons — not during snowstorms. Here is what is actually going wrong and how to stop it.',
+    readTime: '5 min read',
+    category: 'Seasonal Tips',
+    service: 'seasonal-cleanup',
+    keywords: 'winter burn evergreens roanoke va, protect shrubs winter roanoke virginia, snow damage arborvitae roanoke va, winter shrub care salem va, boxwood winter protection botetourt county',
+    content: `
+      <p>Homeowners brace for the big snowstorm, but the evergreens we're called to replace each spring rarely died from snow itself. In the Roanoke Valley, the damage comes from two quieter sources: moisture loss on bright, windy days, and the weight of wet snow on plants with the wrong shape. Both are largely preventable, and January is when the risk peaks.</p>
+
+      <h2>Winter Burn Is a Water Problem, Not a Cold Problem</h2>
+      <p>Broadleaf evergreens — hollies, rhododendrons, cherry laurel, boxwood — keep transpiring all winter. On a sunny, breezy 25-degree afternoon, the leaves lose moisture while the roots sit in frozen ground and cannot replace it. The damage shows up in March as bronzed, scorched foliage on the south and west sides of the plant, and it usually gets blamed on whatever cold snap arrived weeks later.</p>
+      <p>The defense is water, banked before the ground locks up, and topped off during any extended thaw. A deep soaking during a mild stretch in December or January gives the root zone something to draw from. Three to four inches of shredded hardwood mulch over the root area — pulled back from the trunk, never mounded against it — slows how deeply the soil freezes and keeps that water available longer.</p>
+
+      <h2>Wind Is the Multiplier</h2>
+      <p>Exposure matters more than temperature. The same holly thrives on a sheltered east wall in Old Southwest and burns badly on an open, west-facing ridge lot above Salem or in Botetourt County. For those exposed plantings, a burlap screen staked on the windward side does far more good than wrapping the plant tightly — wrapping traps heat on sunny days and holds moisture against the foliage.</p>
+      <p>Anti-desiccant sprays help on broadleaf evergreens by slowing water loss through the leaf surface, but they wear off. One application in early winter and a second during a mild spell is the schedule that actually works here, rather than a single fall treatment expected to last until April.</p>
+
+      <h2>Snow Load and Columnar Evergreens</h2>
+      <p>Our snow is typically wet and heavy. Multi-stemmed upright plants — arborvitae, columnar junipers, some yews — splay open under it, and once the stems bend past a certain point they never fully return.</p>
+      <ul>
+        <li><strong>Tie before the storm</strong> — Wrap columnar evergreens loosely with soft twine in a spiral, snug enough to hold the stems together and loose enough not to bite into bark.</li>
+        <li><strong>Brush snow upward</strong> — Sweep it off branches with an upward motion. Shaking or knocking downward is how limbs snap.</li>
+        <li><strong>Never chip ice off foliage</strong> — Ice-loaded branches are brittle. Let them thaw and assess afterward.</li>
+        <li><strong>Watch where the shovel throws</strong> — A four-foot pile from the driveway crushes whatever is under it and takes weeks longer to melt.</li>
+      </ul>
+
+      <h2>One Thing Not to Do Right Now</h2>
+      <p>Don't shear evergreens in mid-winter. Fresh cuts and the tender growth they can trigger during a warm spell are exactly what a February freeze destroys. Structural and renewal pruning belongs in late winter dormancy or after spring growth hardens off.</p>
+
+      <h2>Judging the Damage in Spring</h2>
+      <p>Browned foliage is not automatically a dead plant. Scratch a twig with a thumbnail — green tissue underneath means the plant is alive and will push new growth from those buds. Wait until mid-spring before pruning anything back, because cutting too early removes buds that would have recovered on their own.</p>
+
+      <p>Greenscapes VA provides winter plant protection, anti-desiccant application, mulching, and dormant-season care throughout Roanoke, Salem, Vinton, Daleville, Cave Spring, and Botetourt County. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> to have your evergreens assessed before the next cold snap.</p>
+    `,
+  },
+  {
+    slug: 'dormant-winter-pruning-guide-roanoke-va',
+    title: 'Dormant Pruning in Roanoke, VA: What to Cut in Winter and What to Leave Alone',
+    date: '2027-01-18',
+    excerpt: 'Late winter is the best pruning window of the year for most trees and shrubs — and the worst possible one for a few. Knowing which is which saves you a whole season of flowers.',
+    readTime: '5 min read',
+    category: 'Landscaping',
+    service: 'hedge-trimming',
+    keywords: 'winter pruning roanoke va, dormant pruning trees roanoke virginia, when to prune shrubs roanoke va, tree pruning salem va, prune hydrangeas roanoke va',
+    content: `
+      <p>With the leaves down, the structure of every tree and shrub on your property is finally visible — crossing branches, deadwood, and the shape problems hidden all summer. That visibility, combined with dormancy, makes January and February the highest-value pruning window in the Roanoke Valley. Cuts made now close quickly once growth resumes, and a dormant plant spends very little stored energy replacing what you removed.</p>
+
+      <h2>Why Dormant Pruning Works Better</h2>
+      <p>Three things line up in winter. Insect and disease pressure is at its lowest, so open cuts are far less likely to be colonized — this is the main reason oaks should only be pruned in the dormant season, to avoid spreading oak wilt. Firm or frozen ground means ladders, equipment, and foot traffic do less damage to turf and beds. And with the plant's energy stored in the roots, removing top growth costs it far less than the same cut would in September.</p>
+
+      <h2>Prune These Now</h2>
+      <ul>
+        <li><strong>Shade and ornamental trees</strong> — Maples, oaks, and honeylocust for structure, deadwood, and clearance over roofs and drives. Maples will "bleed" sap from late-winter cuts; it is cosmetic and harmless.</li>
+        <li><strong>Fruit trees</strong> — Apples and pears want dormant pruning for open-center or central-leader shape and better fruiting. February is the sweet spot here.</li>
+        <li><strong>Summer-blooming shrubs</strong> — Panicle hydrangeas like 'Limelight', smooth hydrangeas like 'Annabelle', butterfly bush, crape myrtle, and most roses bloom on new wood, so winter pruning increases flowering.</li>
+        <li><strong>Overgrown boxwood and holly</strong> — Late-winter renewal cuts get the entire growing season to fill back in.</li>
+      </ul>
+
+      <h2>Leave These Alone Until After They Bloom</h2>
+      <p>Spring-flowering plants set their buds last summer. Cutting them now removes this year's entire show. That list includes azaleas, forsythia, lilac, dogwood, redbud, weigela, and — the one that trips up the most homeowners — bigleaf hydrangeas, the blue and pink mopheads. Prune all of these within a few weeks after their flowers fade instead.</p>
+      <p>Hold off on cold-tender plants like gardenia and any marginally hardy shrub until spring growth is clearly underway, since fresh cuts and a hard February freeze are a bad combination.</p>
+
+      <h2>Cut It Right</h2>
+      <p>Make cuts just outside the branch collar — the swollen ring where a limb meets the trunk — not flush with the trunk and not leaving a stub. Never seal cuts with pruning paint; it traps moisture against the wound. On any limb heavy enough to tear bark on the way down, use the three-cut method: undercut first, top cut slightly beyond it, then trim the remaining stub. And keep the one-quarter rule in mind — taking more than about 25 percent of a canopy in a single season stresses a tree into a flush of weak water sprouts.</p>
+      <p>Anything requiring a ladder, a saw overhead, or work near a service line belongs to a crew with the right equipment and insurance. Roanoke's older neighborhoods are full of mature oaks and maples where a dropped limb is a roof repair, not a yard cleanup.</p>
+
+      <p>Greenscapes VA handles dormant pruning, hedge and shrub trimming, and winter landscape cleanup throughout Roanoke, Salem, Vinton, Daleville, Cave Spring, and Botetourt County. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> to get on the winter pruning schedule.</p>
+    `,
+  },
+  {
+    slug: 'moss-in-lawn-causes-fix-roanoke-va',
+    title: 'Moss in the Lawn: What It Is Telling You About Your Roanoke Yard',
+    date: '2027-01-25',
+    excerpt: 'Moss does not push grass out — it moves into ground where grass already gave up. Killing it without fixing why it won just buys you a year.',
+    readTime: '5 min read',
+    category: 'Lawn Care',
+    service: 'aeration-overseeding',
+    keywords: 'moss in lawn roanoke va, how to get rid of lawn moss roanoke virginia, shady lawn problems roanoke va, compacted soil lawn salem va, acidic soil lawn vinton va',
+    content: `
+      <p>Moss shows up green and obvious in the middle of winter, which is why homeowners across Roanoke, Salem, and Vinton start calling about it in January. The instinct is to kill it. The more useful reaction is to read it: moss is not an aggressive invader that crowds out turf. It is an opportunist that colonizes ground where grass has already failed. Treat the moss and it comes back next winter. Fix the reason and it usually leaves on its own.</p>
+
+      <h2>The Four Conditions Moss Needs</h2>
+      <p>Moss thrives where at least two of these overlap, and in our area they almost always travel together:</p>
+      <ul>
+        <li><strong>Shade</strong> — Under mature oaks and maples, or on the north side of a house, tall fescue struggles below roughly four hours of sun a day.</li>
+        <li><strong>Compaction</strong> — Roanoke Valley clay compacts hard. Grass roots stall; moss has no real roots and does not care.</li>
+        <li><strong>Poor drainage</strong> — Low spots, downspout outfalls, and the base of slopes stay damp for days after rain.</li>
+        <li><strong>Low fertility and low pH</strong> — Our native soils trend acidic, and thin, underfed turf gives moss room to spread.</li>
+      </ul>
+      <p>Worth noting: acidic soil alone is not the cause, despite the common advice to "just lime it." Lime raises pH so grass competes better, but a bag of lime on a compacted, shaded, soggy corner accomplishes almost nothing.</p>
+
+      <h2>Diagnose Before You Treat</h2>
+      <p>Start with a soil test — Virginia Cooperative Extension processes them inexpensively — so lime and fertilizer decisions come from data rather than a guess. Then check compaction by pushing a screwdriver into moist soil; if it stops in the first two or three inches, the soil is tight. Finally, track the sun honestly across a full day. Most homeowners overestimate how much light a problem area gets.</p>
+
+      <h2>Fixing It in the Right Order</h2>
+      <p>Moss itself is easy to remove: rake or dethatch it out once the ground is workable, or knock it back with a ferrous-sulfate product. Do that first, then correct the underlying conditions.</p>
+      <p>Core aeration is the highest-impact step on our clay, relieving compaction and letting water and air reach the root zone. Follow it with overseeding using a shade-tolerant tall fescue blend — though timing matters: in the Roanoke Valley, late August through September is the window that works, not spring. Correct pH according to the soil test, and fix the water problem, whether that means extending a downspout, regrading a low spot, or adding a drain line.</p>
+      <p>Pruning helps more than people expect. Limbing up lower branches and thinning a dense canopy can lift a shaded area from two hours of sun to five, which is often the difference between turf that holds and turf that thins out every year.</p>
+
+      <h2>When to Stop Fighting It</h2>
+      <p>Some spots are not going to grow grass, and repeatedly reseeding them is money spent on an annual basis for a result that never lasts. Deep shade under a mature canopy is a good candidate for a shade bed — hosta, ferns, and mulch — or for accepting the moss as ground cover, which is a legitimate low-maintenance choice rather than a failure.</p>
+
+      <p>Greenscapes VA offers soil testing, core aeration, overseeding, and drainage work across Roanoke, Salem, Vinton, Daleville, Cave Spring, and Botetourt County. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> to get a plan for the areas moss keeps taking over.</p>
+    `,
+  },
+  {
+    slug: 'spring-irrigation-startup-roanoke-va',
+    title: 'Spring Irrigation Startup in Roanoke, VA: How to Wake the System Up Without Breaking It',
+    date: '2027-02-01',
+    excerpt: 'Turning the water back on too fast is the most common way sprinkler systems get damaged — and it happens in the first 60 seconds of the season.',
+    readTime: '5 min read',
+    category: 'Irrigation',
+    service: 'irrigation-systems',
+    keywords: 'spring irrigation startup roanoke va, sprinkler system startup roanoke virginia, backflow testing roanoke va, irrigation repair salem va, sprinkler tune up botetourt county',
+    content: `
+      <p>After a Roanoke winter, an irrigation system has spent months empty, cold, and shifting with the freeze-thaw cycles that move everything buried in our clay. Startup is not a matter of opening a valve — it is the annual inspection that catches the cracked fitting, the buried head, and the leak that would otherwise run all summer on your water bill. Done in the right order, it takes an afternoon. Done by throwing the main valve open, it can blow a fitting in seconds.</p>
+
+      <h2>Wait for the Right Week</h2>
+      <p>Charge the system only after the danger of a hard freeze has passed. In the Roanoke Valley that generally means late March into April, depending on elevation — properties up toward Botetourt County and the higher ground around Catawba run a couple of weeks behind the valley floor. Filling early and then catching a 25-degree night puts water in exposed backflow components where it can freeze and split brass.</p>
+
+      <h2>Open the Main Valve Slowly</h2>
+      <p>This is the step that causes the most damage. An empty mainline filled at full pressure creates a water hammer surge that can crack fittings, blow apart PVC joints, and damage the backflow preventer. Open the main valve roughly a quarter turn and let the system fill gradually — several minutes, not several seconds — before opening it fully. Open a downstream zone or a test cock first so air has somewhere to escape.</p>
+
+      <h2>Walk Every Zone</h2>
+      <p>Run each zone manually from the controller and actually watch it, rather than trusting that it ran:</p>
+      <ul>
+        <li><strong>Heads that don't pop up</strong> — Usually a clogged nozzle, a head buried by winter debris, or turf that grew over the top.</li>
+        <li><strong>Misaligned spray</strong> — Freeze-thaw shifting tilts heads. Water on the driveway is water you paid for.</li>
+        <li><strong>Wet spots or bubbling</strong> — A mainline or lateral leak, often at a fitting that cracked over winter.</li>
+        <li><strong>A zone that won't fire</strong> — Typically a solenoid or a wire connection corroded in a valve box.</li>
+        <li><strong>Rotor rotation</strong> — Rotors that stall halfway leave dry wedges you'll notice in July, not April.</li>
+      </ul>
+
+      <h2>Backflow Testing Is Not Optional</h2>
+      <p>Virginia requires annual testing of backflow prevention assemblies on irrigation systems by a certified tester, and Western Virginia Water Authority customers get notices to that effect. Beyond the compliance box, the device is what keeps fertilizer and pesticide residue out of your drinking water, and freeze damage to it is common after a hard winter. Have it tested at startup rather than scrambling when the notice arrives.</p>
+
+      <h2>Reprogram — Don't Just Resume</h2>
+      <p>Whatever schedule was running when the system was winterized is wrong for spring. Cool weather and spring rain mean the lawn needs far less than the July schedule, and running it anyway encourages shallow roots and disease. Set spring watering to deep and infrequent — roughly one inch per week total, including rainfall, delivered in one or two long cycles rather than daily sips. Replace the controller's backup battery, confirm the rain sensor still functions, and if the system has a smart controller, verify it reconnected to Wi-Fi and pulled the current weather data.</p>
+
+      <p>Greenscapes VA handles irrigation startups, backflow coordination, repairs, and seasonal scheduling across Roanoke, Salem, Vinton, Daleville, Cave Spring, and Botetourt County. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> to book a spring startup before the calendar fills.</p>
+    `,
+  },
+  {
     slug: 'winter-lawn-care-dormant-fescue-roanoke-va',
     title: 'Winter Lawn Care in Roanoke, VA: What Helps Dormant Fescue and What Quietly Damages It',
     date: '2026-12-14',
     excerpt: 'A dormant lawn is not a dead lawn — it is a lawn that cannot repair itself. Here is what tall fescue actually needs between December and March in the Roanoke Valley.',
     readTime: '5 min read',
     category: 'Lawn Care',
+    service: 'lawn-mowing',
     keywords: 'winter lawn care roanoke va, dormant fescue winter roanoke virginia, snow mold lawn roanoke va, winter lawn damage salem va, tall fescue winter care botetourt county',
     content: `
       <p>By mid-December, tall fescue across Roanoke, Salem, and Vinton has stopped growing above ground. Most homeowners read that as "the lawn is done until spring" and stop thinking about it entirely. That is mostly right, and the part that is wrong is expensive. A dormant lawn still has a living root system, and it has almost no ability to repair damage done to the crowns. Anything you break in January stays broken until the turf regrows in April.</p>
@@ -52,6 +198,7 @@ export const posts: Post[] = [
     excerpt: 'Winter is when deer pressure peaks in the Roanoke Valley and browse damage becomes obvious. Here is how to build beds that survive it without fencing the whole property.',
     readTime: '5 min read',
     category: 'Landscaping',
+    service: 'landscape-design',
     keywords: 'deer resistant plants roanoke va, deer damage landscaping roanoke virginia, deer proof shrubs salem va, stop deer eating plants botetourt county, deer resistant landscaping vinton va',
     content: `
       <p>Every neighborhood that backs up to woods in the Roanoke Valley has a deer problem, and it is worst right now. Between December and March, natural forage runs out, the herd moves into yards, and ornamental plantings become the most reliable food source for a mile. Homeowners in Hunting Hills, Botetourt County, the ridges above Salem, and anywhere near Smith Mountain Lake see the same pattern: beds that looked fine in October come out of winter chewed to sticks.</p>
@@ -89,6 +236,7 @@ export const posts: Post[] = [
     excerpt: 'A built-in grill station is the most-used hardscape upgrade a Roanoke homeowner can add — if the utilities, materials, and layout are planned before the first block is set.',
     readTime: '5 min read',
     category: 'Hardscaping',
+    service: 'hardscaping-patios',
     keywords: 'outdoor kitchen roanoke va, built in grill station roanoke virginia, outdoor kitchen installation salem va, backyard grill island botetourt county, outdoor living space vinton va',
     content: `
       <p>Once a patio is in, the next request we hear most often in Roanoke and Salem is some version of "can we build the grill in?" It is a reasonable instinct — a rolling grill on a nice patio always looks like furniture that wandered outside. A built-in station turns cooking into the reason people are out there. But an outdoor kitchen is the hardscape project where planning mistakes are least forgiving, because half of what makes it work is buried before the counter goes on.</p>
@@ -124,6 +272,7 @@ export const posts: Post[] = [
     excerpt: 'Nothing is growing, so nothing feels urgent — which is exactly why January is when the good spring slots, the accurate scopes, and the honest decisions happen.',
     readTime: '5 min read',
     category: 'Seasonal Tips',
+    service: 'landscape-design',
     keywords: 'landscape design planning roanoke va, spring landscaping project roanoke virginia, when to book landscaper salem va, winter landscape planning botetourt county, landscape design consultation vinton va',
     content: `
       <p>Most landscape projects in the Roanoke Valley get decided in April, which is the worst possible month to decide anything. The yard suddenly looks bad, everyone calls at once, every reputable crew is booked six to ten weeks out, and the homeowner ends up choosing between waiting until July or hiring whoever answers the phone. January has none of those pressures, and it has one advantage nobody thinks about: with the leaves down, you can actually see the property.</p>
