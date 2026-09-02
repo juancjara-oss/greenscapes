@@ -48,3 +48,6 @@ public/proposal/
 next-env.d.ts
 
 .vercel
+
+# artefactos de despliegue Hostinger (out_YYYYMMDD_HHMMSS.zip) — nunca al repo
+out*.zip

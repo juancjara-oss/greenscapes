@@ -208,6 +208,89 @@ export const locationPages: LocationPage[] = [
       <p>Call us at <strong>(540) 798-4479</strong> or email <strong>prettylawn@greenscapesva.com</strong> to schedule your free estimate at Smith Mountain Lake. We serve properties throughout the SML area and are happy to discuss a custom maintenance program for your lake home.</p>
     `,
   },
+  // Daleville and Troutville were both claimed in the schema's areaServed and
+  // listed in the Google Business Profile's service areas, but had no page of
+  // their own — the two highest-value gaps of the seven. They are covered at a
+  // summary level by /locations/botetourt-county-va/, so these go deeper on the
+  // town itself and link back to the county page rather than restating it.
+  {
+    slug: 'daleville-va',
+    city: 'Daleville',
+    state: 'VA',
+    tagline: 'Lawn care and landscaping for Daleville, Virginia.',
+    metaTitle: 'Lawn Care & Landscaping Daleville VA | Greenscapes VA',
+    metaDescription: 'Lawn care and landscaping in Daleville, VA. Mowing, aeration & overseeding, mulch, irrigation and hardscaping in Botetourt County. Call (540) 798-4479 for a free estimate.',
+    image: '/assets/daleville-lawn-back-mower.webp',
+    keywords: 'lawn care Daleville VA, landscaping Daleville Virginia, lawn mowing Daleville VA, aeration overseeding Daleville VA, lawn service Botetourt County',
+    content: `
+      <p>Greenscapes VA provides lawn care and landscaping throughout Daleville, Virginia. We run a regular weekly route up the Route 220 corridor, so Daleville isn't an out-of-the-way stop for us — it's part of the normal week. The photo at the top of this page is a Daleville lawn we maintain.</p>
+
+      <h2>Lawn Care Services in Daleville, VA</h2>
+      <p>Daleville has grown quickly, and the lawns show it. Newer subdivisions around the Daleville Town Center were graded and seeded relatively recently, which usually means thin topsoil over compacted clay subsoil — turf that looks fine its first two seasons and then starts thinning in the heat. Older properties closer to Route 11 tend to have deeper soil but decades of accumulated compaction.</p>
+      <p>Both problems have the same answer, and it is not more fertilizer. Core aeration relieves the compaction so water, air and roots can get down where they need to be; overseeding then puts new turf-type tall fescue into the holes while the soil is open.</p>
+
+      <h2>Aeration & Overseeding Is the Big One Here</h2>
+      <p>Tall fescue is the grass that works in this part of Virginia, and it is a cool-season grass — it does its real root growing in fall, not spring. That makes late August through October the window when aeration and overseeding actually pay off in Daleville. Seed put down in spring germinates and then spends its first summer trying to survive heat it has no root system for.</p>
+      <p>We price aeration and overseeding by measured lawn area rather than guessing from the street, so the number you get is based on your actual square footage. <a href="/services/aeration-overseeding/">More on how we approach aeration and overseeding</a>.</p>
+
+      <h2>Services We Offer in Daleville, Virginia</h2>
+      <ul>
+        <li><strong>Lawn Mowing & Edging</strong> — Weekly and bi-weekly routes already running through Daleville.</li>
+        <li><strong>Aeration & Overseeding</strong> — Core aeration and turf-type tall fescue, timed to the fall window.</li>
+        <li><strong>Fertilization & Weed Control</strong> — Programs built around Virginia's cool-season calendar.</li>
+        <li><strong>Mulch Installation</strong> — Bed edging and fresh mulch, measured and quoted by the yard.</li>
+        <li><strong>Hedge & Shrub Trimming</strong> — Shaping for the foundation plantings that come standard in newer Daleville builds.</li>
+        <li><strong>Irrigation Systems</strong> — Installation, repair, spring startup and fall winterization.</li>
+        <li><strong>Hardscaping & Patios</strong> — Paver patios, walls and walkways.</li>
+        <li><strong>Seasonal Cleanup</strong> — Spring and fall cleanups, including leaf removal.</li>
+      </ul>
+
+      <h2>Why Daleville Homeowners Call Us</h2>
+      <p>We have been doing this in the Roanoke Valley since 2005, and we are locally owned — when you call, you reach Carlos, not a call center or a franchise dispatcher. We are licensed, bonded and insured, estimates are free, and we will tell you when something does not need doing.</p>
+      <p>Daleville sits inside our wider <a href="/locations/botetourt-county-va/">Botetourt County service area</a>, alongside <a href="/locations/troutville-va/">Troutville</a>, Cloverdale and Blue Ridge.</p>
+
+      <p>Call <strong>(540) 798-4479</strong> or email <strong>prettylawn@greenscapesva.com</strong> for a free estimate in Daleville. If you are thinking about aeration, reach out before the fall window closes — it fills up.</p>
+    `,
+  },
+  {
+    slug: 'troutville-va',
+    city: 'Troutville',
+    state: 'VA',
+    tagline: 'Lawn care and landscaping for Troutville, Virginia.',
+    metaTitle: 'Lawn Care & Landscaping Troutville VA | Greenscapes VA',
+    metaDescription: 'Lawn care and landscaping in Troutville, VA. Mowing, aeration & overseeding, mulch, irrigation and cleanups in Botetourt County. Call (540) 798-4479 for a free estimate.',
+    image: '/assets/landscaping-after.webp',
+    keywords: 'lawn care Troutville VA, landscaping Troutville Virginia, lawn mowing Troutville VA, aeration overseeding Troutville VA, lawn service Botetourt County',
+    content: `
+      <p>Greenscapes VA handles lawn care and landscaping in Troutville, Virginia and the surrounding Botetourt County countryside. Troutville is on the same weekly route as Daleville, so getting on the schedule here is straightforward — no minimum contract, no waiting list.</p>
+
+      <h2>Lawn Care Services in Troutville, VA</h2>
+      <p>Troutville properties tend to run larger than the suburban lots closer to Roanoke — established homes along the Route 11 corridor, and rural acreage spreading out from there. That changes the job. Bigger open turf means mowing efficiency matters, and it means a lot more of the lawn is in full sun with no tree cover to soften July.</p>
+      <p>It also means more edge: fence lines, outbuildings, gravel drives and treelines that a crew has to actually trim rather than mow past. We quote on what the property really takes, not on a per-acre number pulled off a map.</p>
+
+      <h2>Full Sun, Clay Soil, and Tall Fescue</h2>
+      <p>Open Botetourt County lots bake. Tall fescue handles Virginia summers better than most cool-season grasses, but only if it has the root depth to reach moisture — and on compacted clay it usually doesn't. Lawns here often go dormant and brown in midsummer and come back thin, which owners read as a watering problem when it is really a root-depth problem.</p>
+      <p>Core aeration in the fall, followed immediately by overseeding, is what changes that over two or three seasons. <a href="/services/aeration-overseeding/">Here is how we handle aeration and overseeding</a>, including why timing it to soil temperature beats timing it to the calendar.</p>
+
+      <h2>Services We Offer in Troutville, Virginia</h2>
+      <ul>
+        <li><strong>Lawn Mowing & Edging</strong> — Set up for larger open lots, with real trimming along fence and treelines.</li>
+        <li><strong>Aeration & Overseeding</strong> — Core aeration and turf-type tall fescue in the fall window.</li>
+        <li><strong>Fertilization & Weed Control</strong> — Seasonal programs for full-sun, clay-soil lawns.</li>
+        <li><strong>Seasonal Cleanup</strong> — Spring and fall cleanups, leaf removal, storm debris.</li>
+        <li><strong>Mulch Installation</strong> — Beds edged and mulched, quoted by measured area.</li>
+        <li><strong>Hedge & Shrub Trimming</strong> — Overgrown established plantings brought back into shape.</li>
+        <li><strong>Irrigation Systems</strong> — Installation, repair and fall winterization.</li>
+        <li><strong>Hardscaping & Patios</strong> — Patios, retaining walls and walkways.</li>
+      </ul>
+
+      <h2>Why Troutville Property Owners Call Us</h2>
+      <p>Locally owned and operating in the Roanoke Valley since 2005. Licensed, bonded and insured. Free estimates, and a straight answer about what your property actually needs — we would rather keep a customer for ten years than sell one oversized job.</p>
+      <p>Troutville is part of our wider <a href="/locations/botetourt-county-va/">Botetourt County service area</a>, along with <a href="/locations/daleville-va/">Daleville</a>, Cloverdale and Blue Ridge.</p>
+
+      <p>Call <strong>(540) 798-4479</strong> or email <strong>prettylawn@greenscapesva.com</strong> for a free estimate in Troutville.</p>
+    `,
+  },
 ]
 
 export function getLocationPageBySlug(slug: string): LocationPage | undefined {

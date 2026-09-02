@@ -3,6 +3,7 @@ import { Poppins } from 'next/font/google'
 import './globals.css'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import ServiceWorkerRegistration from '@/components/ServiceWorkerRegistration'
+import { servicePages } from '@/content/service-pages'
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -55,6 +56,10 @@ export const metadata: Metadata = {
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': ['LocalBusiness', 'LandscapeService'],
+  // Stable entity node. Every page emits this same block, so without an @id
+  // Google sees 41 anonymous LocalBusinesses instead of one business described
+  // 41 times. Service/Breadcrumb schema on the inner pages points back here.
+  '@id': `${SITE_URL}/#business`,
   name: 'Greenscapes VA',
   url: SITE_URL,
   logo: `${SITE_URL}/logo.png`,
@@ -117,22 +122,36 @@ const jsonLd = {
   // disallows self-serving review markup (ratings a business publishes about
   // itself). Real ratings come from the Google Business Profile instead.
   priceRange: '$$',
+  // Driven from content/service-pages.ts — same reason the Footer list is.
+  // This was hardcoded to six services and had silently drifted: it omitted
+  // Aeration & Overseeding (the service actively being marketed), plus mulch,
+  // fertilization, commercial and HOA grounds. Add a service there and it
+  // appears here, in the footer, and in the sitemap together.
   hasOfferCatalog: {
     '@type': 'OfferCatalog',
-    name: 'Landscaping Services',
-    itemListElement: [
-      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Lawn Mowing & Edging' } },
-      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Hedge & Shrub Trimming' } },
-      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Landscape Design' } },
-      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Irrigation Systems' } },
-      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Seasonal Cleanup' } },
-      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Hardscaping & Patios' } },
-    ],
+    name: 'Lawn Care & Landscaping Services',
+    itemListElement: servicePages.map((s) => ({
+      '@type': 'Offer',
+      itemOffered: {
+        '@type': 'Service',
+        name: s.name,
+        url: `${SITE_URL}/services/${s.slug}/`,
+      },
+    })),
   },
+  // sameAs is how Google reconciles "this website" with "this business listing".
+  // The Google Maps entry is the important one — until Aug 2026 it was missing,
+  // so nothing on the site claimed the GBP as the same entity.
+  //
+  // BBB is deliberately absent: that profile currently publishes a street
+  // address and two wrong phone numbers, and sameAs would assert it as
+  // authoritative. Add it once the listing is corrected.
   sameAs: [
+    'https://www.google.com/maps?cid=6080052378635302431',
     'https://www.facebook.com/GreenScapesVA',
     'https://www.instagram.com/greenscapesva',
     'https://www.youtube.com/@greenscapesvalawncare780',
+    'https://www.yelp.com/biz/greenscapes-roanoke-3',
   ],
 }
 
@@ -140,14 +159,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={poppins.variable}>
       <head>
-        {/* Google tag (gtag.js) – Google Ads AW-1065611469 */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-1065611469"></script>
+        {/* Google tag (gtag.js) – GA4 G-PVJ7L46TMT + Google Ads AW-1065611469 */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-PVJ7L46TMT"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
+              gtag('config', 'G-PVJ7L46TMT');
               gtag('config', 'AW-1065611469');
             `,
           }}
@@ -161,6 +181,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 if (!a) return;
                 var h = a.getAttribute('href') || '';
                 if (h.indexOf('tel:') === 0 || h.indexOf('wa.me') !== -1 || h.indexOf('api.whatsapp.com') !== -1) {
+                  gtag('event', 'contacto_whatsapp', {
+                    metodo: h.indexOf('tel:') === 0 ? 'telefono' : 'whatsapp',
+                    pagina: location.pathname
+                  });
                   gtag('event', 'conversion', {
                     send_to: 'AW-1065611469/yT6ZCLTC87wcEM3hj_wD',
                     value: 1.0,

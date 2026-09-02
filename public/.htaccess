@@ -12,6 +12,26 @@ DirectoryIndex index.html
   RewriteEngine On
   RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
   RewriteRule ^ https://%1%{REQUEST_URI} [L,R=301]
+
+  # Campaign unsubscribe, proxied onto this domain.
+  #
+  # The marketing emails used to carry their unsubscribe link as a raw Supabase
+  # function URL — https://hbkaxigmhgzjiommnfhj.supabase.co/functions/v1/...
+  # A plain-text note from a local lawn guy containing a link to a random
+  # cloud-infrastructure hostname reads as bulk mail: Gmail weighs whether a
+  # message's link domains match its sender and its brand, and that one matched
+  # nothing. Confirmed 2026-08-23 — the aeration campaign landed in Promotions.
+  #
+  # QSA preserves ?unsub=<email>, which is the only parameter the function reads.
+  # 302 (not 301) on purpose: browsers cache 301s permanently, and if the
+  # Supabase project ref ever changes a cached redirect would strand people on a
+  # dead unsubscribe link — which is a legal problem, not just a broken one.
+  # Keep this BELOW the www redirect so the canonical host is settled first.
+  # Target is the standalone `unsubscribe` function, NOT send-campaign.
+  # send-campaign runs verify_jwt=true (its POST sends to the whole list and has
+  # to stay locked), and that flag applies to the whole function — so the GET
+  # opt-out returned 401 to every recipient who clicked it. Split 2026-08-23.
+  RewriteRule ^unsubscribe/?$ https://hbkaxigmhgzjiommnfhj.supabase.co/functions/v1/unsubscribe [R=302,L,QSA]
 </IfModule>
 
 # This is a fully static Next.js export with trailingSlash: true, so every real
@@ -47,8 +67,17 @@ ErrorDocument 404 /404.html
   <FilesMatch "\.(js|css)$">
     Header set Cache-Control "public, max-age=2592000, immutable"
   </FilesMatch>
+  # HTML was "no-cache, no-store, must-revalidate", which meant every request
+  # for a fully static export went all the way to origin — measured ~440ms
+  # upstream on the homepage, with nothing held at Hostinger's edge.
+  #
+  # 5 minutes fresh, then serve stale for a day while revalidating in the
+  # background. Deploys are manual (Hostinger MCP), so the worst case is a
+  # visitor seeing 5-minute-old HTML right after a push — and the images, CSS
+  # and JS a stale page references are content-hashed by Next, so a stale
+  # shell never pulls mismatched assets.
   <FilesMatch "\.html$">
-    Header set Cache-Control "no-cache, no-store, must-revalidate"
+    Header set Cache-Control "public, max-age=300, stale-while-revalidate=86400"
   </FilesMatch>
 </IfModule>
 

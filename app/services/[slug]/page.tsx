@@ -62,8 +62,42 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
         }
       : null
 
+  // Scopes this page to one service and ties it back to the single business
+  // node in app/layout.tsx, which otherwise emits identical markup site-wide.
+  const serviceJsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Service',
+        '@id': `${SITE_URL}/services/${service.slug}/#service`,
+        name: service.name,
+        serviceType: service.name,
+        provider: { '@id': `${SITE_URL}/#business` },
+        areaServed: {
+          '@type': 'City',
+          name: 'Roanoke',
+          addressRegion: 'VA',
+          addressCountry: 'US',
+        },
+      },
+      {
+        '@type': 'BreadcrumbList',
+        '@id': `${SITE_URL}/services/${service.slug}/#breadcrumbs`,
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
+          { '@type': 'ListItem', position: 2, name: 'Services', item: `${SITE_URL}/#services` },
+          { '@type': 'ListItem', position: 3, name: service.name, item: `${SITE_URL}/services/${service.slug}/` },
+        ],
+      },
+    ],
+  }
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }}
+      />
       {faqSchema && (
         <script
           type="application/ld+json"

@@ -45,7 +45,9 @@ export default function Testimonials() {
             Real Clients. Real Results.
           </span>
           <h2 className="text-5xl sm:text-6xl font-poppins font-black text-white mt-3">
-            What They&apos;re <span className="text-[#39ff14]">Saying</span>
+            {/* Was "What They're Saying" — no keyword, no location. */}
+            What Roanoke Valley{' '}
+            <span className="text-[#39ff14]">Homeowners Say</span>
           </h2>
         </div>
       </div>

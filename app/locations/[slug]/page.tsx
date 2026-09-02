@@ -44,9 +44,58 @@ export default function LocationPage({ params }: { params: { slug: string } }) {
   if (!location) notFound()
 
   const otherLocations = locationPages.filter((l) => l.slug !== location.slug)
+  const url = `${SITE_URL}/locations/${location.slug}/`
+
+  // Page-level schema. The root layout emits one LocalBusiness block that is
+  // identical on every page, so on its own it tells Google nothing about which
+  // city this page is about. This scopes the offering to the city and points
+  // the provider back at the single business node (@id in app/layout.tsx).
+  const locationJsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Service',
+        '@id': `${url}#service`,
+        name: `Lawn Care & Landscaping in ${location.city}, ${location.state}`,
+        serviceType: 'Lawn care and landscaping',
+        provider: { '@id': `${SITE_URL}/#business` },
+        areaServed: {
+          '@type': 'City',
+          name: location.city,
+          addressRegion: location.state,
+          addressCountry: 'US',
+        },
+        hasOfferCatalog: {
+          '@type': 'OfferCatalog',
+          name: `Services in ${location.city}, ${location.state}`,
+          itemListElement: servicePages.map((s) => ({
+            '@type': 'Offer',
+            itemOffered: {
+              '@type': 'Service',
+              name: s.name,
+              url: `${SITE_URL}/services/${s.slug}/`,
+            },
+          })),
+        },
+      },
+      {
+        '@type': 'BreadcrumbList',
+        '@id': `${url}#breadcrumbs`,
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
+          { '@type': 'ListItem', position: 2, name: 'Service Areas', item: `${SITE_URL}/#services` },
+          { '@type': 'ListItem', position: 3, name: `${location.city}, ${location.state}`, item: url },
+        ],
+      },
+    ],
+  }
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(locationJsonLd) }}
+      />
       <Navbar />
       <main className="bg-[#050e07] min-h-screen">
 
@@ -63,7 +112,15 @@ export default function LocationPage({ params }: { params: { slug: string } }) {
             <span className="text-[#f97316] font-poppins font-bold uppercase tracking-[0.3em] text-xs sm:text-sm mb-3">
               Service Area
             </span>
+            {/* The city name alone was the entire H1 — the strongest on-page
+                relevance signal a location page has, spent on a bare place name.
+                The keyword line is inside the h1 on purpose so it reads
+                "Lawn Care & Landscaping in Salem, VA" to a crawler, while the
+                city still dominates visually. */}
             <h1 className="text-4xl sm:text-6xl font-poppins font-black text-white leading-tight">
+              <span className="block text-base sm:text-xl font-bold text-white/70 tracking-tight mb-1">
+                Lawn Care &amp; Landscaping in
+              </span>
               {location.city}
               <span className="text-[#39ff14]">, {location.state}</span>
             </h1>
@@ -140,12 +197,11 @@ export default function LocationPage({ params }: { params: { slug: string } }) {
                       </Link>
                     </li>
                   ))}
-                  <li>
-                    <span className="text-white/30 font-poppins text-sm flex items-center gap-2">
-                      <span className="text-[#39ff14] text-xs">→</span>
-                      Roanoke, VA (main office)
-                    </span>
-                  </li>
+                  {/* A hardcoded "Roanoke, VA (main office)" row used to sit here.
+                      Two problems: Roanoke has its own location page, so it was
+                      already rendered above by otherLocations — a duplicate — and
+                      "main office" contradicts the service-area posture (no public
+                      address anywhere; see the NAP note in Footer.tsx). */}
                 </ul>
               </div>
 

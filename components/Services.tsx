@@ -109,7 +109,12 @@ export default function Services() {
             What We Do
           </span>
           <h2 className="text-5xl sm:text-6xl font-poppins font-black text-white mt-3">
-            Our <span className="text-[#39ff14]" style={{ textShadow: '0 0 20px rgba(57,255,20,0.3)' }}>Services</span>
+            {/* Was "Our Services". No heading on this page contained a keyword —
+                H1 and all six H2s were pure brand voice, spending the strongest
+                on-page relevance signal the site has on personality. */}
+            Lawn Care &amp;{' '}
+            <span className="text-[#39ff14]" style={{ textShadow: '0 0 20px rgba(57,255,20,0.3)' }}>Landscaping</span>
+            {' '}Services
           </h2>
           <div
             className="mt-4 h-1 w-20 bg-[#39ff14] mx-auto rounded-full"

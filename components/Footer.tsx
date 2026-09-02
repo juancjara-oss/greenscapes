@@ -1,6 +1,8 @@
 import Link from 'next/link'
 import { FaYelp } from 'react-icons/fa'
 import { servicePages } from '@/content/service-pages'
+import { locationPages } from '@/content/location-pages'
+import GoogleProfileCard from './GoogleProfileCard'
 
 const quickLinks = ['Services', 'Portfolio', 'About', 'Contact']
 
@@ -10,13 +12,14 @@ const quickLinks = ['Services', 'Portfolio', 'About', 'Contact']
 // linked from the blog earns nothing. Add a service there and it appears here.
 const services = servicePages.map((s) => ({ name: s.name, slug: s.slug }))
 
-const locations = [
-  { name: 'Roanoke, VA', href: '/locations/roanoke-va' },
-  { name: 'Salem, VA', href: '/locations/salem-va' },
-  { name: 'Vinton, VA', href: '/locations/vinton-va' },
-  { name: 'Botetourt County', href: '/locations/botetourt-county-va' },
-  { name: 'Smith Mountain Lake', href: '/locations/smith-mountain-lake-va' },
-]
+// Derived from content/location-pages.ts for the same reason the services list
+// is: this was a hardcoded array of five, so adding Daleville and Troutville
+// would have left them with zero internal links from anywhere on the site.
+// Add a location there and it appears here and in the sitemap together.
+const locations = locationPages.map((l) => ({
+  name: l.city === 'Botetourt County' ? l.city : `${l.city}, ${l.state}`,
+  href: `/locations/${l.slug}`,
+}))
 
 export default function Footer() {
   return (
@@ -77,7 +80,12 @@ export default function Footer() {
                 ▶
               </a>
               <a
-                href="https://www.yelp.com/biz/greenscapes-va-roanoke-4"
+                // Was greenscapes-va-roanoke-4, a slug that appears nowhere in the
+                // verified citation record. This is the listing confirmed in Juan's
+                // signed-in session (biz id ijNUrOoDGw_8H39uIY3xBA); -2 and the
+                // un-suffixed slug both redirect here. Keep it identical to sameAs
+                // in app/layout.tsx.
+                href="https://www.yelp.com/biz/greenscapes-roanoke-3"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full border border-[#d32323]/40 flex items-center justify-center text-[#d32323]/70 hover:border-[#d32323] hover:text-[#d32323] transition-all duration-300"
@@ -85,7 +93,11 @@ export default function Footer() {
                 <FaYelp className="w-4 h-4" />
               </a>
               <a
-                href="https://www.homeadvisor.com/rated.GreenScapesVALtd.29799529.html?spId=29799529&preview=true"
+                // Public profile. The ?spId=&preview=true params this used to carry
+                // are dashboard-side only — verified logged-out that the bare URL
+                // resolves. HomeAdvisor is now Angi (brand merger completed 2022),
+                // which is why the label says Angi but the domain doesn't.
+                href="https://www.homeadvisor.com/rated.GreenScapesVALtd.29799529.html"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full border border-[#F96302]/40 flex items-center justify-center text-[#F96302]/70 hover:border-[#F96302] hover:text-[#F96302] transition-all duration-300 text-xs font-poppins font-black tracking-tight"
@@ -154,10 +166,14 @@ export default function Footer() {
 
         </div>
 
+        {/* Google Business Profile link — the site's only machine-readable and
+            human-visible connection to the GBP. Mirrored in sameAs in app/layout.tsx. */}
+        <GoogleProfileCard />
+
         {/* Bottom bar */}
         <div className="border-t border-white/5 pt-8 flex flex-col sm:flex-row justify-between items-center gap-3">
           <p className="text-white/25 font-poppins text-xs">
-            © 2025 Greenscapes VA. All Rights Reserved.
+            © 2026 Greenscapes VA. All Rights Reserved.
           </p>
           <p className="text-white/20 font-poppins text-xs">
             Licensed &amp; Insured · Roanoke Virginia
