@@ -13,6 +13,147 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: 'outdoor-steps-sloped-yard-roanoke-va',
+    title: 'Outdoor Steps for a Sloped Yard in Roanoke, VA: How to Build Stairs That Stay Safe and Level',
+    date: '2027-02-08',
+    excerpt: 'A worn dirt path down a Roanoke hillside usually means the yard needs real steps. Here is what separates outdoor stairs that feel natural and stay level from the ones that tilt within a few winters.',
+    readTime: '5 min read',
+    category: 'Hardscaping',
+    service: 'hardscaping-patios',
+    keywords: 'outdoor steps roanoke va, landscape steps sloped yard roanoke virginia, stone steps hillside roanoke va, paver steps installation salem va, backyard stairs vinton va',
+    content: `
+      <p>Very few lots in the Roanoke Valley are flat. Between South Roanoke, Cave Spring, Salem, and the hillsides of Vinton, plenty of homeowners get from the driveway to the back door, or from the deck to the lawn, on a path worn into the slope. It works until the first icy morning or a wet February, when it turns slick. Well-built outdoor steps fix that and also make the steep part of the yard usable. Built poorly, they tilt, loosen, and become the most dangerous spot on the property.</p>
+
+      <h2>Outdoor Steps Are Not Indoor Stairs</h2>
+      <p>The most common mistake is copying interior stair dimensions. Indoor stairs are steep because space is limited. Outside, people walk with a longer stride, often carrying something, so steps should be shallower and deeper. A reliable rule is that two risers plus one tread should equal about 26 inches. A 6-inch riser with a 14-inch tread is a comfortable starting point on most slopes.</p>
+      <p>Consistency matters more than any single dimension. People stop watching their feet after the first few steps, so a riser that is even half an inch off is what actually trips someone. Measure the total rise and the total run first, then divide evenly, and add a landing on a long run instead of squeezing the slope into one straight flight.</p>
+
+      <h2>Choosing a Material for a Hillside</h2>
+      <ul>
+        <li><strong>Natural stone slabs</strong> — Heavy, durable, and at home on a wooded Roanoke lot. The weight helps them stay put, but they need equipment to set and a textured surface to stay safe when wet.</li>
+        <li><strong>Segmental block with paver or stone treads</strong> — Interlocking block gives very uniform risers and pairs well with an existing paver patio or retaining wall.</li>
+        <li><strong>Timber and gravel</strong> — A simpler option for a casual garden path, though wood eventually rots in our wet clay and will need replacing.</li>
+      </ul>
+
+      <h2>What Holds Steps in Place Through a Virginia Winter</h2>
+      <p>Red clay holds water, expands as it freezes, and shrinks as it dries. Steps set directly on that soil move with it. Each step needs excavation down to firm subsoil and a compacted gravel base, so water drains away instead of freezing underneath. Mortared steps are rigid and need a footing below the frost line. Dry-laid steps can flex slightly, but only if the base is right.</p>
+      <p>Treads should also pitch forward very slightly so water sheds instead of sitting and freezing. On a slope that sends runoff straight down the path, a small swale or drain beside the steps protects the base and keeps the treads clear of mud. Use deicers carefully, too, because salt can damage natural stone and concrete over time.</p>
+
+      <h2>Safety Details Worth Planning Up Front</h2>
+      <p>Handrail and permit requirements vary with the height of the steps and whether they connect to the house, so check with your city or county before building. Even where a rail is not required, it is worth considering on long runs. <a href="/blog/landscape-lighting-ideas-roanoke-va/">Low-voltage step lighting</a> is also easy to add during construction and much harder to add later.</p>
+
+      <p>Greenscapes VA designs and builds outdoor steps, walkways, and retaining walls for sloped properties throughout Roanoke, Salem, Vinton, and Botetourt County. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> for a free estimate.</p>
+    `,
+  },
+  {
+    slug: 'wild-onion-wild-garlic-lawn-roanoke-va',
+    title: 'Wild Onion and Wild Garlic in Roanoke Lawns: Why They Show Up in February and How to Get Rid of Them',
+    date: '2027-02-15',
+    excerpt: 'Those dark green tufts rising above a dormant Roanoke lawn are wild onion or wild garlic. Here is how to identify them, why ordinary weed control barely touches them, and what works.',
+    readTime: '5 min read',
+    category: 'Lawn Care',
+    service: 'fertilization-weed-control',
+    keywords: 'wild onion lawn roanoke va, wild garlic control roanoke virginia, onion grass lawn salem va, winter weeds roanoke va lawn, get rid of wild garlic vinton va',
+    content: `
+      <p>Every February, the same thing happens across Roanoke, Salem, and Botetourt County. The tall fescue is still sitting low and pale, and scattered tufts of dark green, grass-like blades shoot up above it. Mow them and the whole yard smells like a kitchen. Those clumps are wild onion or wild garlic, and they are among the most stubborn winter weeds in a Virginia lawn.</p>
+
+      <h2>Which One Do You Have?</h2>
+      <p>The two plants look similar and are managed in much the same way, but a quick check tells them apart:</p>
+      <ul>
+        <li><strong>Wild garlic</strong> — Slender, round, hollow leaves, with a strong garlic smell when crushed.</li>
+        <li><strong>Wild onion</strong> — Flatter, solid leaves, with a milder onion smell.</li>
+      </ul>
+      <p>Either way, the tuft you see is only part of the plant. Below ground sits a bulb, usually surrounded by smaller bulblets, and those are the reason the weed returns year after year.</p>
+
+      <h2>Why Ordinary Weed Control Falls Short</h2>
+      <p>Both plants have narrow, waxy leaves, and herbicide tends to bead up and roll off them. A quick spray of a general broadleaf product may yellow the tops while the bulb survives untouched. Spring crabgrass pre-emergent will not help either, because it targets germinating seeds and has no effect on established bulbs.</p>
+      <p>Pulling them by hand is also less effective than it looks. The tops usually snap off at the bulb, and when a clump does come up, the bulblets often stay behind in the clay and sprout on their own.</p>
+
+      <h2>What Actually Works</h2>
+      <ul>
+        <li><strong>Dig small patches</strong> — After a soaking rain, use a narrow trowel to lift the whole clump with its surrounding soil. This works well for a few clumps, but not for a whole yard.</li>
+        <li><strong>Use a selective herbicide with a surfactant</strong> — A product labeled for wild garlic and safe on tall fescue, mixed with a sticker so it clings to the waxy leaves. Read the label closely, since some products are not safe on every turf type or on recently seeded grass.</li>
+        <li><strong>Time it correctly</strong> — Treat while the plants are actively growing in late fall and again in late winter, before new bulbs form in spring.</li>
+        <li><strong>Plan on more than one season</strong> — Dormant bulbs can sit underground and sprout later, so expect a heavy infestation to take a couple of years to clear.</li>
+      </ul>
+
+      <h2>Thick Turf Is the Long-Term Answer</h2>
+      <p>Wild garlic spreads fastest in thin lawns, where it faces little competition. Fall aeration and overseeding, soil-test-based fertilizing, and mowing tall all help fescue crowd it out. Do not try to scalp the clumps away, though, because cutting the fescue short does more harm to the lawn than to the weed.</p>
+      <p>Timing also matters in lawns scheduled for seeding, since many herbicides restrict how soon you can put down seed afterward. If you plan to overseed in the fall, build the weed program around that date.</p>
+
+      <p>Greenscapes VA provides weed control and fertilization programs for lawns throughout Roanoke, Salem, Vinton, Daleville, and Botetourt County. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> for a free estimate.</p>
+    `,
+  },
+  {
+    slug: 'waterfront-landscaping-smith-mountain-lake',
+    title: 'Waterfront Landscaping at Smith Mountain Lake: Planting a Lakefront Yard That Holds the Bank',
+    date: '2027-02-22',
+    excerpt: 'A lakefront yard at Smith Mountain Lake faces steep slopes, boat wakes, rocky clay, and deer. Here is how to plan a landscape that protects the bank, keeps the view, and does not need constant attention.',
+    readTime: '5 min read',
+    category: 'Landscaping',
+    service: 'landscape-design',
+    keywords: 'waterfront landscaping smith mountain lake, lakefront landscaping smith mountain lake va, shoreline planting smith mountain lake, lake house landscaping moneta va, erosion control lakefront roanoke va',
+    content: `
+      <p>A home at Smith Mountain Lake usually gets its landscape in reverse order. The house and dock come first, and the steep bank between them is left with whatever survived construction. Then a few seasons of rain and boat wakes start carrying soil toward the water. Whether the property is in Moneta, Huddleston, or on the Franklin County side, a lakefront yard asks more of its plants than a typical lawn in Roanoke does.</p>
+
+      <h2>Start With the Rules, Not the Plants</h2>
+      <p>The lake is managed by Appalachian Power under a shoreline management plan, and work near the water can require approval. That can include clearing vegetation, adding stabilization, or building near the shoreline. County rules and your neighborhood association may add their own requirements. Before removing trees or planning any work close to the water, confirm what is allowed for your specific lot. This step is far easier than undoing a project afterward.</p>
+
+      <h2>Keep Roots Between the Lawn and the Water</h2>
+      <p>Turf mown to the water's edge is one of the weakest options for a lake bank. It needs fertilizer close to the lake, its roots do little to anchor a steep slope, and it gives runoff a smooth path downhill. A planted buffer along the shore does the opposite: deep, dense roots hold the soil, and the plants slow runoff and catch sediment before it reaches the cove.</p>
+      <p>Plants that typically suit these conditions include:</p>
+      <ul>
+        <li><strong>Virginia sweetspire</strong> — A native shrub that spreads and handles wet spots, with good fall color.</li>
+        <li><strong>Switchgrass and native sedges</strong> — Fibrous roots for binding a slope, plus low enough growth to preserve the view.</li>
+        <li><strong>Inkberry holly</strong> — An evergreen that adds winter structure and tolerates damp soil.</li>
+        <li><strong>River birch</strong> — A good tree for wetter ground, especially when placed to frame the view instead of blocking it.</li>
+      </ul>
+      <p>Deer pressure around the lake is heavy, so check each plant against what your local deer actually browse, and protect young shrubs while they establish.</p>
+
+      <h2>Work With the Slope</h2>
+      <p>Most lake lots drop quickly toward the water, and the soil is often rocky clay disturbed by construction. Grading and terracing with low walls create usable level areas and slow water down. Downspouts and driveway runoff should be directed into planted areas or gravel-filled drains rather than straight down the bank. Where boat wakes are already cutting into the shore, plants alone may not be enough, and hard stabilization may be needed; that is the work most likely to require approval first.</p>
+
+      <h2>Design for a Part-Time Owner</h2>
+      <p>Many lake homes sit empty during the week or all winter. Mulched native beds need far less attention than a large lawn, and drip irrigation on a smart controller can get new plants through their first summers without anyone being on site. Fertilize based on a soil test, and skip phosphorus unless the test shows a need, since nutrients washed off the lawn feed algae in the cove.</p>
+
+      <p>Greenscapes VA designs and installs landscapes for Smith Mountain Lake properties, as well as homes throughout Roanoke, Salem, and Botetourt County. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> to talk through your lakefront project.</p>
+    `,
+  },
+  {
+    slug: 'repair-winter-lawn-damage-roanoke-va',
+    title: 'Repairing Winter Lawn Damage in Roanoke, VA: Ruts, Vole Trails, and Bare Spots',
+    date: '2027-03-01',
+    excerpt: 'March shows what winter did to a Roanoke lawn. Here is how to tell which damage will grow out on its own and which needs repair, and why doing too much too early can make things worse.',
+    readTime: '5 min read',
+    category: 'Seasonal Tips',
+    service: 'seasonal-cleanup',
+    keywords: 'winter lawn damage repair roanoke va, vole damage lawn roanoke virginia, lawn ruts repair salem va, spring lawn repair roanoke va, frost heave lawn vinton va',
+    content: `
+      <p>As the snow clears and the first warm days arrive in Roanoke, Salem, and Vinton, the lawn tends to look worse than it really is. Tall fescue is only starting to wake up, and any damage from the past few months is suddenly easy to see. The urge is to rake everything, roll it, and throw seed down immediately. Most of the time, the better first step is to wait a bit and figure out what you are actually looking at.</p>
+
+      <h2>Stay Off It While the Ground Is Soft</h2>
+      <p>Clay soil in March is often saturated. Walking, mowing, or driving on it compacts the soil and can turn a minor rut into a major one. Before doing any work, try the simple squeeze test: if a handful of soil forms a sticky ball that will not crumble, wait a few more dry days. Patience here costs nothing, while compaction lasts for months.</p>
+
+      <h2>Know What You Are Looking At</h2>
+      <ul>
+        <li><strong>Vole trails</strong> — Winding, grooved runways that show up as snow melts. Voles eat grass blades and crowns near the surface, but the damage is usually shallow. Lightly rake out the debris, and most trails fill in as the fescue grows.</li>
+        <li><strong>Ruts from vehicles or plows</strong> — Once the soil dries slightly, lift shallow ruts with a fork or fill them with a sand-and-topsoil mix. Avoid rolling the entire lawn, which only compacts clay further.</li>
+        <li><strong>Frost heave</strong> — Freezing and thawing can push up newly seeded grass or small plants. Gently press them back down by foot once the soil has thawed.</li>
+        <li><strong>Pink or gray matted patches</strong> — Usually snow mold. A light rake to break up the matting and improve airflow is generally all it needs.</li>
+        <li><strong>Brown edges along roads and walks</strong> — This is often salt damage. Water the area thoroughly in early spring to flush the salt out before deciding whether to reseed.</li>
+      </ul>
+
+      <h2>Give Dead-Looking Grass Until Mid-April</h2>
+      <p>Tan grass in early March is not necessarily dead. Fescue greens up gradually as the soil warms, so wait until the rest of the lawn is actively growing. A quick check is to tug on a brown patch: if it stays anchored, the roots are probably alive. If it lifts away like a loose mat, that area needs repair.</p>
+
+      <h2>Spring Seeding Has Limits</h2>
+      <p>Fall remains the best time to seed in the Roanoke Valley, because spring-seeded fescue has only a few weeks to root before summer heat arrives. For small bare spots, spring patching is still worthwhile. Loosen the soil, add a thin layer of compost, seed, and keep it consistently moist. Save larger thin areas for fall aeration and overseeding.</p>
+      <p>Timing matters if you use crabgrass control as well. Most pre-emergent products also stop grass seed from germinating, so a lawn that needs both requires a plan. Mesotrione is one of the few options labeled for use around new fescue seed, but always confirm the label first.</p>
+
+      <p>Greenscapes VA offers spring cleanups, lawn repair, and fertilization programs throughout Roanoke, Salem, Vinton, Daleville, and Botetourt County. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> to schedule a spring walkthrough.</p>
+    `,
+  },
+  {
     slug: 'winter-burn-snow-load-evergreens-roanoke-va',
     title: 'Winter Burn and Snow Load: Protecting Evergreens Through a Roanoke Winter',
     date: '2027-01-11',
