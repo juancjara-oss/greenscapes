@@ -13,6 +13,153 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: 'first-mow-of-spring-roanoke-va',
+    title: 'The First Mow of Spring in Roanoke, VA: Timing, Height, and Getting the Mower Ready',
+    date: '2027-03-08',
+    excerpt: 'The first cut of the season sets the tone for the whole year. Here is when to start mowing in the Roanoke Valley, how high to cut, and the mower prep that keeps fescue from turning brown at the tips.',
+    readTime: '5 min read',
+    category: 'Lawn Care',
+    service: 'lawn-mowing',
+    keywords: 'first mow of spring roanoke va, when to start mowing roanoke virginia, spring mowing height tall fescue roanoke va, mower blade sharpening salem va, spring lawn mowing vinton va',
+    content: `
+      <p>A few warm afternoons in March and the whole Roanoke Valley starts pulling mowers out of the shed. The urge to tidy the yard after winter is understandable, but the first mow of the season does more to shape how a tall fescue lawn looks in June than most people realize. Cut too early, too short, or with a dull blade, and you start the year with a stressed lawn that browns faster and invites weeds. Here is how to get it right in Roanoke, Salem, Vinton, and Botetourt County.</p>
+
+      <h2>When to Make the First Cut</h2>
+      <p>Mow when the grass is actively growing, not when the calendar says spring. In most Roanoke lawns, tall fescue starts growing in earnest in late March, with shaded yards in Cave Spring and north-facing slopes in Botetourt often a week or two behind. A good trigger is when the lawn reaches about 4 to 4.5 inches tall and has an even green color across most of the yard.</p>
+      <p>Just as important is the soil. Our red clay stays saturated well into spring, and running a mower across soft ground leaves ruts and compacts the root zone you will be trying to loosen with aeration later. If your shoes sink or water squeezes up when you walk the lawn, give it another dry day or two.</p>
+
+      <h2>How High to Cut</h2>
+      <p>Tall fescue should stay at 3.5 to 4 inches, and the first mow is no exception. Many homeowners scalp the lawn in spring to clear out dead blades, but cutting that low exposes the crowns, lets sunlight reach crabgrass seed sitting on the soil surface, and forces the plant to spend energy regrowing leaf instead of roots.</p>
+      <ul>
+        <li><strong>Follow the one-third rule</strong> — Never remove more than a third of the blade in one cut. If the grass got away from you, bring it down over two mows a few days apart.</li>
+        <li><strong>Leave the clippings</strong> — Short clippings break down quickly and return nitrogen to the soil. Bag only if the grass is wet and clumping or you are dealing with disease.</li>
+        <li><strong>Rake lightly first if needed</strong> — A gentle rake to lift matted patches and pick up sticks from winter storms is better than trying to clean the lawn with the mower.</li>
+      </ul>
+
+      <h2>Get the Mower Ready Before You Start</h2>
+      <p>A dull blade tears grass instead of slicing it. Those shredded tips turn tan within a day or two, give the whole lawn a grayish cast, and create easy entry points for brown patch and other diseases once the humid weather arrives. Sharpen or replace the blade before the first cut, then plan on sharpening again around midseason.</p>
+      <ul>
+        <li><strong>Fresh fuel</strong> — Gas left in the tank over winter can gum up the carburetor. Start the season with fresh fuel.</li>
+        <li><strong>Clean the deck</strong> — Scrape off last fall's packed clippings so the mower discharges evenly.</li>
+        <li><strong>Check the deck height</strong> — Measure from a hard surface to the blade tip. Height settings drift, and many mowers cut lower than the lever suggests.</li>
+      </ul>
+
+      <h2>Mowing Habits That Pay Off Through Summer</h2>
+      <p>Alternate your mowing direction each week to keep the grass from leaning and to avoid wheel ruts. Mow in the cooler part of the day once temperatures climb, and never mow a drought-stressed lawn in the afternoon heat. A lawn that enters June tall, sharp-cut, and deeply rooted handles a Roanoke summer far better than one that started the season scalped.</p>
+
+      <p>Greenscapes VA provides weekly mowing with sharp blades and the right height for tall fescue across Roanoke, Salem, Vinton, Daleville, and Botetourt County. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> to get on the spring mowing schedule.</p>
+    `,
+  },
+  {
+    slug: 'landscape-bed-edging-options-roanoke-va',
+    title: 'Landscape Bed Edging in Roanoke, VA: Natural Edges, Steel, and Pavers Compared',
+    date: '2027-03-15',
+    excerpt: 'A crisp bed edge makes the whole yard look finished and keeps grass out of your plantings. Here is how the main edging options hold up to Roanoke clay, freeze-thaw cycles, and creeping turf.',
+    readTime: '5 min read',
+    category: 'Landscaping',
+    service: 'mulch-installation',
+    keywords: 'landscape bed edging roanoke va, garden bed edging options roanoke virginia, steel landscape edging salem va, natural spade edge flower beds vinton va, paver border edging botetourt county va',
+    content: `
+      <p>Ask a landscaper what single detail makes a yard look professionally kept and many will say the bed edges. A clean, defined line between lawn and mulch makes a modest Roanoke yard look sharp, and it does real work too: it keeps turf from creeping into your shrubs, holds mulch in place during heavy spring rain, and makes mowing faster. March is the ideal time to set or refresh edges, before mulch goes down and before the lawn starts growing hard.</p>
+
+      <h2>The Natural Spade Edge</h2>
+      <p>The classic option is simply a cut trench. A flat spade or a power edger slices a clean vertical wall on the lawn side, about 3 to 4 inches deep, and the soil slopes back toward the bed in a V. Mulch sits below the top of the cut so it does not wash onto the grass.</p>
+      <ul>
+        <li><strong>Pros</strong> — No materials, easy to reshape when you redesign a bed, and it looks natural in wooded lots around Cave Spring and Hidden Valley.</li>
+        <li><strong>Cons</strong> — It softens over the season and usually needs re-cutting once or twice a year. Clay walls can slump after a wet spell.</li>
+      </ul>
+
+      <h2>Steel and Aluminum Edging</h2>
+      <p>Metal edging gives the thinnest, cleanest line and holds a smooth curve better than anything else. Steel is heavier and very rigid, while aluminum is lighter and does not rust. Either one, set properly with stakes and the top just above soil level, stays put through freeze-thaw cycles far better than the thin plastic rolls sold at big-box stores, which tend to heave out of the ground after one Roanoke winter.</p>
+      <p>Metal is especially worth it if your lawn has any bermudagrass or zoysia mixed in. Those grasses spread by runners above and below the ground and will cross a spade edge within weeks. A physical barrier set several inches deep is the only practical way to keep them out of a bed.</p>
+
+      <h2>Paver, Brick, and Stone Borders</h2>
+      <p>A row of pavers, brick, or stone set flush with the lawn creates a mowing strip. The mower wheel rides on the border, so there is no strip of grass left for a string trimmer. This works well along front walks and foundation beds where you want a more formal look, and it ties nicely into an existing patio or walkway.</p>
+      <p>The key is the base. Borders set directly on clay will heave and tilt. Each unit needs a compacted gravel base and a bit of bedding sand, the same as a walkway, so it stays level through winter.</p>
+
+      <h2>Tips for Any Edge</h2>
+      <ul>
+        <li><strong>Edge before you mulch</strong> — Cutting the line first lets you keep fresh mulch below the lawn surface where it belongs.</li>
+        <li><strong>Design smooth curves</strong> — Broad, sweeping curves are easier to mow and look more intentional than tight wiggles. Lay out a garden hose to test the shape first.</li>
+        <li><strong>Call before you dig</strong> — For deeper metal or paver edging, contact Virginia 811 so buried utility and irrigation lines are marked first.</li>
+      </ul>
+
+      <p>Greenscapes VA cuts fresh bed edges and installs mulch, metal edging, and paver borders across Roanoke, Salem, Vinton, Smith Mountain Lake, and Botetourt County. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> to schedule your spring bed refresh.</p>
+    `,
+  },
+  {
+    slug: 'spring-paver-patio-maintenance-roanoke-va',
+    title: 'Spring Paver Patio Maintenance in Roanoke, VA: Cleaning, Joint Sand, and Sealing',
+    date: '2027-03-22',
+    excerpt: 'Winter is hard on a paver patio. Here is a spring checklist for Roanoke homeowners covering settled pavers, washed-out joints, white haze, and whether sealing is worth it.',
+    readTime: '5 min read',
+    category: 'Hardscaping',
+    service: 'hardscaping-patios',
+    keywords: 'paver patio maintenance roanoke va, polymeric sand repair roanoke virginia, paver sealing salem va, efflorescence on pavers roanoke va, clean paver patio spring vinton va',
+    content: `
+      <p>A well-built paver patio is one of the most durable surfaces you can put in a Roanoke backyard, but it is not maintenance-free. Months of freeze-thaw cycles, ice melt, wet leaves, and heavy winter rain leave their mark. A spring check in March or April, before the patio furniture comes out, catches small problems while they are still easy to fix.</p>
+
+      <h2>Walk the Patio and Look for Movement</h2>
+      <p>Start by looking for pavers that have sunk, tipped, or lifted. A low spot that holds water after rain is the most common issue we see in Roanoke, Salem, and Vinton, and it is almost always tied to water getting under the patio, often from a downspout or a slope draining toward the edge.</p>
+      <ul>
+        <li><strong>A few settled pavers</strong> — These can be lifted, the bedding sand re-leveled, and the pavers reset. This is the big advantage of pavers over poured concrete.</li>
+        <li><strong>Loose edges</strong> — If the border pavers are drifting outward, the edge restraint has failed or was never installed. Without it, the whole field slowly spreads.</li>
+        <li><strong>Large dips or waves</strong> — Widespread sinking points to a base problem underneath, which needs a proper repair rather than a patch.</li>
+      </ul>
+
+      <h2>Clean Gently</h2>
+      <p>Sweep off debris first, then wash with a garden hose and a stiff brush or a pressure washer on a wide fan tip held at a low angle. A narrow, high-pressure jet etches the surface of concrete pavers and blasts the sand right out of the joints. For moss and algae on shaded patios, a cleaner made for pavers works better than bleach, which can harm nearby plants and lawn.</p>
+      <p>If you see a white, chalky haze, that is efflorescence, a natural salt that migrates out of concrete. It is common in the first year or two and often fades on its own. A dedicated efflorescence cleaner removes it when it does not. Avoid improvising with strong acids, which can discolor pavers.</p>
+
+      <h2>Refill the Joints</h2>
+      <p>Joint sand is what locks the pavers together. When it washes out, pavers shift and weeds move in. Polymeric sand, which hardens after it is wetted, resists washout and weeds better than plain sand.</p>
+      <ul>
+        <li><strong>Clean out the old joints</strong> — Remove loose sand, weeds, and debris to a consistent depth.</li>
+        <li><strong>Work only on dry pavers</strong> — Damp pavers make polymeric sand stick to the surface and leave a hard haze.</li>
+        <li><strong>Sweep, compact, and blow off</strong> — Fill the joints, settle the sand, blow every grain off the surface, then mist lightly as the label directs.</li>
+        <li><strong>Watch the forecast</strong> — Most products need a dry stretch after installation. Our spring showers make timing important.</li>
+      </ul>
+
+      <h2>Is Sealing Worth It?</h2>
+      <p>Sealing is optional, but it helps. A quality breathable sealer enhances color, resists stains from grills and leaves, and helps hold joint sand in place. Wait until efflorescence is gone and the patio is completely clean and dry, and expect to reapply every few years.</p>
+
+      <p>Greenscapes VA installs and repairs paver patios, walkways, and retaining walls throughout Roanoke, Salem, Vinton, Daleville, and Smith Mountain Lake. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> to have your patio inspected this spring.</p>
+    `,
+  },
+  {
+    slug: 'rain-barrel-rainwater-harvesting-roanoke-va',
+    title: 'Rain Barrels and Rainwater Harvesting in Roanoke, VA: Watering Your Beds With What Falls on the Roof',
+    date: '2027-03-29',
+    excerpt: 'Roanoke gets plenty of rain, just not always when the garden needs it. Here is how to size, place, and use a rain barrel or cistern so roof runoff waters your beds instead of eroding your yard.',
+    readTime: '5 min read',
+    category: 'Irrigation',
+    service: 'irrigation-systems',
+    keywords: 'rain barrel roanoke va, rainwater harvesting roanoke virginia, rain barrel installation salem va, cistern garden irrigation roanoke va, downspout water collection vinton va',
+    content: `
+      <p>The Roanoke Valley averages around 40 inches of rain a year, which sounds like plenty until a dry July arrives and the hose is running every other evening. Meanwhile, every spring storm sends thousands of gallons off the roof, out the downspouts, and across the yard, sometimes straight toward the foundation. Capturing some of that water is one of the simplest ways to water planting beds more efficiently and ease drainage problems at the same time.</p>
+
+      <h2>How Much Water a Roof Actually Sheds</h2>
+      <p>One inch of rain on 1,000 square feet of roof produces roughly 600 gallons of runoff. A single downspout on a typical Roanoke home can fill a standard 50- or 60-gallon rain barrel in a fraction of one moderate storm. That is the main thing people underestimate: a barrel fills quickly, so where the overflow goes matters just as much as the barrel itself.</p>
+
+      <h2>Setting Up a Rain Barrel the Right Way</h2>
+      <ul>
+        <li><strong>Pick the right downspout</strong> — Choose one near the beds you want to water, on a side of the house with room for the barrel.</li>
+        <li><strong>Raise it up</strong> — Barrels deliver water by gravity, so set them on a solid, level stand of blocks. A higher barrel gives more pressure and lets a watering can fit under the spigot. A full barrel weighs several hundred pounds, so the base must be firm.</li>
+        <li><strong>Route the overflow</strong> — Send excess water through an overflow hose or diverter to a spot that drains away from the foundation, ideally into a bed, a rain garden, or a downspout extension.</li>
+        <li><strong>Screen every opening</strong> — Fine mesh keeps mosquitoes and debris out. Standing water is the main complaint about poorly built barrels.</li>
+      </ul>
+
+      <h2>Using the Water Well</h2>
+      <p>Rain barrel water is ideal for flower beds, shrubs, containers, and new plantings. It is soft and free of the chlorine in tap water. Because gravity pressure is low, it pairs best with a watering can, a soaker hose, or a short low-pressure drip line rather than a standard sprinkler. For vegetable gardens, water the soil rather than the leaves, especially if the runoff comes off an asphalt shingle roof.</p>
+      <p>For larger properties, including lake homes around Smith Mountain Lake and acreage in Botetourt County, a buried or above-ground cistern with a small pump can store far more water and feed a drip irrigation zone. These systems take more planning, and it is worth checking local requirements before installing one.</p>
+
+      <h2>Winter Care in the Roanoke Valley</h2>
+      <p>Our winters bring regular hard freezes, and a full barrel can crack as the water expands. Before the first freeze in late fall, drain the barrel, leave the spigot open, and reconnect the downspout so water flows away from the house. Plan on hooking it back up in March once the overnight freezes ease.</p>
+
+      <p>Greenscapes VA designs water-wise irrigation, drip systems, and drainage solutions for homes across Roanoke, Salem, Vinton, Smith Mountain Lake, and Botetourt County. Call <strong>(540) 798-4479</strong> or visit <strong>greenscapesva.com</strong> to talk through a smarter way to water your landscape.</p>
+    `,
+  },
+  {
     slug: 'outdoor-steps-sloped-yard-roanoke-va',
     title: 'Outdoor Steps for a Sloped Yard in Roanoke, VA: How to Build Stairs That Stay Safe and Level',
     date: '2027-02-08',
